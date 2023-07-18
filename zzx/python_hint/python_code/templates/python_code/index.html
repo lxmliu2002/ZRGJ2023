@@ -1,0 +1,191 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="{% static 'js/jquery-3.7.0.js' %}"></script>
+    <script src="{% static 'plugins/ace-builds-1.5.0/src/ace.js' %}"></script>
+    <script src="{% static 'plugins/ace-builds-1.5.0/src/ext-language_tools.js' %}"></script>
+</head>
+<body>
+    <div>
+        <div id="editor" style="width: 90vw;height:500px;"></div>
+        <script>
+            var editor = ace.edit("editor");
+            var langTools = ace.require("ace/ext/language_tools");
+            var session = editor.getSession();
+            editor.$blockScrolling = Infinity;
+            editor.setReadOnly(false);
+            editor.setFontSize(16);
+            editor.session.setMode("ace/mode/python");
+            editor.setTheme("ace/theme/twilight"); 
+            //editor.execCommand('find');
+            editor.setShowPrintMargin(false);
+            editor.setOptions({
+                wrap: true,
+                autoScrollEditorIntoView: true, 
+                enableBasicAutocompletion: true,
+                enableSnippets: true,
+                enableLiveAutocompletion: true
+            });
+            //自定义代码提示
+            let myHint = [{
+                name: "forEach", //显示的名称，‘奖金’
+                value: "forEach((v,k)=>{})", //插入的值，‘100’
+                //caption: "fe",//这才是关键字
+                score: 100, //分数，越大的排在越上面
+                meta: "遍历" //描述，‘我的常量
+            }]
+            //setCompleters(myHint);
+            function setCompleters(comp) {
+                let tipsCompleter = {
+                    getCompletions: (editor, session, pos, prefix, callback) => {
+                        callback(null, comp)
+                    }
+                }
+                langTools.setCompleters([tipsCompleter])
+            }
+            function resetCompleter() {
+                var completersDefault = [langTools.snippetCompleter, langTools.textCompleter, langTools.keyWordCompleter];
+                langTools.setCompleters(completersDefault);
+            }
+            importModule = {};//导入的包
+            localVariable = {};//工作区的变量
+            useClass = {};//使用的类
+            editor.on('change',function(event){
+                console.log(event);
+                if(event.action == 'insert') {
+                    if (event.lines[0] == '.') {
+                        var cursorPosition = editor.selection.getCursor();
+                        //console.log(cursorPosition);
+                        //var token = session.getTokenAt(cursorPosition.row, cursorPosition.column);
+                        //console.log(token);
+                        var currentLine = session.getLine(cursorPosition.row);
+                        console.log(currentLine);
+                        $.ajax({
+                            url: '/type/',
+                            type: 'get',
+                            data: { 'line': currentLine.slice(0, -1) },
+                            success: function (res) {
+                                var res_str = JSON.parse(res);
+                                console.log(res_str)
+                                console.log(res_str['type']);
+                                setCompleters(myHint);
+                            }
+                        })
+                    }
+                    else if (event.lines[0] == ' ' || event.lines[0] == ',') {
+                        resetCompleter();
+                    }
+                    else if (event.lines[0] == '') {
+                        console.log('换行');
+                        var cursorPosition = editor.selection.getCursor();
+                        //console.log(cursorPosition);
+                        //var token = session.getTokenAt(cursorPosition.row, cursorPosition.column);
+                        //console.log(token);
+                        var currentLine = session.getLine(cursorPosition.row).trim();
+                        //如果匹配到=，且=左边的是变量名
+                        if(testVariable(currentLine)) {
+                            var match = currentLine.match(/\s*=\s*/);
+                            var localVar = currentLine.slice(0, match.index);
+                            var varValue = currentLine.slice(match.index + match[0].length);
+                            if (/^\[.*\]$/.test(varValue)) {
+                                localVariable[localVar] = 'List';
+                            }
+                            else if (/^\{.*\}$/.test(varValue)) {
+                                localVariable[localVar] = 'Dict';
+                            }
+                            else if (/^\(.*\)$/.test(varValue)) {
+                                localVariable[localVar] = 'Set';
+                            }
+                            else if (/^".*"$/.test(varValue) || /^'.*'$/.test(varValue)) {
+                                localVariable[localVar] = 'Str';
+                            }
+                            else {
+                                varValue = varValue.replace(/\(.+?\)/g, "()");
+                                $.ajax({
+                                    url: '/type/',
+                                    type: 'get',
+                                    data: { 'line': varValue },
+                                    success: function (res) {
+                                        var res_str = JSON.parse(res);
+                                        localVariable[localVar] = res_str['type'];
+                                        console.log(localVariable);
+                                    }
+                                })
+                            }
+                        }
+                        else if(testImport(currentLine)) {
+                            splitStr = currentLine.split(/\s+/);
+                            if(splitStr[0] == 'import' && splitStr.length == 2) {
+                                importModule[splitStr[1]] = splitStr[1];
+                            }
+                            else if(splitStr[0] == 'import' && splitStr.length == 4) {
+                                importModule[splitStr[3]] = splitStr[1];
+                            }
+                            else {
+                                importModule[splitStr[3]] = splitStr[1] + '.' +splitStr[3];
+                            }
+                        }
+                    }
+                }
+                //匹配赋值语句
+                function testVariable(str) {
+                    var match = currentLine.match(/\s*=\s*/);
+                    if(match != null && /^\w+$/.test(currentLine.slice(0, match.index))) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+                //匹配导入包的语句
+                function testImport(str) {
+                    if(/^import\s.+\s*$/.test(str) || /^from\s.+\simport\s.+\s*$/.test(str) || /^import\s.+\sas\s.+\s*$/.test(str)) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+
+            })
+            //langTools.addCompleter(tipsCompleter)
+            /*addCompleterToEditor(_comp_cfg)
+            function addCompleterToEditor(comp_cfg) {
+                ace.config.loadModule("ace/ext/language_tools", function (module) {
+                    module.addCompleter({
+                        getCompletions: function (editor, session, pos, prefix, callback) {
+                            if (prefix.length === 0) { callback(null, []); return }
+                            callback(null, comp_cfg);
+                        }
+                    });
+                });
+            }*/
+            
+            //function
+            // var v = editor.getValue();// 获取编辑内容
+            //editor.setValue("string "); // 设置编辑内容
+            //require("lib/ace"); ##引入
+            //editor.setTheme("ace/theme/solarized_dark");##设置模板；引入theme-solarized_dark.js模板文件
+            //editor.getSession().setMode("ace/mode/javascript"); ##设置程序语言模式
+            //editor.setValue("the new text here");##设置内容
+            //editor.getValue(); ##取值
+            //editor.session.getTextRange(editor.getSelectionRange()); ##获取选择内容
+            //editor.insert("Something cool"); ##在光标处插入
+            //editor.selection.getCursor(); ##获取光标所在行或列
+            //editor.gotoLine(lineNumber); ##跳转到行
+            //editor.session.getLength(); ##获取总行数
+            //editor.getSession().setTabSize(4); ##设置默认制表符的大小
+            //editor.getSession().setUseSoftTabs(true); ##使用软标签.
+            //document.getElementById('editor').style.fontSize='12px';  ##设置字体大小
+            //editor.getSession().setUseWrapMode(true); ##设置代码折叠
+            //editor.setHighlightActiveLine(false); ##设置高亮
+            //editor.setShowPrintMargin(false); ##设置打印边距可见度
+
+        </script>
+    </div>
+</body>
+</html>
