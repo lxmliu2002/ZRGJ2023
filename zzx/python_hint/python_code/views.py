@@ -11,6 +11,9 @@ import numpy as np
 def codes(request):
     return render(request,'python_code/index.html')
 
+def query(request):
+    return render(request,'python_code/query.html')
+
 def getType(request):
     line = request.GET.get('line')
     return HttpResponse(json.dumps({'type':line}))
