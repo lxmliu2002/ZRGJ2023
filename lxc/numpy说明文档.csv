@@ -1,0 +1,919 @@
+方法名称1,方法名称2,方法参数,返回值类型,链接
+numpy.,lookfor,"(what, module=None, import_modules=True, regenerate=False, output=None)",None,https://numpy.org/devdocs/reference/generated/numpy.lookfor.html
+testing.overrides.,allows_array_function_override,(func),None,https://numpy.org/devdocs/reference/generated/numpy.testing.overrides.allows_array_function_override.html
+matlib.,empty,"(shape, dtype=None, order='C')",None,https://numpy.org/devdocs/reference/generated/numpy.matlib.empty.html
+numpy.,seterr,"(all=None, divide=None, over=None, under=None, invalid=None)",dict,https://numpy.org/devdocs/reference/generated/numpy.seterr.html
+emath.,sqrt,(x),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.sqrt.html
+numpy.,bartlett,(M),array,https://numpy.org/devdocs/reference/generated/numpy.bartlett.html
+numpy.,datetime_as_string,"(arr, unit=None, timezone='naive', casting='same_kind')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.datetime_as_string.html
+numpy.,apply_along_axis,"(func1d, axis, arr, *args, **kwargs)","ndarray  (Ni…, Nj…, Nk…)",https://numpy.org/devdocs/reference/generated/numpy.apply_along_axis.html
+numpy.,pad,"(array, pad_width, mode='constant', **kwargs)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.pad.html
+numpy.,bitwise_and,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.bitwise_and.html
+numpy.,setbufsize,(size),None,https://numpy.org/devdocs/reference/generated/numpy.setbufsize.html
+char.,add,"(x1, x2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.add.html
+numpy.,ptp,"(a, axis=None, out=None, keepdims=<no value>)",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.ptp.html
+testing.,assert_allclose,"(actual, desired, rtol=1e-07, atol=0, equal_nan=True, err_msg='', verbose=True)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_allclose.html
+numpy.,all,"(a, axis=None, out=None, keepdims=<no value>, *, where=<no value>)","ndarray, bool",https://numpy.org/devdocs/reference/generated/numpy.all.html
+numpy.,empty,"(shape, dtype=float, order='C', *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.empty.html
+fft.,fft,"(a, n=None, axis=-1, norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.fft.html
+numpy.,copyto,"(dst, src, casting='same_kind', where=True)",None,https://numpy.org/devdocs/reference/generated/numpy.copyto.html
+numpy.,sort,"(a, axis=-1, kind=None, order=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.sort.html
+numpy.,can_cast,"(from_, to, casting='safe')",bool,https://numpy.org/devdocs/reference/generated/numpy.can_cast.html
+numpy.,load,"(file, mmap_mode=None, allow_pickle=False, fix_imports=True, encoding='ASCII', *, max_header_size=10000)","array, tuple, dict, etc.",https://numpy.org/devdocs/reference/generated/numpy.load.html
+numpy.,dot,"(a, b, out=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.dot.html
+numpy.ma.,MaskType,,None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskType.html
+numpy.,sin,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",array_like,https://numpy.org/devdocs/reference/generated/numpy.sin.html
+numpy.polynomial.polynomial.,Polynomial,"(coef, domain=None, window=None, symbol='x')",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.Polynomial.html
+numpy.,info,"(object=None, maxwidth=76, output=None, toplevel='numpy')",None,https://numpy.org/devdocs/reference/generated/numpy.info.html
+testing.overrides.,allows_array_ufunc_override,(func),None,https://numpy.org/devdocs/reference/generated/numpy.testing.overrides.allows_array_ufunc_override.html
+matlib.,zeros,"(shape, dtype=None, order='C')",matrix,https://numpy.org/devdocs/reference/generated/numpy.matlib.zeros.html
+numpy.,geterr,(),None,https://numpy.org/devdocs/reference/generated/numpy.geterr.html
+numpy.,datetime_data,"(dtype, /)",str,https://numpy.org/devdocs/reference/generated/numpy.datetime_data.html
+emath.,log,(x),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.log.html
+numpy.,getbufsize,(),None,https://numpy.org/devdocs/reference/generated/numpy.getbufsize.html
+numpy.,apply_over_axes,"(func, a, axes)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.apply_over_axes.html
+numpy.,blackman,(M),ndarray,https://numpy.org/devdocs/reference/generated/numpy.blackman.html
+testing.,assert_array_almost_equal_nulp,"(x, y, nulp=1)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_array_almost_equal_nulp.html
+polynomial.polynomial.,polydomain,"([-1,  1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polydomain.html
+numpy.,bitwise_or,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.bitwise_or.html
+char.,multiply,"(a, i)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.multiply.html
+numpy.,empty_like,"(prototype, dtype=None, order='K', subok=True, shape=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.empty_like.html
+numpy.,any,"(a, axis=None, out=None, keepdims=<no value>, *, where=<no value>)",bool or ndarray,https://numpy.org/devdocs/reference/generated/numpy.any.html
+testing.overrides.,get_overridable_numpy_ufuncs,(),None,https://numpy.org/devdocs/reference/generated/numpy.testing.overrides.get_overridable_numpy_ufuncs.html
+numpy.,promote_types,"(type1, type2)",dtype,https://numpy.org/devdocs/reference/generated/numpy.promote_types.html
+numpy.,source,"(object, output=<_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>)",None,https://numpy.org/devdocs/reference/generated/numpy.source.html
+numpy.,shape,(a),tuple of ints,https://numpy.org/devdocs/reference/generated/numpy.shape.html
+fft.,ifft,"(a, n=None, axis=-1, norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.ifft.html
+numpy.,save,"(file, arr, allow_pickle=True, fix_imports=True)",None,https://numpy.org/devdocs/reference/generated/numpy.save.html
+numpy.,lexsort,"(keys, axis=-1)","(N,) ndarray of ints",https://numpy.org/devdocs/reference/generated/numpy.lexsort.html
+matlib.,ones,"(shape, dtype=None, order='C')",matrix,https://numpy.org/devdocs/reference/generated/numpy.matlib.ones.html
+linalg.,multi_dot,"(arrays, *, out=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.linalg.multi_dot.html
+numpy.,cos,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.cos.html
+numpy.ma.,masked_array,,None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_array.html
+numpy.,percentile,"(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=False, *, interpolation=None)",scalar or ndarray,https://numpy.org/devdocs/reference/generated/numpy.percentile.html
+numpy.,busdaycalendar,"(weekmask='1111100', holidays=None)",busdaycalendar,https://numpy.org/devdocs/reference/generated/numpy.busdaycalendar.html
+polynomial.polynomial.,polyzero,([0]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyzero.html
+emath.,log2,(x),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.log2.html
+numpy.,seterrcall,(func),"callable, log instance or None",https://numpy.org/devdocs/reference/generated/numpy.seterrcall.html
+numpy.,shares_memory,"(a, b, /, max_work=None)",bool,https://numpy.org/devdocs/reference/generated/numpy.shares_memory.html
+numpy.,hamming,(M),ndarray,https://numpy.org/devdocs/reference/generated/numpy.hamming.html
+testing.,assert_array_max_ulp,"(a, b, maxulp=1, dtype=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_array_max_ulp.html
+testing.overrides.,get_overridable_numpy_array_functions,(),None,https://numpy.org/devdocs/reference/generated/numpy.testing.overrides.get_overridable_numpy_array_functions.html
+char.,mod,"(a, values)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.mod.html
+numpy.,bitwise_xor,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.bitwise_xor.html
+numpy.,eye,"(N, M=None, k=0, dtype=<class 'float'>, order='C', *, like=None)","ndarray of shape (N,M)",https://numpy.org/devdocs/reference/generated/numpy.eye.html
+numpy.,min_scalar_type,"(a, /)",dtype,https://numpy.org/devdocs/reference/generated/numpy.min_scalar_type.html
+numpy.,isfinite,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])","ndarray, bool",https://numpy.org/devdocs/reference/generated/numpy.isfinite.html
+matlib.,eye,"(n, M=None, k=0, dtype=<class 'float'>, order='C')",matrix,https://numpy.org/devdocs/reference/generated/numpy.matlib.eye.html
+polynomial.polynomial.,polyone,([1]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyone.html
+numpy.,reshape,"(a, newshape, order='C')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.reshape.html
+numpy.,vdot,"(a, b, /)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.vdot.html
+numpy.,savez,"(file, *args, **kwds)",None,https://numpy.org/devdocs/reference/generated/numpy.savez.html
+fft.,fft2,"(a, s=None, axes=(-2, -1), norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.fft2.html
+numpy.,argsort,"(a, axis=-1, kind=None, order=None)","ndarray, int",https://numpy.org/devdocs/reference/generated/numpy.argsort.html
+numpy.,frompyfunc,"(func, /, nin, nout, *[, identity])",ufunc,https://numpy.org/devdocs/reference/generated/numpy.frompyfunc.html
+numpy.,is_busday,"(dates, weekmask='1111100', holidays=None, busdaycal=None, out=None)",array of bool,https://numpy.org/devdocs/reference/generated/numpy.is_busday.html
+emath.,logn,"(n, x)",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.logn.html
+numpy.,tan,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.tan.html
+numpy.,may_share_memory,"(a, b, /, max_work=None)",bool,https://numpy.org/devdocs/reference/generated/numpy.may_share_memory.html
+numpy.,geterrcall,(),None,https://numpy.org/devdocs/reference/generated/numpy.geterrcall.html
+numpy.,nanpercentile,"(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=<no value>, *, interpolation=None)",scalar or ndarray,https://numpy.org/devdocs/reference/generated/numpy.nanpercentile.html
+numpy.,hanning,(M),"ndarray, shape(M,)",https://numpy.org/devdocs/reference/generated/numpy.hanning.html
+ma.,array,"(data, dtype=None, copy=False, order=None, mask=False, fill_value=None, keep_mask=True, hard_mask=False, shrink=True, subok=True, ndmin=0)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.array.html
+testing.,assert_array_equal,"(x, y, err_msg='', verbose=True, *, strict=False)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_array_equal.html
+char.,capitalize,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.capitalize.html
+polynomial.polynomial.,polyx,"([0, 1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyx.html
+numpy.,identity,"(n, dtype=None, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.identity.html
+numpy.,result_type,(*arrays_and_dtypes),dtype,https://numpy.org/devdocs/reference/generated/numpy.result_type.html
+numpy.,invert,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.invert.html
+matlib.,identity,"(n, dtype=None)",matrix,https://numpy.org/devdocs/reference/generated/numpy.matlib.identity.html
+numpy.,isinf,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",bool (scalar) or boolean ndarray,https://numpy.org/devdocs/reference/generated/numpy.isinf.html
+numpy.,savez_compressed,"(file, *args, **kwds)",None,https://numpy.org/devdocs/reference/generated/numpy.savez_compressed.html
+emath.,log10,(x),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.log10.html
+fft.,ifft2,"(a, s=None, axes=(-2, -1), norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.ifft2.html
+numpy.,ravel,"(a, order='C')",array_like,https://numpy.org/devdocs/reference/generated/numpy.ravel.html
+polynomial.polynomial.,polyadd,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyadd.html
+numpy.,inner,"(a, b, /)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.inner.html
+numpy.,busday_offset,"(dates, offsets, roll='raise', weekmask='1111100', holidays=None, busdaycal=None, out=None)",array of datetime64[D],https://numpy.org/devdocs/reference/generated/numpy.busday_offset.html
+numpy.,piecewise,"(x, condlist, funclist, *args, **kw)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.piecewise.html
+numpy.,byte_bounds,(a),tuple of 2 integers,https://numpy.org/devdocs/reference/generated/numpy.byte_bounds.html
+numpy.,arcsin,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.arcsin.html
+numpy.,kaiser,"(M, beta)",array,https://numpy.org/devdocs/reference/generated/numpy.kaiser.html
+testing.,assert_array_less,"(x, y, err_msg='', verbose=True)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_array_less.html
+char.,center,"(a, width, fillchar=' ')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.center.html
+numpy.,common_type,(*arrays),data type code,https://numpy.org/devdocs/reference/generated/numpy.common_type.html
+numpy.,quantile,"(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=False, *, interpolation=None)",scalar or ndarray,https://numpy.org/devdocs/reference/generated/numpy.quantile.html
+numpy.,sort_complex,(a),complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.sort_complex.html
+matlib.,repmat,"(a, m, n)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.matlib.repmat.html
+ma.,copy,"(self, *args, **params) a.copy(order='C')",None,https://numpy.org/devdocs/reference/generated/numpy.ma.copy.html
+numpy.,ones,"(shape, dtype=None, order='C', *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ones.html
+polynomial.polynomial.,polysub,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polysub.html
+numpy.,left_shift,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",array of integer type,https://numpy.org/devdocs/reference/generated/numpy.left_shift.html
+numpy.,isnan,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or bool,https://numpy.org/devdocs/reference/generated/numpy.isnan.html
+emath.,power,"(x, p)",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.power.html
+ndarray.,flat,,None,https://numpy.org/devdocs/reference/generated/numpy.ndarray.flat.html
+fft.,fftn,"(a, s=None, axes=None, norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.fftn.html
+numpy.,outer,"(a, b, out=None)","(M, N) ndarray",https://numpy.org/devdocs/reference/generated/numpy.outer.html
+numpy.,busday_count,"(begindates, enddates, weekmask='1111100', holidays=[], busdaycal=None, out=None)",array of int,https://numpy.org/devdocs/reference/generated/numpy.busday_count.html
+numpy.lib.mixins.,NDArrayOperatorsMixin,,None,https://numpy.org/devdocs/reference/generated/numpy.lib.mixins.NDArrayOperatorsMixin.html
+numpy.,arccos,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.arccos.html
+testing.,assert_equal,"(actual, desired, err_msg='', verbose=True)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_equal.html
+polynomial.polynomial.,polymulx,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polymulx.html
+char.,decode,"(a, encoding=None, errors=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.decode.html
+numpy.,obj2sctype,"(rep, default=None)",dtype or Python type,https://numpy.org/devdocs/reference/generated/numpy.obj2sctype.html
+numpy.,partition,"(a, kth, axis=-1, kind='introselect', order=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.partition.html
+numpy.,ones_like,"(a, dtype=None, order='K', subok=True, shape=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ones_like.html
+numpy.,right_shift,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])","ndarray, int",https://numpy.org/devdocs/reference/generated/numpy.right_shift.html
+emath.,arccos,(x),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.arccos.html
+matlib.,rand,(*args),ndarray,https://numpy.org/devdocs/reference/generated/numpy.matlib.rand.html
+numpy.,isnat,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or bool,https://numpy.org/devdocs/reference/generated/numpy.isnat.html
+numpy.,nanquantile,"(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=<no value>, *, interpolation=None)",scalar or ndarray,https://numpy.org/devdocs/reference/generated/numpy.nanquantile.html
+polynomial.polynomial.,polymul,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polymul.html
+fft.,ifftn,"(a, s=None, axes=None, norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.ifftn.html
+ma.,frombuffer,"(buffer, dtype=float, count=-1, offset=0, *, like=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.frombuffer.html
+numpy.,matmul,"(x1, x2, /, out=None, *, casting='same_kind', order='K', dtype=None, subok=True[, signature, axes, axis])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.matmul.html
+numpy.lib.,NumpyVersion,(vstring),None,https://numpy.org/devdocs/reference/generated/numpy.lib.NumpyVersion.html
+numpy.,loadtxt,"(fname, dtype=<class 'float'>, comments='#', delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0, encoding='bytes', max_rows=None, *, quotechar=None, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.loadtxt.html
+testing.,assert_raises,"(exception_class, callable, *args, **kwargs) assert_raises(exception_class)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_raises.html
+char.,encode,"(a, encoding=None, errors=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.encode.html
+numpy.,arctan,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.arctan.html
+numpy.,moveaxis,"(a, source, destination)",np.ndarray,https://numpy.org/devdocs/reference/generated/numpy.moveaxis.html
+polynomial.polynomial.,polydiv,"(c1, c2)",ndarrays,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polydiv.html
+numpy.,argpartition,"(a, kth, axis=-1, kind='introselect', order=None)","ndarray, int",https://numpy.org/devdocs/reference/generated/numpy.argpartition.html
+emath.,arcsin,(x),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.arcsin.html
+numpy.,packbits,"(a, /, axis=None, bitorder='big')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.packbits.html
+matlib.,randn,(*args),matrix of floats,https://numpy.org/devdocs/reference/generated/numpy.matlib.randn.html
+numpy.,isneginf,"(x, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.isneginf.html
+numpy.,zeros,"(shape, dtype=float, order='C', *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.zeros.html
+fft.,rfft,"(a, n=None, axis=-1, norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.rfft.html
+numpy.,median,"(a, axis=None, out=None, overwrite_input=False, keepdims=False)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.median.html
+testing.,assert_raises_regex,"(exception_class, expected_regexp, callable, *args, **kwargs) assert_raises_regex(exception_class, expected_regexp)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_raises_regex.html
+numpy.,get_include,(),None,https://numpy.org/devdocs/reference/generated/numpy.get_include.html
+numpy.,savetxt,"(fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', footer='', comments='# ', encoding=None)",None,https://numpy.org/devdocs/reference/generated/numpy.savetxt.html
+polynomial.polynomial.,polypow,"(c, pow, maxpower=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polypow.html
+numpy.,format_parser,"(formats, names, titles, aligned=False, byteorder=None)",None,https://numpy.org/devdocs/reference/generated/numpy.format_parser.html
+char.,expandtabs,"(a, tabsize=8)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.expandtabs.html
+ma.,fromfunction,"(function, shape, **dtype)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.fromfunction.html
+numpy.,tensordot,"(a, b, axes=2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.tensordot.html
+numpy.,hypot,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.hypot.html
+numpy.,rollaxis,"(a, axis, start=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.rollaxis.html
+emath.,arctanh,(x),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.emath.arctanh.html
+numpy.,unpackbits,"(a, /, axis=None, count=None, bitorder='big')","ndarray, uint8 type",https://numpy.org/devdocs/reference/generated/numpy.unpackbits.html
+numpy.,argmax,"(a, axis=None, out=None, *, keepdims=<no value>)",ndarray of ints,https://numpy.org/devdocs/reference/generated/numpy.argmax.html
+numpy.,isposinf,"(x, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.isposinf.html
+numpy.,zeros_like,"(a, dtype=None, order='K', subok=True, shape=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.zeros_like.html
+fft.,irfft,"(a, n=None, axis=-1, norm=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.irfft.html
+polynomial.polynomial.,polyval,"(x, c, tensor=True)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyval.html
+numpy.,show_config,(mode='stdout'),None,https://numpy.org/devdocs/reference/generated/numpy.show_config.html
+testing.,assert_warns,"(warning_class, *args, **kwargs)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_warns.html
+numpy.,average,"(a, axis=None, weights=None, returned=False, *, keepdims=<no value>)",array_type or double,https://numpy.org/devdocs/reference/generated/numpy.average.html
+char.,join,"(sep, seq)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.join.html
+numpy.,genfromtxt,"(fname, dtype=<class 'float'>, comments='#', delimiter=None, skip_header=0, skip_footer=0, converters=None, missing_values=None, filling_values=None, usecols=None, names=None, excludelist=None, deletechars="" !#$%&'()*+, -./:;<=>?@[\\]^{|}~"", replace_space='_', autostrip=False, case_sensitive=True, defaultfmt='f%i', unpack=None, usemask=False, loose=True, invalid_raise=True, max_rows=None, encoding='bytes', *, ndmin=0, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.genfromtxt.html
+numpy.,finfo,(dtype),None,https://numpy.org/devdocs/reference/generated/numpy.finfo.html
+numpy.,swapaxes,"(a, axis1, axis2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.swapaxes.html
+polynomial.polynomial.,polyval2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyval2d.html
+numpy.,binary_repr,"(num, width=None)",str,https://numpy.org/devdocs/reference/generated/numpy.binary_repr.html
+numpy.,arctan2,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.arctan2.html
+ma.MaskedArray.,copy,(order='C'),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.copy.html
+numpy.,nanargmax,"(a, axis=None, out=None, *, keepdims=<no value>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.nanargmax.html
+numpy.,iscomplex,(x),ndarray of bools,https://numpy.org/devdocs/reference/generated/numpy.iscomplex.html
+numpy.,full,"(shape, fill_value, dtype=None, order='C', *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.full.html
+fft.,rfft2,"(a, s=None, axes=(-2, -1), norm=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.rfft2.html
+numpy.,show_runtime,(),None,https://numpy.org/devdocs/reference/generated/numpy.show_runtime.html
+testing.,assert_no_warnings,"(*args, **kwargs)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_no_warnings.html
+numpy.,einsum,"(subscripts, *operands, out=None, dtype=None, order='K', casting='safe', optimize=False)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.einsum.html
+char.,ljust,"(a, width, fillchar=' ')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.ljust.html
+numpy.,mean,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no value>)","ndarray, see dtype parameter above",https://numpy.org/devdocs/reference/generated/numpy.mean.html
+numpy.,fromregex,"(file, regexp, dtype, encoding=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fromregex.html
+polynomial.polynomial.,polyval3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyval3d.html
+numpy.,iinfo,(type),None,https://numpy.org/devdocs/reference/generated/numpy.iinfo.html
+ndarray.,T,,None,https://numpy.org/devdocs/reference/generated/numpy.ndarray.T.html
+numpy.,degrees,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray of floats,https://numpy.org/devdocs/reference/generated/numpy.degrees.html
+ma.,diagflat,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.diagflat.html
+numpy.,iscomplexobj,(x),bool,https://numpy.org/devdocs/reference/generated/numpy.iscomplexobj.html
+polynomial.polynomial.,polygrid2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polygrid2d.html
+numpy.,argmin,"(a, axis=None, out=None, *, keepdims=<no value>)",ndarray of ints,https://numpy.org/devdocs/reference/generated/numpy.argmin.html
+numpy.,deprecate,"(*args, **kwargs)",function,https://numpy.org/devdocs/reference/generated/numpy.deprecate.html
+fft.,irfft2,"(a, s=None, axes=(-2, -1), norm=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.irfft2.html
+numpy.,full_like,"(a, fill_value, dtype=None, order='K', subok=True, shape=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.full_like.html
+testing.,assert_no_gc_cycles,"(*args, **kwargs)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_no_gc_cycles.html
+numpy.,einsum_path,"(subscripts, *operands, optimize='greedy')",list of tuples,https://numpy.org/devdocs/reference/generated/numpy.einsum_path.html
+char.,lower,(a),"ndarray, {str, unicode}",https://numpy.org/devdocs/reference/generated/numpy.char.lower.html
+numpy.,fromstring,"(string, dtype=float, count=-1, *, sep, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fromstring.html
+numpy.,issctype,(rep),bool,https://numpy.org/devdocs/reference/generated/numpy.issctype.html
+numpy.,std,"(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>, mean=<no value>)","ndarray, see dtype parameter above.",https://numpy.org/devdocs/reference/generated/numpy.std.html
+numpy.,transpose,"(a, axes=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.transpose.html
+polynomial.polynomial.,polygrid3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polygrid3d.html
+numpy.,radians,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.radians.html
+ma.,empty,"(shape, dtype=float, order='C', *, like=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.empty.html
+numpy.,isfortran,(a),bool,https://numpy.org/devdocs/reference/generated/numpy.isfortran.html
+numpy.,deprecate_with_doc,(msg),object,https://numpy.org/devdocs/reference/generated/numpy.deprecate_with_doc.html
+numpy.,nanargmin,"(a, axis=None, out=None, *, keepdims=<no value>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.nanargmin.html
+testing.,assert_string_equal,"(actual, desired)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_string_equal.html
+fft.,rfftn,"(a, s=None, axes=None, norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.rfftn.html
+numpy.,array,"(object, dtype=None, *, copy=True, order='K', subok=False, ndmin=0, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.array.html
+char.,lstrip,"(a, chars=None)","ndarray, {str, unicode}",https://numpy.org/devdocs/reference/generated/numpy.char.lstrip.html
+linalg.,matrix_power,"(a, n)","(…, M, M) ndarray or matrix object",https://numpy.org/devdocs/reference/generated/numpy.linalg.matrix_power.html
+polynomial.polynomial.,polyder,"(c, m=1, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyder.html
+numpy.,issubdtype,"(arg1, arg2)",bool,https://numpy.org/devdocs/reference/generated/numpy.issubdtype.html
+numpy.,atleast_1d,(*arys),ndarray,https://numpy.org/devdocs/reference/generated/numpy.atleast_1d.html
+numpy.,var,"(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>, mean=<no value>)","ndarray, see dtype parameter above",https://numpy.org/devdocs/reference/generated/numpy.var.html
+numpy.,unwrap,"(p, discont=None, axis=-1, *, period=6.283185307179586)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.unwrap.html
+numpy.,broadcast_shapes,(*args),None,https://numpy.org/devdocs/reference/generated/numpy.broadcast_shapes.html
+numpy.,isreal,(x),"ndarray, bool",https://numpy.org/devdocs/reference/generated/numpy.isreal.html
+testing.,assert_,"(val, msg='')",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_.html
+numpy.,argwhere,(a),"(N, a.ndim) ndarray",https://numpy.org/devdocs/reference/generated/numpy.argwhere.html
+ma.,empty_like,"(prototype, dtype=None, order='K', subok=True, shape=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.empty_like.html
+polynomial.polynomial.,polyint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyint.html
+fft.,irfftn,"(a, s=None, axes=None, norm=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.irfftn.html
+numpy.,asarray,"(a, dtype=None, order=None, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.asarray.html
+char.,partition,"(a, sep)","ndarray, {str, unicode}",https://numpy.org/devdocs/reference/generated/numpy.char.partition.html
+numpy.,issubsctype,"(arg1, arg2)",bool,https://numpy.org/devdocs/reference/generated/numpy.issubsctype.html
+numpy.,kron,"(a, b)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.kron.html
+numpy.,atleast_2d,(*arys),ndarray,https://numpy.org/devdocs/reference/generated/numpy.atleast_2d.html
+numpy.,nanmedian,"(a, axis=None, out=None, overwrite_input=False, keepdims=<no value>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.nanmedian.html
+numpy.,deg2rad,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.deg2rad.html
+numpy.,who,(vardict=None),None,https://numpy.org/devdocs/reference/generated/numpy.who.html
+numpy.,array2string,"(a, max_line_width=None, precision=None, suppress_small=None, separator=' ', prefix='', style=<no value>, formatter=None, threshold=None, edgeitems=None, sign=None, floatmode=None, suffix='', *, legacy=None)",str,https://numpy.org/devdocs/reference/generated/numpy.array2string.html
+polynomial.polynomial.,polyfromroots,(roots),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyfromroots.html
+numpy.,isrealobj,(x),bool,https://numpy.org/devdocs/reference/generated/numpy.isrealobj.html
+testing.,assert_almost_equal,"(actual, desired, decimal=7, err_msg='', verbose=True)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_almost_equal.html
+numpy.,nonzero,(a),tuple,https://numpy.org/devdocs/reference/generated/numpy.nonzero.html
+ma.,masked_all,"(shape, dtype=<class 'float'>)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_all.html
+fft.,hfft,"(a, n=None, axis=-1, norm=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.hfft.html
+numpy.,issubclass_,"(arg1, arg2)",bool,https://numpy.org/devdocs/reference/generated/numpy.issubclass_.html
+numpy.,asanyarray,"(a, dtype=None, order=None, *, like=None)",ndarray or an ndarray subclass,https://numpy.org/devdocs/reference/generated/numpy.asanyarray.html
+char.,replace,"(a, old, new, count=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.replace.html
+linalg.,cholesky,(a),"(…, M, M) array_like",https://numpy.org/devdocs/reference/generated/numpy.linalg.cholesky.html
+numpy.,atleast_3d,(*arys),ndarray,https://numpy.org/devdocs/reference/generated/numpy.atleast_3d.html
+polynomial.polynomial.,polyroots,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyroots.html
+numpy.,nanmean,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no value>)","ndarray, see dtype parameter above",https://numpy.org/devdocs/reference/generated/numpy.nanmean.html
+numpy.,disp,"(mesg, device=None, linefeed=True)",None,https://numpy.org/devdocs/reference/generated/numpy.disp.html
+numpy.,array_repr,"(arr, max_line_width=None, precision=None, suppress_small=None)",str,https://numpy.org/devdocs/reference/generated/numpy.array_repr.html
+numpy.,rad2deg,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.rad2deg.html
+numpy.,flatnonzero,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.flatnonzero.html
+testing.,assert_approx_equal,"(actual, desired, significant=7, err_msg='', verbose=True)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_approx_equal.html
+numpy.,isscalar,(element),bool,https://numpy.org/devdocs/reference/generated/numpy.isscalar.html
+fft.,ihfft,"(a, n=None, axis=-1, norm=None)",complex ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.ihfft.html
+polynomial.polynomial.,polyvalfromroots,"(x, r, tensor=True)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyvalfromroots.html
+numpy.,find_common_type,"(array_types, scalar_types)",dtype,https://numpy.org/devdocs/reference/generated/numpy.find_common_type.html
+char.,rjust,"(a, width, fillchar=' ')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.rjust.html
+numpy.,ascontiguousarray,"(a, dtype=None, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ascontiguousarray.html
+ma.,masked_all_like,(arr),MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_all_like.html
+linalg.,qr,"(a, mode='reduced')","ndarray of float or complex, optional",https://numpy.org/devdocs/reference/generated/numpy.linalg.qr.html
+numpy.,nanstd,"(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>, mean=<no value>)","ndarray, see dtype parameter above.",https://numpy.org/devdocs/reference/generated/numpy.nanstd.html
+exceptions.,ComplexWarning,,None,https://numpy.org/devdocs/reference/generated/numpy.exceptions.ComplexWarning.html
+numpy.,sinh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.sinh.html
+numpy.,array_str,"(a, max_line_width=None, precision=None, suppress_small=None)",None,https://numpy.org/devdocs/reference/generated/numpy.array_str.html
+polynomial.polynomial.,polyvander,"(x, deg)",ndarray.,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyvander.html
+numpy.,where,"(condition, [x, y, ]/)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.where.html
+numpy.,logical_and,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or bool,https://numpy.org/devdocs/reference/generated/numpy.logical_and.html
+fft.,fftfreq,"(n, d=1.0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.fftfreq.html
+numpy.,typename,(char),str,https://numpy.org/devdocs/reference/generated/numpy.typename.html
+numpy.,broadcast_to,"(array, shape, subok=False)",array,https://numpy.org/devdocs/reference/generated/numpy.broadcast_to.html
+char.,rpartition,"(a, sep)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.rpartition.html
+testing.,assert_array_almost_equal,"(x, y, decimal=6, err_msg='', verbose=True)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.assert_array_almost_equal.html
+ma.,ones,"(shape, dtype=None, order='C')",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.ones.html
+numpy.,asmatrix,"(data, dtype=None)",matrix,https://numpy.org/devdocs/reference/generated/numpy.asmatrix.html
+polynomial.polynomial.,polyvander2d,"(x, y, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyvander2d.html
+linalg.,svd,"(a, full_matrices=True, compute_uv=True, hermitian=False)","{ (…, M, M), (…, M, K) } array",https://numpy.org/devdocs/reference/generated/numpy.linalg.svd.html
+exceptions.,VisibleDeprecationWarning,,None,https://numpy.org/devdocs/reference/generated/numpy.exceptions.VisibleDeprecationWarning.html
+numpy.,format_float_positional,"(x, precision=None, unique=True, fractional=True, trim='k', sign=False, pad_left=None, pad_right=None, min_digits=None)",string,https://numpy.org/devdocs/reference/generated/numpy.format_float_positional.html
+numpy.,logical_or,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or bool,https://numpy.org/devdocs/reference/generated/numpy.logical_or.html
+numpy.,cosh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.cosh.html
+numpy.,searchsorted,"(a, v, side='left', sorter=None)",int or array of ints,https://numpy.org/devdocs/reference/generated/numpy.searchsorted.html
+numpy.,sctype2char,(sctype),str,https://numpy.org/devdocs/reference/generated/numpy.sctype2char.html
+fft.,rfftfreq,"(n, d=1.0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.rfftfreq.html
+numpy.,nanvar,"(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>, mean=<no value>)","ndarray, see dtype parameter above",https://numpy.org/devdocs/reference/generated/numpy.nanvar.html
+testing.,print_assert_equal,"(test_string, actual, desired)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.print_assert_equal.html
+numpy.,broadcast_arrays,"(*args, subok=False)",None,https://numpy.org/devdocs/reference/generated/numpy.broadcast_arrays.html
+char.,rsplit,"(a, sep=None, maxsplit=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.rsplit.html
+polynomial.polynomial.,polyvander3d,"(x, y, z, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyvander3d.html
+ma.,ones_like,,MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.ones_like.html
+numpy.,copy,"(a, order='K', subok=False)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.copy.html
+exceptions.,AxisError,"(axis, ndim=None, msg_prefix=None)",None,https://numpy.org/devdocs/reference/generated/numpy.exceptions.AxisError.html
+numpy.,tanh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.tanh.html
+linalg.,eig,(a),"(…, M) array",https://numpy.org/devdocs/reference/generated/numpy.linalg.eig.html
+numpy.,format_float_scientific,"(x, precision=None, unique=True, trim='k', sign=False, pad_left=None, exp_digits=None, min_digits=None)",string,https://numpy.org/devdocs/reference/generated/numpy.format_float_scientific.html
+numpy.,logical_not,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",bool or ndarray of bool,https://numpy.org/devdocs/reference/generated/numpy.logical_not.html
+numpy.,extract,"(condition, arr)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.extract.html
+polynomial.polynomial.,polycompanion,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polycompanion.html
+numpy.,mintypecode,"(typechars, typeset='GDFgdf', default='d')",str,https://numpy.org/devdocs/reference/generated/numpy.mintypecode.html
+testing.,decorate_methods,"(cls, decorator, testmatch=None)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.decorate_methods.html
+fft.,fftshift,"(x, axes=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.fftshift.html
+numpy.,corrcoef,"(x, y=None, rowvar=True, bias=<no value>, ddof=<no value>, *, dtype=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.corrcoef.html
+char.,rstrip,"(a, chars=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.rstrip.html
+numpy.,expand_dims,"(a, axis)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.expand_dims.html
+exceptions.,DTypePromotionError,,None,https://numpy.org/devdocs/reference/generated/numpy.exceptions.DTypePromotionError.html
+numpy.,frombuffer,"(buffer, dtype=float, count=-1, offset=0, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.frombuffer.html
+polynomial.polynomial.,polyfit,"(x, y, deg, rcond=None, full=False, w=None)",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyfit.html
+ma.,zeros,"(shape, dtype=float, order='C', *, like=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.zeros.html
+numpy.,logical_xor,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",bool or ndarray of bool,https://numpy.org/devdocs/reference/generated/numpy.logical_xor.html
+numpy.,arcsinh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.arcsinh.html
+linalg.,eigh,"(a, UPLO='L')","(…, M) ndarray",https://numpy.org/devdocs/reference/generated/numpy.linalg.eigh.html
+numpy.,count_nonzero,"(a, axis=None, *, keepdims=False)",int or array of int,https://numpy.org/devdocs/reference/generated/numpy.count_nonzero.html
+numpy.,maximum_sctype,(t),dtype,https://numpy.org/devdocs/reference/generated/numpy.maximum_sctype.html
+numpy.testing.,clear_and_catch_warnings,"(record=False, modules=())",None,https://numpy.org/devdocs/reference/generated/numpy.testing.clear_and_catch_warnings.html
+fft.,ifftshift,"(x, axes=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fft.ifftshift.html
+polynomial.polynomial.,polytrim,"(c, tol=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polytrim.html
+char.,split,"(a, sep=None, maxsplit=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.split.html
+numpy.,correlate,"(a, v, mode='valid')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.correlate.html
+numpy.,squeeze,"(a, axis=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.squeeze.html
+exceptions.,TooHardError,,None,https://numpy.org/devdocs/reference/generated/numpy.exceptions.TooHardError.html
+numpy.,from_dlpack,"(x, /)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.from_dlpack.html
+ma.,zeros_like,,MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.zeros_like.html
+numpy.,allclose,"(a, b, rtol=1e-05, atol=1e-08, equal_nan=False)",bool,https://numpy.org/devdocs/reference/generated/numpy.allclose.html
+polynomial.polynomial.,polyline,"(off, scl)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polynomial.polyline.html
+linalg.,eigvals,(a),"(…, M,) ndarray",https://numpy.org/devdocs/reference/generated/numpy.linalg.eigvals.html
+numpy.,arccosh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.arccosh.html
+testing.,measure,"(code_str, times=1, label=None)",float,https://numpy.org/devdocs/reference/generated/numpy.testing.measure.html
+numpy.,asarray,"(a, dtype=None, order=None, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.asarray.html
+numpy.,set_printoptions,"(precision=None, threshold=None, edgeitems=None, linewidth=None, suppress=None, nanstr=None, infstr=None, formatter=None, sign=None, floatmode=None, *, legacy=None)",None,https://numpy.org/devdocs/reference/generated/numpy.set_printoptions.html
+char.,splitlines,"(a, keepends=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.splitlines.html
+numpy.,cov,"(m, y=None, rowvar=True, bias=False, ddof=None, fweights=None, aweights=None, *, dtype=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.cov.html
+numpy.,fromfile,"(file, dtype=float, count=-1, sep='', offset=0, *, like=None)",None,https://numpy.org/devdocs/reference/generated/numpy.fromfile.html
+ma.,all,"(self, axis=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.all.html
+numpy.,asanyarray,"(a, dtype=None, order=None, *, like=None)",ndarray or an ndarray subclass,https://numpy.org/devdocs/reference/generated/numpy.asanyarray.html
+numpy.,isclose,"(a, b, rtol=1e-05, atol=1e-08, equal_nan=False)",array_like,https://numpy.org/devdocs/reference/generated/numpy.isclose.html
+linalg.,eigvalsh,"(a, UPLO='L')","(…, M,) ndarray",https://numpy.org/devdocs/reference/generated/numpy.linalg.eigvalsh.html
+testing.,rundocs,"(filename=None, raise_on_error=True)",None,https://numpy.org/devdocs/reference/generated/numpy.testing.rundocs.html
+numpy.,arctanh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.arctanh.html
+numpy.,get_printoptions,(),None,https://numpy.org/devdocs/reference/generated/numpy.get_printoptions.html
+numpy.polynomial.chebyshev.,Chebyshev,"(coef, domain=None, window=None, symbol='x')",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.Chebyshev.html
+char.,strip,"(a, chars=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.strip.html
+numpy.,asmatrix,"(data, dtype=None)",matrix,https://numpy.org/devdocs/reference/generated/numpy.asmatrix.html
+numpy.,histogram,"(a, bins=10, range=None, density=None, weights=None)",array,https://numpy.org/devdocs/reference/generated/numpy.histogram.html
+numpy.,fromfunction,"(function, shape, *, dtype=<class 'float'>, like=None, **kwargs)",any,https://numpy.org/devdocs/reference/generated/numpy.fromfunction.html
+ma.,any,"(self, axis=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.any.html
+numpy.,array_equal,"(a1, a2, equal_nan=False)",bool,https://numpy.org/devdocs/reference/generated/numpy.array_equal.html
+linalg.,norm,"(x, ord=None, axis=None, keepdims=False)",float or ndarray,https://numpy.org/devdocs/reference/generated/numpy.linalg.norm.html
+polynomial.chebyshev.,chebdomain,"([-1,  1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebdomain.html
+numpy.,round,"(a, decimals=0, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.round.html
+numpy.,set_string_function,"(f, repr=True)",None,https://numpy.org/devdocs/reference/generated/numpy.set_string_function.html
+char.,swapcase,(a),"ndarray, {str, unicode}",https://numpy.org/devdocs/reference/generated/numpy.char.swapcase.html
+numpy.,asfarray,"(a, dtype=<class 'numpy.double'>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.asfarray.html
+numpy.,fromiter,"(iter, dtype, count=-1, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fromiter.html
+ma.,count,"(self, axis=None, keepdims=<no value>)",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.ma.count.html
+numpy.,histogram2d,"(x, y, bins=10, range=None, density=None, weights=None)","ndarray, shape(nx, ny)",https://numpy.org/devdocs/reference/generated/numpy.histogram2d.html
+polynomial.chebyshev.,chebzero,([0]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebzero.html
+numpy.,array_equiv,"(a1, a2)",bool,https://numpy.org/devdocs/reference/generated/numpy.array_equiv.html
+linalg.,cond,"(x, p=None)","{float, inf}",https://numpy.org/devdocs/reference/generated/numpy.linalg.cond.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html
+numpy.,around,"(a, decimals=0, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.around.html
+numpy.,printoptions,"(*args, **kwargs)",None,https://numpy.org/devdocs/reference/generated/numpy.printoptions.html
+numpy.,fromstring,"(string, dtype=float, count=-1, *, sep, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.fromstring.html
+char.,title,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.title.html
+numpy.,asfortranarray,"(a, dtype=None, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.asfortranarray.html
+polynomial.chebyshev.,chebone,([1]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebone.html
+numpy.,histogramdd,"(sample, bins=10, range=None, density=None, weights=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.histogramdd.html
+numpy.,binary_repr,"(num, width=None)",str,https://numpy.org/devdocs/reference/generated/numpy.binary_repr.html
+ma.,count_masked,"(arr, axis=None)","int, ndarray",https://numpy.org/devdocs/reference/generated/numpy.ma.count_masked.html
+numpy.,greater,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.greater.html
+polynomial.chebyshev.,chebx,"([0, 1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebx.html
+linalg.,det,(a),(…) array_like,https://numpy.org/devdocs/reference/generated/numpy.linalg.det.html
+numpy.,loadtxt,"(fname, dtype=<class 'float'>, comments='#', delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0, encoding='bytes', max_rows=None, *, quotechar=None, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.loadtxt.html
+numpy.,ascontiguousarray,"(a, dtype=None, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ascontiguousarray.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#running-tests-from-inside-python
+numpy.,rint,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.rint.html
+char.,translate,"(a, table, deletechars=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.translate.html
+numpy.,bincount,"(x, /, weights=None, minlength=0)",ndarray of ints,https://numpy.org/devdocs/reference/generated/numpy.bincount.html
+numpy.,base_repr,"(number, base=2, padding=0)",str,https://numpy.org/devdocs/reference/generated/numpy.base_repr.html
+polynomial.chebyshev.,chebadd,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebadd.html
+ma.,getmask,(a),None,https://numpy.org/devdocs/reference/generated/numpy.ma.getmask.html
+numpy.,greater_equal,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",bool or ndarray of bool,https://numpy.org/devdocs/reference/generated/numpy.greater_equal.html
+linalg.,matrix_rank,"(A, tol=None, hermitian=False)",(…) array_like,https://numpy.org/devdocs/reference/generated/numpy.linalg.matrix_rank.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#running-tests-from-the-command-line
+numpy.,asarray_chkfinite,"(a, dtype=None, order=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.asarray_chkfinite.html
+char.,upper,(a),"ndarray, {str, unicode}",https://numpy.org/devdocs/reference/generated/numpy.char.upper.html
+numpy.,fix,"(x, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.fix.html
+core.records.,array,"(obj, dtype=None, shape=None, offset=0, strides=None, formats=None, names=None, titles=None, aligned=False, byteorder=None, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.core.records.array.html
+polynomial.chebyshev.,chebsub,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebsub.html
+numpy.,histogram_bin_edges,"(a, bins=10, range=None, weights=None)",array of dtype float,https://numpy.org/devdocs/reference/generated/numpy.histogram_bin_edges.html
+ma.,getmaskarray,(arr),None,https://numpy.org/devdocs/reference/generated/numpy.ma.getmaskarray.html
+numpy.,less,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.less.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#other-methods-of-running-tests
+polynomial.chebyshev.,chebmulx,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebmulx.html
+linalg.,slogdet,(a),(…) array_like,https://numpy.org/devdocs/reference/generated/numpy.linalg.slogdet.html
+char.,zfill,"(a, width)","ndarray, {str, unicode}",https://numpy.org/devdocs/reference/generated/numpy.char.zfill.html
+numpy.,require,"(a, dtype=None, requirements=None, *, like=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.require.html
+numpy.,floor,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.floor.html
+core.records.,fromarrays,"(arrayList, dtype=None, shape=None, formats=None, names=None, titles=None, aligned=False, byteorder=None)",None,https://numpy.org/devdocs/reference/generated/numpy.core.records.fromarrays.html
+numpy.,digitize,"(x, bins, right=False)",ndarray of ints,https://numpy.org/devdocs/reference/generated/numpy.digitize.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#using-c-code-in-tests
+polynomial.chebyshev.,chebmul,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebmul.html
+numpy.,less_equal,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.less_equal.html
+ma.,getdata,"(a, subok=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.getdata.html
+numpy.,trace,"(a, offset=0, axis1=0, axis2=1, dtype=None, out=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.trace.html
+char.,equal,"(x1, x2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.equal.html
+numpy.,concatenate,"((a1, a2, ...), axis=0, out=None, dtype=None, casting=""same_kind"")",ndarray,https://numpy.org/devdocs/reference/generated/numpy.concatenate.html
+numpy.,ceil,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.ceil.html
+polynomial.chebyshev.,chebdiv,"(c1, c2)",ndarrays,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebdiv.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#labeling-tests
+core.records.,fromrecords,"(recList, dtype=None, shape=None, formats=None, names=None, titles=None, aligned=False, byteorder=None)",None,https://numpy.org/devdocs/reference/generated/numpy.core.records.fromrecords.html
+numpy.,equal,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.equal.html
+ma.,nonzero,(self),tuple,https://numpy.org/devdocs/reference/generated/numpy.ma.nonzero.html
+linalg.,solve,"(a, b)","{(…, M,), (…, M, K)} ndarray",https://numpy.org/devdocs/reference/generated/numpy.linalg.solve.html
+char.,not_equal,"(x1, x2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.not_equal.html
+polynomial.chebyshev.,chebpow,"(c, pow, maxpower=16)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebpow.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#easier-setup-and-teardown-functions-methods
+numpy.,stack,"(arrays, axis=0, out=None, *, dtype=None, casting='same_kind')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.stack.html
+numpy.,trunc,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.trunc.html
+core.records.,fromstring,"(datastring, dtype=None, shape=None, offset=0, formats=None, names=None, titles=None, aligned=False, byteorder=None)",None,https://numpy.org/devdocs/reference/generated/numpy.core.records.fromstring.html
+numpy.,not_equal,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.not_equal.html
+polynomial.chebyshev.,chebval,"(x, c, tensor=True)","ndarray, algebra_like",https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebval.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#parametric-tests
+ma.,shape,(obj),tuple of ints,https://numpy.org/devdocs/reference/generated/numpy.ma.shape.html
+linalg.,tensorsolve,"(a, b, axes=None)","ndarray, shape Q",https://numpy.org/devdocs/reference/generated/numpy.linalg.tensorsolve.html
+char.,greater_equal,"(x1, x2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.greater_equal.html
+numpy.,prod,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.prod.html
+numpy.,block,(arrays),None,https://numpy.org/devdocs/reference/generated/numpy.block.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#doctests
+polynomial.chebyshev.,chebval2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebval2d.html
+core.records.,fromfile,"(fd, dtype=None, shape=None, offset=0, formats=None, names=None, titles=None, aligned=False, byteorder=None)",None,https://numpy.org/devdocs/reference/generated/numpy.core.records.fromfile.html
+ma.,size,"(obj, axis=None)",int,https://numpy.org/devdocs/reference/generated/numpy.ma.size.html
+linalg.,lstsq,"(a, b, rcond='warn')","{(N,), (N, K)} ndarray",https://numpy.org/devdocs/reference/generated/numpy.linalg.lstsq.html
+char.,less_equal,"(x1, x2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.less_equal.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#tests
+numpy.,sum,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.sum.html
+numpy.,vstack,"(tup, *, dtype=None, casting='same_kind')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.vstack.html
+polynomial.chebyshev.,chebval3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebval3d.html
+core.defchararray.,array,"(obj, itemsize=None, copy=True, unicode=None, order=None)",None,https://numpy.org/devdocs/reference/generated/numpy.core.defchararray.array.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#init-py-and-setup-py
+polynomial.chebyshev.,chebgrid2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebgrid2d.html
+ma.,is_masked,(x),bool,https://numpy.org/devdocs/reference/generated/numpy.ma.is_masked.html
+char.,greater,"(x1, x2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.greater.html
+linalg.,inv,(a),"(…, M, M) ndarray or matrix",https://numpy.org/devdocs/reference/generated/numpy.linalg.inv.html
+numpy.,hstack,"(tup, *, dtype=None, casting='same_kind')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.hstack.html
+numpy.,nanprod,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.nanprod.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#creating-many-similar-tests
+core.defchararray.,asarray,"(obj, itemsize=None, unicode=None, order=None)",None,https://numpy.org/devdocs/reference/generated/numpy.core.defchararray.asarray.html
+polynomial.chebyshev.,chebgrid3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebgrid3d.html
+char.,less,"(x1, x2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.less.html
+linalg.,pinv,"(a, rcond=1e-15, hermitian=False)","(…, N, M) ndarray",https://numpy.org/devdocs/reference/generated/numpy.linalg.pinv.html
+ma.,is_mask,(m),bool,https://numpy.org/devdocs/reference/generated/numpy.ma.is_mask.html
+numpy.,dstack,(tup),ndarray,https://numpy.org/devdocs/reference/generated/numpy.dstack.html
+numpy.,nansum,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",ndarray.,https://numpy.org/devdocs/reference/generated/numpy.nansum.html
+polynomial.chebyshev.,chebder,"(c, m=1, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebder.html
+numpy.,arange,"([start, ]stop, [step, ]dtype=None, *, like=None)",None,https://numpy.org/devdocs/reference/generated/numpy.arange.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#known-failures-skipping-tests
+char.,compare_chararrays,"(a1, a2, cmp, rstrip)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.compare_chararrays.html
+linalg.,tensorinv,"(a, ind=2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.linalg.tensorinv.html
+polynomial.chebyshev.,chebint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebint.html
+ma.,isMaskedArray,(x),bool,https://numpy.org/devdocs/reference/generated/numpy.ma.isMaskedArray.html
+numpy.,column_stack,(tup),2-D array,https://numpy.org/devdocs/reference/generated/numpy.column_stack.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#tests-on-random-data
+numpy.,cumprod,"(a, axis=None, dtype=None, out=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.cumprod.html
+numpy.,linspace,"(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)",None,https://numpy.org/devdocs/reference/generated/numpy.linspace.html
+char.,count,"(a, sub, start=0, end=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.count.html
+polynomial.chebyshev.,chebfromroots,(roots),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebfromroots.html
+linalg.,LinAlgError,,None,https://numpy.org/devdocs/reference/generated/numpy.linalg.LinAlgError.html
+numpy.testing.extbuild.,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",None,https://numpy.org/devdocs/reference/testing.html#documentation-for-numpy-test
+ma.,isMA,(x),bool,https://numpy.org/devdocs/reference/generated/numpy.ma.isMA.html
+numpy.,cumsum,"(a, axis=None, dtype=None, out=None)",ndarray.,https://numpy.org/devdocs/reference/generated/numpy.cumsum.html
+numpy.,row_stack,"(tup, *, dtype=None, casting='same_kind')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.row_stack.html
+numpy.,logspace,"(start, stop, num=50, endpoint=True, base=10.0, dtype=None, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.logspace.html
+polynomial.chebyshev.,chebroots,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebroots.html
+char.,endswith,"(a, suffix, start=0, end=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.endswith.html
+ma.,isarray,(x),bool,https://numpy.org/devdocs/reference/generated/numpy.ma.isarray.html
+polynomial.chebyshev.,chebvander,"(x, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebvander.html
+numpy.,split,"(ary, indices_or_sections, axis=0)",list of ndarrays,https://numpy.org/devdocs/reference/generated/numpy.split.html
+numpy.,nancumprod,"(a, axis=None, dtype=None, out=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.nancumprod.html
+numpy.,geomspace,"(start, stop, num=50, endpoint=True, dtype=None, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.geomspace.html
+char.,find,"(a, sub, start=0, end=None)",ndarray or int,https://numpy.org/devdocs/reference/generated/numpy.char.find.html
+polynomial.chebyshev.,chebvander2d,"(x, y, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebvander2d.html
+ma.,isin,"(element, test_elements, assume_unique=False, invert=False)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.isin.html
+numpy.,array_split,"(ary, indices_or_sections, axis=0)",None,https://numpy.org/devdocs/reference/generated/numpy.array_split.html
+numpy.,nancumsum,"(a, axis=None, dtype=None, out=None)",ndarray.,https://numpy.org/devdocs/reference/generated/numpy.nancumsum.html
+numpy.,meshgrid,"(*xi, copy=True, sparse=False, indexing='xy')",list of ndarrays,https://numpy.org/devdocs/reference/generated/numpy.meshgrid.html
+polynomial.chebyshev.,chebvander3d,"(x, y, z, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebvander3d.html
+char.,index,"(a, sub, start=0, end=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.index.html
+ma.,in1d,"(ar1, ar2, assume_unique=False, invert=False)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.in1d.html
+polynomial.chebyshev.,chebgauss,(deg),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebgauss.html
+numpy.,dsplit,"(ary, indices_or_sections)",None,https://numpy.org/devdocs/reference/generated/numpy.dsplit.html
+numpy.,diff,"(a, n=1, axis=-1, prepend=<no value>, append=<no value>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.diff.html
+numpy.,mgrid,,None,https://numpy.org/devdocs/reference/generated/numpy.mgrid.html
+char.,isalpha,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.isalpha.html
+polynomial.chebyshev.,chebweight,(x),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebweight.html
+ma.,unique,"(ar1, return_index=False, return_inverse=False)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.unique.html
+numpy.,hsplit,"(ary, indices_or_sections)",None,https://numpy.org/devdocs/reference/generated/numpy.hsplit.html
+numpy.,ediff1d,"(ary, to_end=None, to_begin=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ediff1d.html
+numpy.,ogrid,,None,https://numpy.org/devdocs/reference/generated/numpy.ogrid.html
+char.,isalnum,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.isalnum.html
+polynomial.chebyshev.,chebcompanion,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebcompanion.html
+ma.MaskedArray.,all,"(axis=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.all.html
+numpy.,vsplit,"(ary, indices_or_sections)",None,https://numpy.org/devdocs/reference/generated/numpy.vsplit.html
+polynomial.chebyshev.,chebfit,"(x, y, deg, rcond=None, full=False, w=None)",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebfit.html
+numpy.,gradient,"(f, *varargs, axis=None, edge_order=1)",ndarray or list of ndarray,https://numpy.org/devdocs/reference/generated/numpy.gradient.html
+numpy.,diag,"(v, k=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.diag.html
+char.,isdecimal,(a),"ndarray, bool",https://numpy.org/devdocs/reference/generated/numpy.char.isdecimal.html
+polynomial.chebyshev.,chebpts1,(npts),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebpts1.html
+ma.MaskedArray.,any,"(axis=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.any.html
+numpy.,tile,"(A, reps)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.tile.html
+numpy.,diagflat,"(v, k=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.diagflat.html
+char.,isdigit,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.isdigit.html
+numpy.,cross,"(a, b, axisa=-1, axisb=-1, axisc=-1, axis=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.cross.html
+polynomial.chebyshev.,chebpts2,(npts),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebpts2.html
+ma.MaskedArray.,count,"(axis=None, keepdims=<no value>)",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.count.html
+numpy.,repeat,"(a, repeats, axis=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.repeat.html
+numpy.,tri,"(N, M=None, k=0, dtype=<class 'float'>, *, like=None)","ndarray of shape (N, M)",https://numpy.org/devdocs/reference/generated/numpy.tri.html
+char.,islower,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.islower.html
+numpy.,trapz,"(y, x=None, dx=1.0, axis=-1)",float or ndarray,https://numpy.org/devdocs/reference/generated/numpy.trapz.html
+polynomial.chebyshev.,chebtrim,"(c, tol=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebtrim.html
+polynomial.chebyshev.,chebline,"(off, scl)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebline.html
+numpy.,delete,"(arr, obj, axis=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.delete.html
+numpy.,tril,"(m, k=0)","ndarray, shape (…, M, N)",https://numpy.org/devdocs/reference/generated/numpy.tril.html
+numpy.,exp,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.exp.html
+ma.MaskedArray.,nonzero,(),tuple,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.nonzero.html
+char.,isnumeric,(a),"ndarray, bool",https://numpy.org/devdocs/reference/generated/numpy.char.isnumeric.html
+polynomial.chebyshev.,cheb2poly,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.cheb2poly.html
+ma.,shape,(obj),tuple of ints,https://numpy.org/devdocs/reference/generated/numpy.ma.shape.html
+numpy.,triu,"(m, k=0)",None,https://numpy.org/devdocs/reference/generated/numpy.triu.html
+numpy.,insert,"(arr, obj, values, axis=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.insert.html
+numpy.,expm1,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.expm1.html
+polynomial.chebyshev.,poly2cheb,(pol),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.poly2cheb.html
+char.,isspace,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.isspace.html
+ma.,size,"(obj, axis=None)",int,https://numpy.org/devdocs/reference/generated/numpy.ma.size.html
+numpy.,vander,"(x, N=None, increasing=False)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.vander.html
+numpy.,append,"(arr, values, axis=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.append.html
+polynomial.chebyshev.,chebinterpolate,"(func, deg, args=())","ndarray, shape (deg + 1,)",https://numpy.org/devdocs/reference/generated/numpy.polynomial.chebyshev.chebinterpolate.html
+numpy.,exp2,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.exp2.html
+char.,istitle,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.istitle.html
+ma.,ravel,"(self, order='C')",None,https://numpy.org/devdocs/reference/generated/numpy.ma.ravel.html
+numpy.,mat,"(data, dtype=None)",matrix,https://numpy.org/devdocs/reference/generated/numpy.mat.html
+numpy.,resize,"(a, new_shape)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.resize.html
+numpy.,log,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.log.html
+char.,isupper,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.isupper.html
+numpy.polynomial.hermite.,Hermite,"(coef, domain=None, window=None, symbol='x')",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.Hermite.html
+ma.,reshape,"(a, new_shape, order='C')",None,https://numpy.org/devdocs/reference/generated/numpy.ma.reshape.html
+numpy.,bmat,"(obj, ldict=None, gdict=None)",matrix,https://numpy.org/devdocs/reference/generated/numpy.bmat.html
+polynomial.hermite.,hermdomain,"([-1,  1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermdomain.html
+numpy.,log10,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.log10.html
+numpy.,trim_zeros,"(filt, trim='fb')",1-D array or sequence,https://numpy.org/devdocs/reference/generated/numpy.trim_zeros.html
+char.,rfind,"(a, sub, start=0, end=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.rfind.html
+ma.,resize,"(x, new_shape)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.resize.html
+polynomial.hermite.,hermzero,([0]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermzero.html
+char.,rindex,"(a, sub, start=0, end=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.rindex.html
+numpy.,log2,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.log2.html
+numpy.,unique,"(ar, return_index=False, return_inverse=False, return_counts=False, axis=None, *, equal_nan=True)",None,https://numpy.org/devdocs/reference/generated/numpy.unique.html
+polynomial.hermite.,hermone,([1]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermone.html
+ma.MaskedArray.,flatten,(order='C'),ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.flatten.html
+numpy.,log1p,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.log1p.html
+char.,startswith,"(a, prefix, start=0, end=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.startswith.html
+polynomial.hermite.,hermx,"([0. , 0.5])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermx.html
+numpy.,flip,"(m, axis=None)",array_like,https://numpy.org/devdocs/reference/generated/numpy.flip.html
+ma.MaskedArray.,ravel,(order='C'),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.ravel.html
+polynomial.hermite.,hermadd,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermadd.html
+numpy.,logaddexp,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.logaddexp.html
+char.,str_len,(a),ndarray,https://numpy.org/devdocs/reference/generated/numpy.char.str_len.html
+numpy.,fliplr,(m),ndarray,https://numpy.org/devdocs/reference/generated/numpy.fliplr.html
+ma.MaskedArray.,reshape,"(*s, **kwargs)",array,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.reshape.html
+polynomial.hermite.,hermsub,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermsub.html
+numpy.,logaddexp2,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.logaddexp2.html
+char.,array,"(obj, itemsize=None, copy=True, unicode=None, order=None)",None,https://numpy.org/devdocs/reference/generated/numpy.char.array.html
+polynomial.hermite.,hermmulx,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermmulx.html
+ma.MaskedArray.,resize,"(newshape, refcheck=True, order=False)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.resize.html
+numpy.,flipud,(m),array_like,https://numpy.org/devdocs/reference/generated/numpy.flipud.html
+polynomial.hermite.,hermmul,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermmul.html
+numpy.,i0,(x),"ndarray, shape = x.shape, dtype = float",https://numpy.org/devdocs/reference/generated/numpy.i0.html
+char.,asarray,"(obj, itemsize=None, unicode=None, order=None)",None,https://numpy.org/devdocs/reference/generated/numpy.char.asarray.html
+numpy.,reshape,"(a, newshape, order='C')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.reshape.html
+ma.,swapaxes,"(self, *args, **params) a.swapaxes(axis1, axis2)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.swapaxes.html
+polynomial.hermite.,hermdiv,"(c1, c2)",ndarrays,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermdiv.html
+numpy.,sinc,(x),ndarray,https://numpy.org/devdocs/reference/generated/numpy.sinc.html
+numpy.,roll,"(a, shift, axis=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.roll.html
+polynomial.hermite.,hermpow,"(c, pow, maxpower=16)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermpow.html
+ma.,transpose,"(a, axes=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.transpose.html
+polynomial.hermite.,hermval,"(x, c, tensor=True)","ndarray, algebra_like",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermval.html
+numpy.,signbit,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray of bool,https://numpy.org/devdocs/reference/generated/numpy.signbit.html
+numpy.,rot90,"(m, k=1, axes=(0, 1))",ndarray,https://numpy.org/devdocs/reference/generated/numpy.rot90.html
+ma.MaskedArray.,swapaxes,"(axis1, axis2)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.swapaxes.html
+polynomial.hermite.,hermval2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermval2d.html
+numpy.,copysign,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.copysign.html
+polynomial.hermite.,hermval3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermval3d.html
+ma.MaskedArray.,transpose,(*axes),ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.transpose.html
+polynomial.hermite.,hermgrid2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermgrid2d.html
+numpy.,frexp,"(x, [out1, out2, ]/, [out=(None, None), ]*, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.frexp.html
+ma.,atleast_1d,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.atleast_1d.html
+polynomial.hermite.,hermgrid3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermgrid3d.html
+numpy.,ldexp,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.ldexp.html
+ma.,atleast_2d,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.atleast_2d.html
+polynomial.hermite.,hermder,"(c, m=1, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermder.html
+numpy.,nextafter,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.nextafter.html
+polynomial.hermite.,hermint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermint.html
+ma.,atleast_3d,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.atleast_3d.html
+polynomial.hermite.,hermfromroots,(roots),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermfromroots.html
+numpy.,spacing,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.spacing.html
+ma.,expand_dims,"(a, axis)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.expand_dims.html
+polynomial.hermite.,hermroots,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermroots.html
+numpy.,lcm,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.lcm.html
+polynomial.hermite.,hermvander,"(x, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermvander.html
+ma.,squeeze,,MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.squeeze.html
+numpy.,gcd,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.gcd.html
+polynomial.hermite.,hermvander2d,"(x, y, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermvander2d.html
+ma.MaskedArray.,squeeze,(axis=None),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.squeeze.html
+polynomial.hermite.,hermvander3d,"(x, y, z, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermvander3d.html
+numpy.,add,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.add.html
+ma.,stack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.stack.html
+polynomial.hermite.,hermgauss,(deg),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermgauss.html
+numpy.,reciprocal,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.reciprocal.html
+polynomial.hermite.,hermweight,(x),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermweight.html
+ma.,column_stack,,2-D array,https://numpy.org/devdocs/reference/generated/numpy.ma.column_stack.html
+numpy.,positive,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.positive.html
+polynomial.hermite.,hermcompanion,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermcompanion.html
+ma.,concatenate,"(arrays, axis=0)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.concatenate.html
+polynomial.hermite.,hermfit,"(x, y, deg, rcond=None, full=False, w=None)",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermfit.html
+numpy.,negative,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.negative.html
+polynomial.hermite.,hermtrim,"(c, tol=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermtrim.html
+ma.,dstack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.dstack.html
+numpy.,multiply,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.multiply.html
+polynomial.hermite.,hermline,"(off, scl)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.hermline.html
+ma.,hstack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.hstack.html
+polynomial.hermite.,herm2poly,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.herm2poly.html
+numpy.,divide,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.divide.html
+polynomial.hermite.,poly2herm,(pol),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite.poly2herm.html
+ma.,hsplit,,None,https://numpy.org/devdocs/reference/generated/numpy.ma.hsplit.html
+numpy.,power,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.power.html
+ma.,mr_,,None,https://numpy.org/devdocs/reference/generated/numpy.ma.mr_.html
+numpy.polynomial.hermite_e.,HermiteE,"(coef, domain=None, window=None, symbol='x')",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.HermiteE.html
+numpy.,subtract,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.subtract.html
+polynomial.hermite_e.,hermedomain,"([-1,  1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermedomain.html
+ma.,row_stack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.row_stack.html
+numpy.,true_divide,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.true_divide.html
+polynomial.hermite_e.,hermezero,([0]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermezero.html
+ma.,vstack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.vstack.html
+numpy.,floor_divide,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.floor_divide.html
+polynomial.hermite_e.,hermeone,([1]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeone.html
+ma.,concatenate,"(arrays, axis=0)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.concatenate.html
+polynomial.hermite_e.,hermex,"([0, 1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermex.html
+numpy.,float_power,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.float_power.html
+ma.,stack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.stack.html
+polynomial.hermite_e.,hermeadd,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeadd.html
+ma.,vstack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.vstack.html
+numpy.,fmod,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",array_like,https://numpy.org/devdocs/reference/generated/numpy.fmod.html
+polynomial.hermite_e.,hermesub,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermesub.html
+ma.,hstack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.hstack.html
+ma.,dstack,,ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.dstack.html
+polynomial.hermite_e.,hermemulx,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermemulx.html
+numpy.,mod,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.mod.html
+ma.,column_stack,,2-D array,https://numpy.org/devdocs/reference/generated/numpy.ma.column_stack.html
+polynomial.hermite_e.,hermemul,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermemul.html
+numpy.,modf,"(x, [out1, out2, ]/, [out=(None, None), ]*, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.modf.html
+polynomial.hermite_e.,hermediv,"(c1, c2)",ndarrays,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermediv.html
+ma.,append,"(a, b, axis=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.append.html
+numpy.,remainder,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.remainder.html
+polynomial.hermite_e.,hermepow,"(c, pow, maxpower=16)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermepow.html
+ma.,make_mask,"(m, copy=False, shrink=True, dtype=<class 'numpy.bool_'>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.make_mask.html
+polynomial.hermite_e.,hermeval,"(x, c, tensor=True)","ndarray, algebra_like",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeval.html
+numpy.,divmod,"(x1, x2, [out1, out2, ]/, [out=(None, None), ]*, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.divmod.html
+ma.,make_mask_none,"(newshape, dtype=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.make_mask_none.html
+polynomial.hermite_e.,hermeval2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeval2d.html
+numpy.,angle,"(z, deg=False)",None,https://numpy.org/devdocs/reference/generated/numpy.angle.html
+polynomial.hermite_e.,hermeval3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeval3d.html
+ma.,mask_or,"(m1, m2, copy=False, shrink=True)",output mask,https://numpy.org/devdocs/reference/generated/numpy.ma.mask_or.html
+numpy.,real,(val),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.real.html
+polynomial.hermite_e.,hermegrid2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermegrid2d.html
+ma.,make_mask_descr,(ndtype),dtype,https://numpy.org/devdocs/reference/generated/numpy.ma.make_mask_descr.html
+polynomial.hermite_e.,hermegrid3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermegrid3d.html
+numpy.,imag,(val),ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.imag.html
+ma.,getmask,(a),None,https://numpy.org/devdocs/reference/generated/numpy.ma.getmask.html
+polynomial.hermite_e.,hermeder,"(c, m=1, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeder.html
+ma.,getmaskarray,(arr),None,https://numpy.org/devdocs/reference/generated/numpy.ma.getmaskarray.html
+numpy.,conj,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.conj.html
+polynomial.hermite_e.,hermeint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeint.html
+ma.masked_array.,mask,,None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_array.mask.html
+numpy.,conjugate,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.conjugate.html
+polynomial.hermite_e.,hermefromroots,(roots),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermefromroots.html
+polynomial.hermite_e.,hermeroots,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeroots.html
+ma.,ndenumerate,"(a, compressed=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.ndenumerate.html
+numpy.,maximum,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.maximum.html
+polynomial.hermite_e.,hermevander,"(x, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermevander.html
+ma.,flatnotmasked_contiguous,(a),None,https://numpy.org/devdocs/reference/generated/numpy.ma.flatnotmasked_contiguous.html
+numpy.,max,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.max.html
+polynomial.hermite_e.,hermevander2d,"(x, y, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermevander2d.html
+polynomial.hermite_e.,hermevander3d,"(x, y, z, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermevander3d.html
+ma.,flatnotmasked_edges,(a),ndarray or None,https://numpy.org/devdocs/reference/generated/numpy.ma.flatnotmasked_edges.html
+numpy.,amax,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.amax.html
+polynomial.hermite_e.,hermegauss,(deg),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermegauss.html
+ma.,notmasked_contiguous,"(a, axis=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.notmasked_contiguous.html
+numpy.,fmax,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.fmax.html
+polynomial.hermite_e.,hermeweight,(x),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeweight.html
+ma.,notmasked_edges,"(a, axis=None)",ndarray or list,https://numpy.org/devdocs/reference/generated/numpy.ma.notmasked_edges.html
+polynomial.hermite_e.,hermecompanion,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermecompanion.html
+numpy.,nanmax,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.nanmax.html
+polynomial.hermite_e.,hermefit,"(x, y, deg, rcond=None, full=False, w=None)",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermefit.html
+ma.,clump_masked,(a),list of slice,https://numpy.org/devdocs/reference/generated/numpy.ma.clump_masked.html
+numpy.,minimum,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.minimum.html
+polynomial.hermite_e.,hermetrim,"(c, tol=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermetrim.html
+ma.,clump_unmasked,(a),list of slice,https://numpy.org/devdocs/reference/generated/numpy.ma.clump_unmasked.html
+numpy.,min,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.min.html
+polynomial.hermite_e.,hermeline,"(off, scl)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.hermeline.html
+polynomial.hermite_e.,herme2poly,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.herme2poly.html
+ma.,mask_cols,"(a, axis=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.mask_cols.html
+numpy.,amin,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.amin.html
+ma.,mask_or,"(m1, m2, copy=False, shrink=True)",output mask,https://numpy.org/devdocs/reference/generated/numpy.ma.mask_or.html
+polynomial.hermite_e.,poly2herme,(pol),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.hermite_e.poly2herme.html
+numpy.,fmin,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.fmin.html
+ma.,mask_rowcols,"(a, axis=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.mask_rowcols.html
+numpy.polynomial.laguerre.,Laguerre,"(coef, domain=None, window=None, symbol='x')",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.Laguerre.html
+numpy.,nanmin,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.nanmin.html
+ma.,mask_rows,"(a, axis=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.mask_rows.html
+polynomial.laguerre.,lagdomain,"([0, 1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagdomain.html
+numpy.,convolve,"(a, v, mode='full')",ndarray,https://numpy.org/devdocs/reference/generated/numpy.convolve.html
+polynomial.laguerre.,lagzero,([0]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagzero.html
+ma.,harden_mask,(self),None,https://numpy.org/devdocs/reference/generated/numpy.ma.harden_mask.html
+polynomial.laguerre.,lagone,([1]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagone.html
+numpy.,clip,"(a, a_min, a_max, out=None, **kwargs)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.clip.html
+ma.,soften_mask,(self),None,https://numpy.org/devdocs/reference/generated/numpy.ma.soften_mask.html
+polynomial.laguerre.,lagx,"([ 1, -1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagx.html
+numpy.,sqrt,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.sqrt.html
+ma.MaskedArray.,harden_mask,(),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.harden_mask.html
+polynomial.laguerre.,lagadd,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagadd.html
+polynomial.laguerre.,lagsub,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagsub.html
+numpy.,cbrt,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.cbrt.html
+ma.MaskedArray.,soften_mask,(),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.soften_mask.html
+polynomial.laguerre.,lagmulx,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagmulx.html
+numpy.,square,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.square.html
+ma.MaskedArray.,shrink_mask,(),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.shrink_mask.html
+polynomial.laguerre.,lagmul,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagmul.html
+numpy.,absolute,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.absolute.html
+polynomial.laguerre.,lagdiv,"(c1, c2)",ndarrays,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagdiv.html
+ma.MaskedArray.,unshare_mask,(),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.unshare_mask.html
+polynomial.laguerre.,lagpow,"(c, pow, maxpower=16)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagpow.html
+numpy.,fabs,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.fabs.html
+ma.,asarray,"(a, dtype=None, order=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.asarray.html
+polynomial.laguerre.,lagval,"(x, c, tensor=True)","ndarray, algebra_like",https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagval.html
+numpy.,sign,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.sign.html
+polynomial.laguerre.,lagval2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagval2d.html
+ma.,asanyarray,"(a, dtype=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.asanyarray.html
+polynomial.laguerre.,lagval3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagval3d.html
+numpy.,heaviside,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray or scalar,https://numpy.org/devdocs/reference/generated/numpy.heaviside.html
+ma.,fix_invalid,"(a, mask=False, copy=True, fill_value=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.fix_invalid.html
+polynomial.laguerre.,laggrid2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.laggrid2d.html
+numpy.,nan_to_num,"(x, copy=True, nan=0.0, posinf=None, neginf=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.nan_to_num.html
+polynomial.laguerre.,laggrid3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.laggrid3d.html
+ma.,masked_equal,"(x, value, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_equal.html
+polynomial.laguerre.,lagder,"(c, m=1, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagder.html
+numpy.,real_if_close,"(a, tol=100)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.real_if_close.html
+ma.,masked_greater,"(x, value, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_greater.html
+polynomial.laguerre.,lagint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagint.html
+numpy.,interp,"(x, xp, fp, left=None, right=None, period=None)",float or complex (corresponding to fp) or ndarray,https://numpy.org/devdocs/reference/generated/numpy.interp.html
+ma.,masked_greater_equal,"(x, value, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_greater_equal.html
+polynomial.laguerre.,lagfromroots,(roots),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagfromroots.html
+polynomial.laguerre.,lagroots,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagroots.html
+ma.,masked_inside,"(x, v1, v2, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_inside.html
+polynomial.laguerre.,lagvander,"(x, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagvander.html
+ma.,masked_invalid,"(a, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_invalid.html
+polynomial.laguerre.,lagvander2d,"(x, y, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagvander2d.html
+polynomial.laguerre.,lagvander3d,"(x, y, z, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagvander3d.html
+ma.,masked_less,"(x, value, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_less.html
+polynomial.laguerre.,laggauss,(deg),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.laggauss.html
+ma.,masked_less_equal,"(x, value, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_less_equal.html
+polynomial.laguerre.,lagweight,(x),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagweight.html
+ma.,masked_not_equal,"(x, value, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_not_equal.html
+polynomial.laguerre.,lagcompanion,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagcompanion.html
+polynomial.laguerre.,lagfit,"(x, y, deg, rcond=None, full=False, w=None)",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagfit.html
+ma.,masked_object,"(x, value, copy=True, shrink=True)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_object.html
+polynomial.laguerre.,lagtrim,"(c, tol=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagtrim.html
+ma.,masked_outside,"(x, v1, v2, copy=True)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_outside.html
+polynomial.laguerre.,lagline,"(off, scl)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lagline.html
+polynomial.laguerre.,lag2poly,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.lag2poly.html
+ma.,masked_values,"(x, value, rtol=1e-05, atol=1e-08, copy=True, shrink=True)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_values.html
+polynomial.laguerre.,poly2lag,(pol),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.laguerre.poly2lag.html
+ma.,masked_where,"(condition, a, copy=True)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.masked_where.html
+ma.,compress_cols,(a),None,https://numpy.org/devdocs/reference/generated/numpy.ma.compress_cols.html
+numpy.polynomial.legendre.,Legendre,"(coef, domain=None, window=None, symbol='x')",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.Legendre.html
+polynomial.legendre.,legdomain,"([-1,  1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legdomain.html
+ma.,compress_rowcols,"(x, axis=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.compress_rowcols.html
+polynomial.legendre.,legzero,([0]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legzero.html
+ma.,compress_rows,(a),None,https://numpy.org/devdocs/reference/generated/numpy.ma.compress_rows.html
+polynomial.legendre.,legone,([1]),None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legone.html
+polynomial.legendre.,legx,"([0, 1])",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legx.html
+ma.,compressed,(x),None,https://numpy.org/devdocs/reference/generated/numpy.ma.compressed.html
+polynomial.legendre.,legadd,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legadd.html
+ma.,filled,"(a, fill_value=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.filled.html
+polynomial.legendre.,legsub,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legsub.html
+polynomial.legendre.,legmulx,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legmulx.html
+ma.MaskedArray.,compressed,(),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.compressed.html
+polynomial.legendre.,legmul,"(c1, c2)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legmul.html
+ma.MaskedArray.,filled,(fill_value=None),ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.filled.html
+polynomial.legendre.,legdiv,"(c1, c2)",ndarrays,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legdiv.html
+ma.MaskedArray.,tofile,"(fid, sep='', format='%s')",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.tofile.html
+polynomial.legendre.,legpow,"(c, pow, maxpower=16)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legpow.html
+polynomial.legendre.,legval,"(x, c, tensor=True)","ndarray, algebra_like",https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legval.html
+ma.MaskedArray.,tolist,(fill_value=None),list,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.tolist.html
+polynomial.legendre.,legval2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legval2d.html
+ma.MaskedArray.,torecords,(),ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.torecords.html
+polynomial.legendre.,legval3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legval3d.html
+polynomial.legendre.,leggrid2d,"(x, y, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.leggrid2d.html
+ma.MaskedArray.,tobytes,"(fill_value=None, order='C')",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.tobytes.html
+polynomial.legendre.,leggrid3d,"(x, y, z, c)","ndarray, compatible object",https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.leggrid3d.html
+ma.,common_fill_value,"(a, b)",scalar or None,https://numpy.org/devdocs/reference/generated/numpy.ma.common_fill_value.html
+polynomial.legendre.,legder,"(c, m=1, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legder.html
+polynomial.legendre.,legint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legint.html
+ma.,default_fill_value,(obj),scalar,https://numpy.org/devdocs/reference/generated/numpy.ma.default_fill_value.html
+polynomial.legendre.,legfromroots,(roots),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legfromroots.html
+ma.,maximum_fill_value,(obj),scalar,https://numpy.org/devdocs/reference/generated/numpy.ma.maximum_fill_value.html
+polynomial.legendre.,legroots,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legroots.html
+ma.,minimum_fill_value,(obj),scalar,https://numpy.org/devdocs/reference/generated/numpy.ma.minimum_fill_value.html
+polynomial.legendre.,legvander,"(x, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legvander.html
+ma.,set_fill_value,"(a, fill_value)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.set_fill_value.html
+polynomial.legendre.,legvander2d,"(x, y, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legvander2d.html
+polynomial.legendre.,legvander3d,"(x, y, z, deg)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legvander3d.html
+ma.MaskedArray.,get_fill_value,(),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.get_fill_value.html
+polynomial.legendre.,leggauss,(deg),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.leggauss.html
+ma.MaskedArray.,set_fill_value,(value=None),None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.set_fill_value.html
+polynomial.legendre.,legweight,(x),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legweight.html
+polynomial.legendre.,legcompanion,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legcompanion.html
+ma.,anom,"(self, axis=None, dtype=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.anom.html
+polynomial.legendre.,legfit,"(x, y, deg, rcond=None, full=False, w=None)",None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legfit.html
+ma.,anomalies,"(self, axis=None, dtype=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.anomalies.html
+polynomial.legendre.,legtrim,"(c, tol=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legtrim.html
+ma.,average,"(a, axis=None, weights=None, returned=False, *, keepdims=<no value>)",(tuple of) scalar or MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.average.html
+polynomial.legendre.,legline,"(off, scl)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.legline.html
+polynomial.legendre.,leg2poly,(c),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.leg2poly.html
+ma.,conjugate,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.conjugate.html
+polynomial.legendre.,poly2leg,(pol),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.legendre.poly2leg.html
+ma.,corrcoef,"(x, y=None, rowvar=True, bias=<no value>, allow_masked=True, ddof=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.corrcoef.html
+polynomial.polyutils.,RankWarning,,None,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polyutils.RankWarning.html
+ma.,cov,"(x, y=None, rowvar=True, bias=False, allow_masked=True, ddof=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.cov.html
+polynomial.polyutils.,as_series,"(alist, trim=True)",list of 1-D arrays,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polyutils.as_series.html
+ma.,cumsum,"(self, axis=None, dtype=None, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.cumsum.html
+polynomial.polyutils.,trimseq,(seq),sequence,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polyutils.trimseq.html
+ma.,cumprod,"(self, axis=None, dtype=None, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.cumprod.html
+polynomial.polyutils.,trimcoef,"(c, tol=0)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polyutils.trimcoef.html
+polynomial.polyutils.,getdomain,(x),ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polyutils.getdomain.html
+ma.,mean,"(self, axis=None, dtype=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.mean.html
+polynomial.polyutils.,mapdomain,"(x, old, new)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polyutils.mapdomain.html
+ma.,median,"(a, axis=None, out=None, overwrite_input=False, keepdims=False)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.median.html
+polynomial.polyutils.,mapparms,"(old, new)",scalars,https://numpy.org/devdocs/reference/generated/numpy.polynomial.polyutils.mapparms.html
+ma.,power,"(a, b, third=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.power.html
+numpy.,poly1d,"(c_or_r, r=False, variable=None)",None,https://numpy.org/devdocs/reference/generated/numpy.poly1d.html
+ma.,prod,"(self, axis=None, dtype=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.prod.html
+numpy.,polyval,"(p, x)",ndarray or poly1d,https://numpy.org/devdocs/reference/generated/numpy.polyval.html
+ma.,std,"(self, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, mean=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.std.html
+numpy.,poly,(seq_of_zeros),None,https://numpy.org/devdocs/reference/generated/numpy.poly.html
+numpy.,roots,(p),ndarray,https://numpy.org/devdocs/reference/generated/numpy.roots.html
+ma.,sum,"(self, axis=None, dtype=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.sum.html
+numpy.,polyfit,"(x, y, deg, rcond=None, full=False, w=None, cov=False)",None,https://numpy.org/devdocs/reference/generated/numpy.polyfit.html
+ma.,var,"(self, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, mean=<no value>)","ndarray, see dtype parameter above",https://numpy.org/devdocs/reference/generated/numpy.ma.var.html
+numpy.,polyder,"(p, m=1)",poly1d,https://numpy.org/devdocs/reference/generated/numpy.polyder.html
+numpy.,polyint,"(p, m=1, k=None)",None,https://numpy.org/devdocs/reference/generated/numpy.polyint.html
+ma.MaskedArray.,anom,"(axis=None, dtype=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.anom.html
+numpy.,polyadd,"(a1, a2)",ndarray or poly1d object,https://numpy.org/devdocs/reference/generated/numpy.polyadd.html
+ma.MaskedArray.,cumprod,"(axis=None, dtype=None, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.cumprod.html
+numpy.,polydiv,"(u, v)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.polydiv.html
+numpy.,polymul,"(a1, a2)",ndarray or poly1d object,https://numpy.org/devdocs/reference/generated/numpy.polymul.html
+ma.MaskedArray.,cumsum,"(axis=None, dtype=None, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.cumsum.html
+numpy.,polysub,"(a1, a2)",ndarray or poly1d,https://numpy.org/devdocs/reference/generated/numpy.polysub.html
+ma.MaskedArray.,mean,"(axis=None, dtype=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.mean.html
+numpy.,RankWarning,,None,https://numpy.org/devdocs/reference/generated/numpy.RankWarning.html
+ma.MaskedArray.,prod,"(axis=None, dtype=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.prod.html
+ma.MaskedArray.,std,"(axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, mean=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.std.html
+ma.MaskedArray.,sum,"(axis=None, dtype=None, out=None, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.sum.html
+ma.MaskedArray.,var,"(axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, mean=<no value>)","ndarray, see dtype parameter above",https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.var.html
+ma.,argmax,"(self, axis=None, fill_value=None, out=None)",{integer_array},https://numpy.org/devdocs/reference/generated/numpy.ma.argmax.html
+ma.,argmin,"(self, axis=None, fill_value=None, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.argmin.html
+ma.,max,"(obj, axis=None, out=None, fill_value=None, keepdims=<no value>)",array_like,https://numpy.org/devdocs/reference/generated/numpy.ma.max.html
+ma.,min,"(obj, axis=None, out=None, fill_value=None, keepdims=<no value>)",array_like,https://numpy.org/devdocs/reference/generated/numpy.ma.min.html
+ma.,ptp,"(obj, axis=None, out=None, fill_value=None, keepdims=<no value>)",ndarray.,https://numpy.org/devdocs/reference/generated/numpy.ma.ptp.html
+ma.,diff,"(a, /, n=1, axis=-1, prepend=<no value>, append=<no value>)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.diff.html
+ma.MaskedArray.,argmax,"(axis=None, fill_value=None, out=None, *, keepdims=<no value>)",{integer_array},https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.argmax.html
+ma.MaskedArray.,argmin,"(axis=None, fill_value=None, out=None, *, keepdims=<no value>)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.argmin.html
+ma.MaskedArray.,max,"(axis=None, out=None, fill_value=None, keepdims=<no value>)",array_like,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.max.html
+ma.MaskedArray.,min,"(axis=None, out=None, fill_value=None, keepdims=<no value>)",array_like,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.min.html
+ma.MaskedArray.,ptp,"(axis=None, out=None, fill_value=None, keepdims=False)",ndarray.,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.ptp.html
+ma.,argsort,"(a, axis=<no value>, kind=None, order=None, endwith=True, fill_value=None)","ndarray, int",https://numpy.org/devdocs/reference/generated/numpy.ma.argsort.html
+ma.,sort,"(a, axis=-1, kind=None, order=None, endwith=True, fill_value=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.sort.html
+ma.MaskedArray.,argsort,"(axis=<no value>, kind=None, order=None, endwith=True, fill_value=None)","ndarray, int",https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.argsort.html
+ma.MaskedArray.,sort,"(axis=-1, kind=None, order=None, endwith=True, fill_value=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.sort.html
+ma.,diag,"(v, k=0)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.diag.html
+ma.,dot,"(a, b, strict=False, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.dot.html
+ma.,identity,"(n, dtype=None)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.identity.html
+ma.,inner,"(a, b, /)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.inner.html
+ma.,innerproduct,"(a, b, /)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.innerproduct.html
+ma.,outer,"(a, b)","(M, N) ndarray",https://numpy.org/devdocs/reference/generated/numpy.ma.outer.html
+ma.,outerproduct,"(a, b)","(M, N) ndarray",https://numpy.org/devdocs/reference/generated/numpy.ma.outerproduct.html
+ma.,trace,"(self, offset=0, axis1=0, axis2=1, dtype=None, out=None) a.trace(offset=0, axis1=0, axis2=1, dtype=None, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.trace.html
+ma.,transpose,"(a, axes=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.transpose.html
+ma.MaskedArray.,trace,"(offset=0, axis1=0, axis2=1, dtype=None, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.trace.html
+ma.MaskedArray.,transpose,(*axes),ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.transpose.html
+ma.,vander,"(x, n=None)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.vander.html
+ma.,polyfit,"(x, y, deg, rcond=None, full=False, w=None, cov=False)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.polyfit.html
+ma.,around,,None,https://numpy.org/devdocs/reference/generated/numpy.ma.around.html
+ma.,clip,,MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.clip.html
+ma.,round,"(a, decimals=0, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.round.html
+ma.MaskedArray.,clip,"(min=None, max=None, out=None, **kwargs)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.clip.html
+ma.MaskedArray.,round,"(decimals=0, out=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.MaskedArray.round.html
+ma.,intersect1d,"(ar1, ar2, assume_unique=False)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.intersect1d.html
+ma.,setdiff1d,"(ar1, ar2, assume_unique=False)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.setdiff1d.html
+ma.,setxor1d,"(ar1, ar2, assume_unique=False)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.setxor1d.html
+ma.,union1d,"(ar1, ar2)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.union1d.html
+ma.,allequal,"(a, b, fill_value=True)",bool,https://numpy.org/devdocs/reference/generated/numpy.ma.allequal.html
+ma.,allclose,"(a, b, masked_equal=True, rtol=1e-05, atol=1e-08)",bool,https://numpy.org/devdocs/reference/generated/numpy.ma.allclose.html
+ma.,apply_along_axis,"(func1d, axis, arr, *args, **kwargs)","ndarray  (Ni…, Nj…, Nk…)",https://numpy.org/devdocs/reference/generated/numpy.ma.apply_along_axis.html
+ma.,apply_over_axes,"(func, a, axes)",ndarray,https://numpy.org/devdocs/reference/generated/numpy.ma.apply_over_axes.html
+ma.,arange,"([start, ]stop, [step, ]dtype=None, *, like=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.arange.html
+ma.,choose,"(indices, choices, out=None, mode='raise')",array,https://numpy.org/devdocs/reference/generated/numpy.ma.choose.html
+ma.,ediff1d,"(arr, to_end=None, to_begin=None)",None,https://numpy.org/devdocs/reference/generated/numpy.ma.ediff1d.html
+ma.,indices,"(dimensions, dtype=<class 'int'>, sparse=False)",one MaskedArray or tuple of MaskedArrays,https://numpy.org/devdocs/reference/generated/numpy.ma.indices.html
+ma.,where,"(condition, x=<no value>, y=<no value>)",MaskedArray,https://numpy.org/devdocs/reference/generated/numpy.ma.where.html
