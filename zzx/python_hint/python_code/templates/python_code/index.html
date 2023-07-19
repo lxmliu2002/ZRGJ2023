@@ -125,7 +125,7 @@
                                 varValue = varValue.replace(/\(.+?\)/g, "()");
                                 currentLine = varValue;
                             }
-                            var firstVar = varValue.split('.', 1)[0];
+                            var firstVar = currentLine.split('.', 1)[0];
                             firstVar = firstVar.replace(/\(.*\)/,'');
                             console.log('firstVar: ', firstVar);
                             var firstVarType;
@@ -150,12 +150,12 @@
                             else {
                                 firstVarType = firstVar + '.';
                             }
-                            varValue = varValue.replace(/.+?\./, firstVarType);
+                            varValue = currentLine.replace(/.+?\./, firstVarType);
                             console.log("varValue: ", varValue);
                             $.ajax({
                                 url: '/type/',
                                 type: 'get',
-                                data: { 'line': currentLine.slice(0, -1) },
+                                data: { 'line': varValue.slice(0, -1) },
                                 success: function (res) {
                                     var res_str = JSON.parse(res);
                                     console.log(res_str)
@@ -199,6 +199,12 @@
                         }
                         else if (/^".*"$/.test(varValue) || /^'.*'$/.test(varValue)) {
                             localVariable[localVar] = 'Str';
+                        }
+                        else if(/^[0-9]+$/.test(varValue)) {
+                            localVariable[localVar] = 'Int';
+                        }
+                        else if(/^[0-9.]+$/.test(varValue)) {
+                            localVariable[localVar] = 'Float';
                         }
                         else {
                             var varValue = varValue.replace(/\(.+?\)/g, "()");

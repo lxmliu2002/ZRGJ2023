@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API查询</title>
     <script src="{% static 'js/jquery-3.7.0.js' %}"></script>
+    <script src="{% static 'js/echarts.js' %}"></script>
     <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
     <style>
         body {
@@ -15,7 +16,13 @@
             flex-direction: column;
         
         }
-        
+        #main {
+            flex:1;
+            border: 3px solid #141e30 ;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px 15px #141e30;
+        }
     </style>
 </head>
 <body>
@@ -40,8 +47,8 @@
                 </li>
             </ul>
             <div class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" onclick="searchNode()">Search</button>
             </div>
         </div>
     </nav>
@@ -57,7 +64,7 @@
     </div>
     <script>
         var myChart = echarts.init(document.getElementById('main'));
-        option = {
+        var option = {
             tooltip: {
                 formatter: function (x) {
                     return x.data.des;
@@ -117,10 +124,44 @@
                 }
             ]
         };
+        clickList = [];
+        nodeIndex = [];
         myChart.on('click',function(params){
-            console.log(params.data);
+            console.log(params);
+            if(params.dataType == "node" && params.dataIndex != nodeIndex[nodeIndex.length - 1]) {
+                lastText = $('ol.breadcrumb > li.breadcrumb-item.active').text();
+                $('ol.breadcrumb > li.breadcrumb-item.active').empty().append('<a href="#" id="'+ clickList.join('.') +'">'+ lastText +'</a>')
+                $('ol.breadcrumb > li.breadcrumb-item.active > a').click(function(e){
+                    console.log(e.currentTarget.id);
+                    //发送ajax请求,获取节点的所有关系
+                });
+                $('ol.breadcrumb > li.breadcrumb-item.active').removeClass('active');
+                $('ol.breadcrumb').append('<li class="breadcrumb-item active" aria-current="page">'+ params.data.name +'</li>');
+                str = params.data.name;
+                if(params.data.type == "function" || params.data.category == "class") {
+                    str = str + '()';
+                }
+                clickList.push(str);
+                nodeIndex.push(params.dataIndex);
+                console.log(nodeIndex);
+                
+            }
         });
         myChart.setOption(option);
+
+        //查询节点
+        function searchNode(){
+            searchName = $('#search').val();
+            console.log(searchName);
+            nodeId = option.series[0].data.findIndex((element)=>element.name === searchName);
+            if(nodeId == -1) {
+                alert('查无此项！');
+                return;
+            }
+            else {
+
+            }
+        }
     </script>
 </body>
 </html>
