@@ -1,0 +1,126 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API查询</title>
+    <script src="{% static 'js/jquery-3.7.0.js' %}"></script>
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <style>
+        body {
+            height: 100vh;
+            background: linear-gradient(#141e30,#243b55);
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- <div class="logo">
+        <img src="{% static 'img/2.png' %}" width="600px" alt="">
+    </div> -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark" style="z-index: 11;">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'img/2.png' %}" width="40" height="40" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: space-between;">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link" href="/codes/">代码编写</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/query/">API查询</a>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+            </div>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+    </nav>
+    <div class="container-fluid d-flex flex-column" style="flex:1;">
+        <div id="main"></div>
+    </div>
+    <script>
+        var myChart = echarts.init(document.getElementById('main'));
+        option = {
+            tooltip: {
+                formatter: function (x) {
+                    return x.data.des;
+                }
+            },
+            series: [
+                {
+                    type: 'graph',
+                    layout: 'force',
+                    symbolSize: 60,
+                    roam: true,
+                    edgeSymbol: ['circle', 'arrow'],
+                    edgeSymbolSize: [4, 10],
+                    force: {
+                        repulsion: 2500,
+                        edgeLength: [70, 90]
+                    },
+                    draggable: true,
+                    itemStyle: {
+                        normal: {
+                            color: '#A969C6',
+                            textStyle: {
+                                fontSize: 30
+                            }
+                        }
+                    },
+                    lineStyle: {
+                        normal: {
+                            width: 4,
+                            color: '#4b565b'
+                        }
+                    },
+                    edgeLabel: {
+                        normal: {
+                            show: true,
+                            textStyle: {
+                                color: '#91cc75',
+                                fontSize: 17
+                                
+                            },
+                            formatter: function (x) {
+                                return x.data.name;
+                            }
+                        }
+                    },
+                    label: {
+                        normal: {
+                            show: true,
+                            textStyle: {
+                                fontSize: 14,
+                                fontWeight: 'bolder'
+                            }
+                        }
+                    },
+                    data: nodes,
+                    links: lines,
+                }
+            ]
+        };
+        myChart.on('click',function(params){
+            console.log(params.data);
+        });
+        myChart.setOption(option);
+    </script>
+</body>
+</html>
