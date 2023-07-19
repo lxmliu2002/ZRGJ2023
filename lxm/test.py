@@ -71,7 +71,7 @@ string = input("请输入字符串: ")
 split_lists = string.split('.')
 print(split_lists)
 
-for split_list, index in enumerate(split_lists):
+for index, split_list in enumerate(split_lists):
     if index == 0:
         find_relationships_first(split_list)
     elif index == len(split_lists) - 1:
