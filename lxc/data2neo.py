@@ -81,6 +81,14 @@ for i in range(len(path_return_python)):
     relation = Relationship(nodes[path_return_python.loc[i,'method']],path_return_python.loc[i,'relation2'],nodes[path_return_python.loc[i,'return_class']])
     graph.create(relation)
 
+# 添加Python相关数据
+
+path_numpy_hasclass_relation = pd.read_csv('./data/numpy_hasclass_relation.csv')
+for i in range(len(path_numpy_hasclass_relation)):
+    relation = Relationship(nodes[path_numpy_hasclass_relation.loc[i,'namespace']],path_numpy_hasclass_relation.loc[i,'relation'],nodes[path_numpy_hasclass_relation.loc[i,'class']])
+    graph.create(relation)
+
+
 graph.run('MATCH (n:namespace {name: "numpy"})SET n:root')
 graph.run('MATCH (n:class {name: "Str"})SET n:root')
 graph.run('MATCH (n:class {name: "Dict"})SET n:root')

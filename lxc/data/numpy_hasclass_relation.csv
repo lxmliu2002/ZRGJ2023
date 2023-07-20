@@ -1,0 +1,8 @@
+namespace,relation,class
+numpy,has_class,Dtype
+numpy,has_class,Int
+numpy,has_class,Matrix
+numpy,has_class,Ndarray
+numpy,has_class,Ufunc
+numpy,has_class,Str
+lib,has_class,Poly1D
