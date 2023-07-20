@@ -86,13 +86,6 @@ for i in range(len(path_numpy_hasclass_relation)):
 
 # =====更新pandas数据=====
 
-node_return_class = pd.read_csv('./data/numpy_return_nodes.csv')
-for i in range(len(node_return_class)):
-    node = Node('class',name=node_return_class.loc[i,'name'])
-    graph.create(node)
-    nodes[node_return_class.loc[i,'name']] = node
-
-
 
 node_namespace = pd.read_csv('./data/pandas_namespace_nodes.csv')
 for i in range(len(node_namespace)):

@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from python_code.views import codes,getType,query
+from python_code.views import codes,getType,query,get_all_nodes
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,4 +24,5 @@ urlpatterns = [
     path('codes/',codes),
     path('query/',query),
     path('type/',getType),
+    path('nodes/',get_all_nodes),
 ]
