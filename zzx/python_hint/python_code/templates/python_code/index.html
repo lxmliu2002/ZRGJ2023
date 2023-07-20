@@ -85,7 +85,7 @@
             });
             //自定义代码提示
             let myHint = [{
-                name: "forEach", //显示的名称，‘奖金’
+                //name: "forEach", //显示的名称，‘奖金’
                 value: "forEach((v,k)=>{})", //插入的值，‘100’
                 //caption: "fe",//这才是关键字
                 score: 100, //分数，越大的排在越上面
@@ -104,8 +104,7 @@
                 var completersDefault = [langTools.snippetCompleter, langTools.textCompleter, langTools.keyWordCompleter];
                 langTools.setCompleters(completersDefault);
             }
-            importModule = {};//导入的包
-            localVariable = {};//工作区的变量
+            localVariable = {};//工作区的变量、导入的包
             localClass = {};//工作区的类
             localFunction = {};//工作区的函数返回值类型
             editor.on('change',function(event){
@@ -155,12 +154,22 @@
                             $.ajax({
                                 url: '/type/',
                                 type: 'get',
-                                data: { 'line': varValue.slice(0, -1) },
+                                data: { 'line': varValue.slice(0, -1),'needList':1 },
                                 success: function (res) {
                                     var res_str = JSON.parse(res);
                                     console.log(res_str)
-                                    console.log(res_str['type']);
-                                    setCompleters(myHint);
+                                    nodes = res_str['nodes']
+                                    let myHints = []
+                                    for (i = 0; i < nodes.length; i++) {
+                                        temp = {
+                                            name:nodes[i].name + nodes[i].des,
+                                            value:nodes[i].name,
+                                            score:2,
+                                            meta:nodes[i].category
+                                        };
+                                        myHints.push(temp);
+                                    }
+                                    setCompleters(myHints);
                                 }
                             })
                         }
@@ -237,11 +246,12 @@
                             $.ajax({
                                 url: '/type/',
                                 type: 'get',
-                                data: { 'line': varValue },
+                                data: { 'line': varValue ,'needList':0},
                                 success: function (res) {
                                     var res_str = JSON.parse(res);
                                     localVariable[localVar] = res_str['type'];
                                     console.log(localVariable);
+                                    
                                 }
                             })
                         }
@@ -250,13 +260,13 @@
                         console.log('匹配为导入');
                         splitStr = str.split(/\s+/);
                         if (splitStr[0] == 'import' && splitStr.length == 2) {
-                            importModule[splitStr[1]] = splitStr[1];
+                            localVariable[splitStr[1]] = splitStr[1];
                         }
                         else if (splitStr[0] == 'import' && splitStr.length == 4) {
-                            importModule[splitStr[3]] = splitStr[1];
+                            localVariable[splitStr[3]] = splitStr[1];
                         }
                         else {
-                            importModule[splitStr[3]] = splitStr[1] + '.' + splitStr[3];
+                            localVariable[splitStr[3]] = splitStr[1] + '.' + splitStr[3];
                         }
                     }
                     else if(testDef(str)) {
@@ -327,52 +337,51 @@
                     console.log('进入猜测返回类型',func,method);
                     if(method == '') return;
                     else if(method[method.length - 1] == '.') method = method.slice(0,method.length - 1);
+                    method.replace(/\(.*?\)/,'');
                     localFunction[func]['method'].push(method);
                     $.ajax({
                         url: '/type/',
                         type: 'get',
-                        data: { 'line': method },
+                        data: { 'line': method ,'needList':1},
                         success: function (res) {
-                            var res_str = JSON.parse(res);
-                            localFunction[func]['ret'] = res_str['type'];
+                            let res_str = JSON.parse(res);
+                            res_type_list = res_str['type'].split('.');
+                            method_type_list = method.split('.');
+                            index = res_type_list.findIndex((v)=>v === method_type_list[1]);
+                            localFunction[func]['ret'] = res_type_list.slice(0,index).join('.');
                             console.log(localFunction);
+                            if(method.split('.').length == 1) {
+                                console.log('再次发送');
+                                $.ajax({
+                                    url: '/type/',
+                                    type: 'get',
+                                    data: { 'line': res_str['type'] ,'needList':1},
+                                    success: function (res) {
+                                        let res_str = JSON.parse(res);
+                                        setHints(res_str['nodes']);
+                                    }
+                                })
+                            }
+                            else {
+                                setHints(res_str['nodes']);
+                            }
                         }
                     })
                 } 
             })
-            //langTools.addCompleter(tipsCompleter)
-            /*addCompleterToEditor(_comp_cfg)
-            function addCompleterToEditor(comp_cfg) {
-                ace.config.loadModule("ace/ext/language_tools", function (module) {
-                    module.addCompleter({
-                        getCompletions: function (editor, session, pos, prefix, callback) {
-                            if (prefix.length === 0) { callback(null, []); return }
-                            callback(null, comp_cfg);
-                        }
-                    });
-                });
-            }*/
-            
-            //function
-            // var v = editor.getValue();// 获取编辑内容
-            //editor.setValue("string "); // 设置编辑内容
-            //require("lib/ace"); ##引入
-            //editor.setTheme("ace/theme/solarized_dark");##设置模板；引入theme-solarized_dark.js模板文件
-            //editor.getSession().setMode("ace/mode/javascript"); ##设置程序语言模式
-            //editor.setValue("the new text here");##设置内容
-            //editor.getValue(); ##取值
-            //editor.session.getTextRange(editor.getSelectionRange()); ##获取选择内容
-            //editor.insert("Something cool"); ##在光标处插入
-            //editor.selection.getCursor(); ##获取光标所在行或列
-            //editor.gotoLine(lineNumber); ##跳转到行
-            //editor.session.getLength(); ##获取总行数
-            //editor.getSession().setTabSize(4); ##设置默认制表符的大小
-            //editor.getSession().setUseSoftTabs(true); ##使用软标签.
-            //document.getElementById('editor').style.fontSize='12px';  ##设置字体大小
-            //editor.getSession().setUseWrapMode(true); ##设置代码折叠
-            //editor.setHighlightActiveLine(false); ##设置高亮
-            //editor.setShowPrintMargin(false); ##设置打印边距可见度
-
+            function setHints(nodes) {
+                let myHints = []
+                for (i = 0; i < nodes.length; i++) {
+                    temp = {
+                        name:nodes[i].name + nodes[i].des,
+                        value:nodes[i].name,
+                        score:2,
+                        meta:nodes[i].category
+                    };
+                    myHints.push(temp);
+                }
+                setCompleters(myHints);
+            }
         </script>
     </div>
 </body>
