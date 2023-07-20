@@ -178,8 +178,8 @@
                         $('ol.breadcrumb > li.breadcrumb-item.active').removeClass('active');
                         $('ol.breadcrumb').append('<li class="breadcrumb-item active" aria-current="page">'+ params.data.name +'</li>');
                         var res_str = JSON.parse(res);
-                        console.log(res_str)
-                        console.log(res_str['nodes']);
+                        //console.log(res_str)
+                        //console.log(res_str['nodes']);
                         //获得新的节点，修改图表配置
                         nodes = res_str['nodes'];
                         lines = res_str['lines'];
@@ -196,7 +196,7 @@
         //查询节点
         function searchNode(){
             let searchName = $('#search').val();
-            console.log(searchName);
+            //console.log(searchName);
             let nodeId = nodes.findIndex((element)=>element.name === searchName);
             if(nodeId == -1) {
                 alert('查无此项！');
