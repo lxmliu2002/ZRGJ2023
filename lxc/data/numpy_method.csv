@@ -1,0 +1,860 @@
+namespace,relation1,method,parameters,relation2,return_class
+char,has_method,capitalize,(a),return_class,Ndarray
+char,has_method,lower,(a),return_class,Ndarray
+char,has_method,swapcase,(a),return_class,Ndarray
+char,has_method,title,(a),return_class,Ndarray
+char,has_method,upper,(a),return_class,Ndarray
+char,has_method,isalpha,(a),return_class,Ndarray
+char,has_method,isalnum,(a),return_class,Ndarray
+char,has_method,isdecimal,(a),return_class,Ndarray
+char,has_method,isdigit,(a),return_class,Ndarray
+char,has_method,islower,(a),return_class,Ndarray
+char,has_method,isnumeric,(a),return_class,Ndarray
+char,has_method,isspace,(a),return_class,Ndarray
+char,has_method,istitle,(a),return_class,Ndarray
+char,has_method,isupper,(a),return_class,Ndarray
+char,has_method,str_len,(a),return_class,Ndarray
+char,has_method,lstrip,"(a, chars=None)",return_class,Ndarray
+char,has_method,rstrip,"(a, chars=None)",return_class,Ndarray
+char,has_method,strip,"(a, chars=None)",return_class,Ndarray
+char,has_method,decode,"(a, encoding=None, errors=None)",return_class,Ndarray
+char,has_method,encode,"(a, encoding=None, errors=None)",return_class,Ndarray
+char,has_method,multiply,"(a, i)",return_class,Ndarray
+char,has_method,splitlines,"(a, keepends=None)",return_class,Ndarray
+char,has_method,replace,"(a, old, new, count=None)",return_class,Ndarray
+char,has_method,startswith,"(a, prefix, start=0, end=None)",return_class,Ndarray
+char,has_method,partition,"(a, sep)",return_class,Ndarray
+char,has_method,rpartition,"(a, sep)",return_class,Ndarray
+char,has_method,rsplit,"(a, sep=None, maxsplit=None)",return_class,Ndarray
+char,has_method,split,"(a, sep=None, maxsplit=None)",return_class,Ndarray
+char,has_method,count,"(a, sub, start=0, end=None)",return_class,Ndarray
+char,has_method,find,"(a, sub, start=0, end=None)",return_class,Ndarray
+char,has_method,index,"(a, sub, start=0, end=None)",return_class,Ndarray
+char,has_method,rfind,"(a, sub, start=0, end=None)",return_class,Ndarray
+char,has_method,rindex,"(a, sub, start=0, end=None)",return_class,Ndarray
+char,has_method,endswith,"(a, suffix, start=0, end=None)",return_class,Ndarray
+char,has_method,translate,"(a, table, deletechars=None)",return_class,Ndarray
+char,has_method,expandtabs,"(a, tabsize=8)",return_class,Ndarray
+char,has_method,mod,"(a, values)",return_class,Ndarray
+char,has_method,zfill,"(a, width)",return_class,Ndarray
+char,has_method,center,"(a, width, fillchar=' ')",return_class,Ndarray
+char,has_method,ljust,"(a, width, fillchar=' ')",return_class,Ndarray
+char,has_method,rjust,"(a, width, fillchar=' ')",return_class,Ndarray
+char,has_method,compare_chararrays,"(a1, a2, cmp, rstrip)",return_class,Ndarray
+char,has_method,array,"(obj, itemsize=None, copy=True, unicode=None, order=None)",return_class,None
+char,has_method,asarray,"(obj, itemsize=None, unicode=None, order=None)",return_class,None
+char,has_method,join,"(sep, seq)",return_class,Ndarray
+char,has_method,add,"(x1, x2)",return_class,Ndarray
+char,has_method,equal,"(x1, x2)",return_class,Ndarray
+char,has_method,not_equal,"(x1, x2)",return_class,Ndarray
+char,has_method,greater_equal,"(x1, x2)",return_class,Ndarray
+char,has_method,less_equal,"(x1, x2)",return_class,Ndarray
+char,has_method,greater,"(x1, x2)",return_class,Ndarray
+char,has_method,less,"(x1, x2)",return_class,Ndarray
+defchararray,has_method,array,"(obj, itemsize=None, copy=True, unicode=None, order=None)",return_class,None
+defchararray,has_method,asarray,"(obj, itemsize=None, unicode=None, order=None)",return_class,None
+records,has_method,fromarrays,"(arrayList, dtype=None, shape=None, formats=None, names=None, titles=None, aligned=False, byteorder=None)",return_class,None
+records,has_method,fromstring,"(datastring, dtype=None, shape=None, offset=0, formats=None, names=None, titles=None, aligned=False, byteorder=None)",return_class,None
+records,has_method,fromfile,"(fd, dtype=None, shape=None, offset=0, formats=None, names=None, titles=None, aligned=False, byteorder=None)",return_class,None
+records,has_method,array,"(obj, dtype=None, shape=None, offset=0, strides=None, formats=None, names=None, titles=None, aligned=False, byteorder=None, copy=True)",return_class,None
+records,has_method,fromrecords,"(recList, dtype=None, shape=None, formats=None, names=None, titles=None, aligned=False, byteorder=None)",return_class,None
+emath,has_method,logn,"(n, x)",return_class,Ndarray
+emath,has_method,sqrt,(x),return_class,Ndarray
+emath,has_method,log,(x),return_class,Ndarray
+emath,has_method,log2,(x),return_class,Ndarray
+emath,has_method,log10,(x),return_class,Ndarray
+emath,has_method,arccos,(x),return_class,Ndarray
+emath,has_method,arcsin,(x),return_class,Ndarray
+emath,has_method,arctanh,(x),return_class,Ndarray
+emath,has_method,power,"(x, p)",return_class,Ndarray
+exceptions,has_method,AxisError,"(axis, ndim=None, msg_prefix=None)",return_class,None
+fft,has_method,fft,"(a, n=None, axis=-1, norm=None)",return_class,Ndarray
+fft,has_method,ifft,"(a, n=None, axis=-1, norm=None)",return_class,Ndarray
+fft,has_method,rfft,"(a, n=None, axis=-1, norm=None)",return_class,Ndarray
+fft,has_method,irfft,"(a, n=None, axis=-1, norm=None)",return_class,Ndarray
+fft,has_method,hfft,"(a, n=None, axis=-1, norm=None)",return_class,Ndarray
+fft,has_method,ihfft,"(a, n=None, axis=-1, norm=None)",return_class,Ndarray
+fft,has_method,fft2,"(a, s=None, axes=(-2, -1), norm=None)",return_class,Ndarray
+fft,has_method,ifft2,"(a, s=None, axes=(-2, -1), norm=None)",return_class,Ndarray
+fft,has_method,rfft2,"(a, s=None, axes=(-2, -1), norm=None)",return_class,Ndarray
+fft,has_method,irfft2,"(a, s=None, axes=(-2, -1), norm=None)",return_class,Ndarray
+fft,has_method,fftn,"(a, s=None, axes=None, norm=None)",return_class,Ndarray
+fft,has_method,ifftn,"(a, s=None, axes=None, norm=None)",return_class,Ndarray
+fft,has_method,rfftn,"(a, s=None, axes=None, norm=None)",return_class,Ndarray
+fft,has_method,irfftn,"(a, s=None, axes=None, norm=None)",return_class,Ndarray
+fft,has_method,fftfreq,"(n, d=1.0)",return_class,Ndarray
+fft,has_method,rfftfreq,"(n, d=1.0)",return_class,Ndarray
+fft,has_method,fftshift,"(x, axes=None)",return_class,Ndarray
+fft,has_method,ifftshift,"(x, axes=None)",return_class,Ndarray
+lib,has_method,NumpyVersion,(vstring),return_class,None
+linalg,has_method,cholesky,(a),return_class,Ndarray
+linalg,has_method,eig,(a),return_class,Ndarray
+linalg,has_method,eigvals,(a),return_class,Ndarray
+linalg,has_method,det,(a),return_class,Ndarray
+linalg,has_method,slogdet,(a),return_class,Ndarray
+linalg,has_method,inv,(a),return_class,Ndarray
+linalg,has_method,solve,"(a, b)",return_class,Ndarray
+linalg,has_method,tensorsolve,"(a, b, axes=None)",return_class,Ndarray
+linalg,has_method,lstsq,"(a, b, rcond='warn')",return_class,Ndarray
+linalg,has_method,svd,"(a, full_matrices=True, compute_uv=True, hermitian=False)",return_class,Ndarray
+linalg,has_method,tensorinv,"(a, ind=2)",return_class,Ndarray
+linalg,has_method,qr,"(a, mode='reduced')",return_class,Ndarray
+linalg,has_method,matrix_power,"(a, n)",return_class,Ndarray
+linalg,has_method,pinv,"(a, rcond=1e-15, hermitian=False)",return_class,Ndarray
+linalg,has_method,matrix_rank,"(A, tol=None, hermitian=False)",return_class,Ndarray
+linalg,has_method,eigh,"(a, UPLO='L')",return_class,Ndarray
+linalg,has_method,eigvalsh,"(a, UPLO='L')",return_class,Ndarray
+linalg,has_method,multi_dot,"(arrays, *, out=None)",return_class,Ndarray
+linalg,has_method,norm,"(x, ord=None, axis=None, keepdims=False)",return_class,Ndarray
+ma,has_method,arange,"([start, ]stop, [step, ]dtype=None, *, like=None)",return_class,None
+ma,has_method,getmask,(a),return_class,None
+ma,has_method,getmask,(a),return_class,None
+ma,has_method,flatnotmasked_contiguous,(a),return_class,None
+ma,has_method,flatnotmasked_edges,(a),return_class,Ndarray
+ma,has_method,clump_masked,(a),return_class,List
+ma,has_method,clump_unmasked,(a),return_class,List
+ma,has_method,compress_cols,(a),return_class,None
+ma,has_method,compress_rows,(a),return_class,None
+ma,has_method,diff,"(a, /, n=1, axis=-1, prepend=<no value>, append=<no value>)",return_class,Maskedarray
+ma,has_method,transpose,"(a, axes=None)",return_class,None
+ma,has_method,transpose,"(a, axes=None)",return_class,None
+ma,has_method,expand_dims,"(a, axis)",return_class,Ndarray
+ma,has_method,mask_cols,"(a, axis=<no value>)",return_class,None
+ma,has_method,mask_rows,"(a, axis=<no value>)",return_class,None
+ma,has_method,argsort,"(a, axis=<no value>, kind=None, order=None, endwith=True, fill_value=None)",return_class,Ndarray
+ma,has_method,sort,"(a, axis=-1, kind=None, order=None, endwith=True, fill_value=None)",return_class,None
+ma,has_method,notmasked_contiguous,"(a, axis=None)",return_class,None
+ma,has_method,notmasked_edges,"(a, axis=None)",return_class,List
+ma,has_method,mask_rowcols,"(a, axis=None)",return_class,Maskedarray
+ma,has_method,median,"(a, axis=None, out=None, overwrite_input=False, keepdims=False)",return_class,Ndarray
+ma,has_method,average,"(a, axis=None, weights=None, returned=False, *, keepdims=<no value>)",return_class,Maskedarray
+ma,has_method,common_fill_value,"(a, b)",return_class,Scalar Or None
+ma,has_method,outer,"(a, b)",return_class,Ndarray
+ma,has_method,outerproduct,"(a, b)",return_class,Ndarray
+ma,has_method,inner,"(a, b, /)",return_class,Ndarray
+ma,has_method,innerproduct,"(a, b, /)",return_class,Ndarray
+ma,has_method,append,"(a, b, axis=None)",return_class,Maskedarray
+ma,has_method,allequal,"(a, b, fill_value=True)",return_class,Bool
+ma,has_method,allclose,"(a, b, masked_equal=True, rtol=1e-05, atol=1e-08)",return_class,Bool
+ma,has_method,dot,"(a, b, strict=False, out=None)",return_class,None
+ma,has_method,power,"(a, b, third=None)",return_class,None
+ma,has_method,ndenumerate,"(a, compressed=True)",return_class,None
+ma,has_method,masked_invalid,"(a, copy=True)",return_class,None
+ma,has_method,round,"(a, decimals=0, out=None)",return_class,None
+ma,has_method,asanyarray,"(a, dtype=None)",return_class,Maskedarray
+ma,has_method,asarray,"(a, dtype=None, order=None)",return_class,Maskedarray
+ma,has_method,set_fill_value,"(a, fill_value)",return_class,None
+ma,has_method,filled,"(a, fill_value=None)",return_class,Ndarray
+ma,has_method,fix_invalid,"(a, mask=False, copy=True, fill_value=None)",return_class,Maskedarray
+ma,has_method,reshape,"(a, new_shape, order='C')",return_class,None
+ma,has_method,getdata,"(a, subok=True)",return_class,None
+ma,has_method,union1d,"(ar1, ar2)",return_class,None
+ma,has_method,intersect1d,"(ar1, ar2, assume_unique=False)",return_class,None
+ma,has_method,setdiff1d,"(ar1, ar2, assume_unique=False)",return_class,None
+ma,has_method,setxor1d,"(ar1, ar2, assume_unique=False)",return_class,None
+ma,has_method,in1d,"(ar1, ar2, assume_unique=False, invert=False)",return_class,None
+ma,has_method,unique,"(ar1, return_index=False, return_inverse=False)",return_class,None
+ma,has_method,masked_all_like,(arr),return_class,Maskedarray
+ma,has_method,getmaskarray,(arr),return_class,None
+ma,has_method,getmaskarray,(arr),return_class,None
+ma,has_method,count_masked,"(arr, axis=None)",return_class,Int
+ma,has_method,ediff1d,"(arr, to_end=None, to_begin=None)",return_class,None
+ma,has_method,concatenate,"(arrays, axis=0)",return_class,Maskedarray
+ma,has_method,concatenate,"(arrays, axis=0)",return_class,Maskedarray
+ma,has_method,frombuffer,"(buffer, dtype=float, count=-1, offset=0, *, like=None)",return_class,None
+ma,has_method,masked_where,"(condition, a, copy=True)",return_class,Maskedarray
+ma,has_method,where,"(condition, x=<no value>, y=<no value>)",return_class,Maskedarray
+ma,has_method,array,"(data, dtype=None, copy=False, order=None, mask=False, fill_value=None, keep_mask=True, hard_mask=False, shrink=True, subok=True, ndmin=0)",return_class,None
+ma,has_method,isin,"(element, test_elements, assume_unique=False, invert=False)",return_class,None
+ma,has_method,apply_over_axes,"(func, a, axes)",return_class,Ndarray
+ma,has_method,apply_along_axis,"(func1d, axis, arr, *args, **kwargs)",return_class,Ndarray
+ma,has_method,fromfunction,"(function, shape, **dtype)",return_class,None
+ma,has_method,choose,"(indices, choices, out=None, mode='raise')",return_class,Ndarray
+ma,has_method,is_mask,(m),return_class,Bool
+ma,has_method,make_mask,"(m, copy=False, shrink=True, dtype=<class 'bool_'>)",return_class,Ndarray
+ma,has_method,mask_or,"(m1, m2, copy=False, shrink=True)",return_class,Output Mask
+ma,has_method,mask_or,"(m1, m2, copy=False, shrink=True)",return_class,Output Mask
+ma,has_method,identity,"(n, dtype=None)",return_class,Maskedarray
+ma,has_method,make_mask_descr,(ndtype),return_class,Dtype
+ma,has_method,make_mask_none,"(newshape, dtype=None)",return_class,Ndarray
+ma,has_method,shape,(obj),return_class,Tuple
+ma,has_method,shape,(obj),return_class,Tuple
+ma,has_method,default_fill_value,(obj),return_class,Scalar
+ma,has_method,maximum_fill_value,(obj),return_class,Scalar
+ma,has_method,minimum_fill_value,(obj),return_class,Scalar
+ma,has_method,size,"(obj, axis=None)",return_class,Int
+ma,has_method,size,"(obj, axis=None)",return_class,Int
+ma,has_method,max,"(obj, axis=None, out=None, fill_value=None, keepdims=<no value>)",return_class,Ndarray
+ma,has_method,min,"(obj, axis=None, out=None, fill_value=None, keepdims=<no value>)",return_class,Ndarray
+ma,has_method,ptp,"(obj, axis=None, out=None, fill_value=None, keepdims=<no value>)",return_class,Ndarray
+ma,has_method,empty_like,"(prototype, dtype=None, order='K', subok=True, shape=None)",return_class,Maskedarray
+ma,has_method,nonzero,(self),return_class,Tuple
+ma,has_method,harden_mask,(self),return_class,None
+ma,has_method,soften_mask,(self),return_class,None
+ma,has_method,copy,"(self, *args, **params) a.copy(order='C')",return_class,None
+ma,has_method,swapaxes,"(self, *args, **params) a.swapaxes(axis1, axis2)",return_class,None
+ma,has_method,anom,"(self, axis=None, dtype=None)",return_class,None
+ma,has_method,anomalies,"(self, axis=None, dtype=None)",return_class,None
+ma,has_method,cumsum,"(self, axis=None, dtype=None, out=None)",return_class,None
+ma,has_method,cumprod,"(self, axis=None, dtype=None, out=None)",return_class,None
+ma,has_method,std,"(self, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, mean=<no value>)",return_class,None
+ma,has_method,var,"(self, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, mean=<no value>)",return_class,Ndarray
+ma,has_method,mean,"(self, axis=None, dtype=None, out=None, keepdims=<no value>)",return_class,None
+ma,has_method,prod,"(self, axis=None, dtype=None, out=None, keepdims=<no value>)",return_class,None
+ma,has_method,sum,"(self, axis=None, dtype=None, out=None, keepdims=<no value>)",return_class,None
+ma,has_method,argmin,"(self, axis=None, fill_value=None, out=None)",return_class,None
+ma,has_method,count,"(self, axis=None, keepdims=<no value>)",return_class,Ndarray
+ma,has_method,all,"(self, axis=None, out=None, keepdims=<no value>)",return_class,None
+ma,has_method,any,"(self, axis=None, out=None, keepdims=<no value>)",return_class,None
+ma,has_method,trace,"(self, offset=0, axis1=0, axis2=1, dtype=None, out=None) a.trace(offset=0, axis1=0, axis2=1, dtype=None, out=None)",return_class,None
+ma,has_method,ravel,"(self, order='C')",return_class,None
+ma,has_method,masked_all,"(shape, dtype=<class 'float'>)",return_class,Maskedarray
+ma,has_method,empty,"(shape, dtype=float, order='C', *, like=None)",return_class,Maskedarray
+ma,has_method,zeros,"(shape, dtype=float, order='C', *, like=None)",return_class,Maskedarray
+ma,has_method,ones,"(shape, dtype=None, order='C')",return_class,Maskedarray
+ma,has_method,diag,"(v, k=0)",return_class,None
+ma,has_method,is_masked,(x),return_class,Bool
+ma,has_method,isMaskedArray,(x),return_class,Bool
+ma,has_method,isMA,(x),return_class,Bool
+ma,has_method,isarray,(x),return_class,Bool
+ma,has_method,compressed,(x),return_class,None
+ma,has_method,conjugate,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+ma,has_method,compress_rowcols,"(x, axis=None)",return_class,Ndarray
+ma,has_method,vander,"(x, n=None)",return_class,Ndarray
+ma,has_method,resize,"(x, new_shape)",return_class,None
+ma,has_method,masked_inside,"(x, v1, v2, copy=True)",return_class,None
+ma,has_method,masked_outside,"(x, v1, v2, copy=True)",return_class,None
+ma,has_method,masked_equal,"(x, value, copy=True)",return_class,None
+ma,has_method,masked_greater,"(x, value, copy=True)",return_class,None
+ma,has_method,masked_greater_equal,"(x, value, copy=True)",return_class,None
+ma,has_method,masked_less,"(x, value, copy=True)",return_class,None
+ma,has_method,masked_less_equal,"(x, value, copy=True)",return_class,None
+ma,has_method,masked_not_equal,"(x, value, copy=True)",return_class,None
+ma,has_method,masked_object,"(x, value, copy=True, shrink=True)",return_class,Maskedarray
+ma,has_method,masked_values,"(x, value, rtol=1e-05, atol=1e-08, copy=True, shrink=True)",return_class,Maskedarray
+ma,has_method,polyfit,"(x, y, deg, rcond=None, full=False, w=None, cov=False)",return_class,None
+ma,has_method,corrcoef,"(x, y=None, rowvar=True, bias=<no value>, allow_masked=True, ddof=<no value>)",return_class,None
+ma,has_method,cov,"(x, y=None, rowvar=True, bias=False, allow_masked=True, ddof=None)",return_class,None
+MaskedArray,has_method,nonzero,(),return_class,Tuple
+MaskedArray,has_method,harden_mask,(),return_class,None
+MaskedArray,has_method,soften_mask,(),return_class,None
+MaskedArray,has_method,shrink_mask,(),return_class,None
+MaskedArray,has_method,unshare_mask,(),return_class,None
+MaskedArray,has_method,compressed,(),return_class,None
+MaskedArray,has_method,torecords,(),return_class,Ndarray
+MaskedArray,has_method,get_fill_value,(),return_class,None
+MaskedArray,has_method,transpose,(*axes),return_class,Ndarray
+MaskedArray,has_method,transpose,(*axes),return_class,Ndarray
+MaskedArray,has_method,reshape,"(*s, **kwargs)",return_class,Ndarray
+MaskedArray,has_method,argsort,"(axis=<no value>, kind=None, order=None, endwith=True, fill_value=None)",return_class,Ndarray
+MaskedArray,has_method,sort,"(axis=-1, kind=None, order=None, endwith=True, fill_value=None)",return_class,Ndarray
+MaskedArray,has_method,squeeze,(axis=None),return_class,None
+MaskedArray,has_method,anom,"(axis=None, dtype=None)",return_class,None
+MaskedArray,has_method,cumprod,"(axis=None, dtype=None, out=None)",return_class,None
+MaskedArray,has_method,cumsum,"(axis=None, dtype=None, out=None)",return_class,None
+MaskedArray,has_method,std,"(axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, mean=<no value>)",return_class,None
+MaskedArray,has_method,var,"(axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, mean=<no value>)",return_class,Ndarray
+MaskedArray,has_method,mean,"(axis=None, dtype=None, out=None, keepdims=<no value>)",return_class,None
+MaskedArray,has_method,prod,"(axis=None, dtype=None, out=None, keepdims=<no value>)",return_class,None
+MaskedArray,has_method,sum,"(axis=None, dtype=None, out=None, keepdims=<no value>)",return_class,None
+MaskedArray,has_method,argmin,"(axis=None, fill_value=None, out=None, *, keepdims=<no value>)",return_class,None
+MaskedArray,has_method,count,"(axis=None, keepdims=<no value>)",return_class,Ndarray
+MaskedArray,has_method,max,"(axis=None, out=None, fill_value=None, keepdims=<no value>)",return_class,Ndarray
+MaskedArray,has_method,min,"(axis=None, out=None, fill_value=None, keepdims=<no value>)",return_class,Ndarray
+MaskedArray,has_method,ptp,"(axis=None, out=None, fill_value=None, keepdims=False)",return_class,Ndarray
+MaskedArray,has_method,all,"(axis=None, out=None, keepdims=<no value>)",return_class,None
+MaskedArray,has_method,any,"(axis=None, out=None, keepdims=<no value>)",return_class,None
+MaskedArray,has_method,swapaxes,"(axis1, axis2)",return_class,None
+MaskedArray,has_method,round,"(decimals=0, out=None)",return_class,None
+MaskedArray,has_method,tofile,"(fid, sep='', format='%s')",return_class,None
+MaskedArray,has_method,filled,(fill_value=None),return_class,Ndarray
+MaskedArray,has_method,tolist,(fill_value=None),return_class,List
+MaskedArray,has_method,tobytes,"(fill_value=None, order='C')",return_class,None
+MaskedArray,has_method,clip,"(min=None, max=None, out=None, **kwargs)",return_class,None
+MaskedArray,has_method,resize,"(newshape, refcheck=True, order=False)",return_class,None
+MaskedArray,has_method,trace,"(offset=0, axis1=0, axis2=1, dtype=None, out=None)",return_class,None
+MaskedArray,has_method,copy,(order='C'),return_class,None
+MaskedArray,has_method,flatten,(order='C'),return_class,Ndarray
+MaskedArray,has_method,ravel,(order='C'),return_class,None
+MaskedArray,has_method,set_fill_value,(value=None),return_class,None
+matlib,has_method,rand,(*args),return_class,Ndarray
+matlib,has_method,randn,(*args),return_class,Matrix Of Floats
+matlib,has_method,repmat,"(a, m, n)",return_class,Ndarray
+matlib,has_method,identity,"(n, dtype=None)",return_class,Matrix
+matlib,has_method,eye,"(n, M=None, k=0, dtype=<class 'float'>, order='C')",return_class,Matrix
+matlib,has_method,empty,"(shape, dtype=None, order='C')",return_class,None
+matlib,has_method,zeros,"(shape, dtype=None, order='C')",return_class,Matrix
+matlib,has_method,ones,"(shape, dtype=None, order='C')",return_class,Matrix
+numpy,has_method,concatenate,"((a1, a2, ...), axis=0, out=None, dtype=None, casting=""same_kind"")",return_class,Ndarray
+numpy,has_method,geterr,(),return_class,None
+numpy,has_method,getbufsize,(),return_class,None
+numpy,has_method,geterrcall,(),return_class,None
+numpy,has_method,get_include,(),return_class,None
+numpy,has_method,show_runtime,(),return_class,None
+numpy,has_method,get_printoptions,(),return_class,None
+numpy,has_method,broadcast_shapes,(*args),return_class,None
+numpy,has_method,deprecate,"(*args, **kwargs)",return_class,Function
+numpy,has_method,printoptions,"(*args, **kwargs)",return_class,None
+numpy,has_method,broadcast_arrays,"(*args, subok=False)",return_class,None
+numpy,has_method,result_type,(*arrays_and_dtypes),return_class,Dtype
+numpy,has_method,atleast_1d,(*arys),return_class,Ndarray
+numpy,has_method,atleast_2d,(*arys),return_class,Ndarray
+numpy,has_method,atleast_3d,(*arys),return_class,Ndarray
+numpy,has_method,meshgrid,"(*xi, copy=True, sparse=False, indexing='xy')",return_class,List
+numpy,has_method,arange,"([start, ]stop, [step, ]dtype=None, *, like=None)",return_class,None
+numpy,has_method,shape,(a),return_class,Tuple
+numpy,has_method,byte_bounds,(a),return_class,Tuple
+numpy,has_method,sort_complex,(a),return_class,Ndarray
+numpy,has_method,isfortran,(a),return_class,Bool
+numpy,has_method,argwhere,(a),return_class,Ndarray
+numpy,has_method,nonzero,(a),return_class,Tuple
+numpy,has_method,flatnonzero,(a),return_class,Ndarray
+numpy,has_method,min_scalar_type,"(a, /)",return_class,Dtype
+numpy,has_method,packbits,"(a, /, axis=None, bitorder='big')",return_class,Ndarray
+numpy,has_method,unpackbits,"(a, /, axis=None, count=None, bitorder='big')",return_class,Ndarray
+numpy,has_method,clip,"(a, a_min, a_max, out=None, **kwargs)",return_class,Ndarray
+numpy,has_method,transpose,"(a, axes=None)",return_class,Ndarray
+numpy,has_method,expand_dims,"(a, axis)",return_class,Ndarray
+numpy,has_method,rollaxis,"(a, axis, start=0)",return_class,Ndarray
+numpy,has_method,sort,"(a, axis=-1, kind=None, order=None)",return_class,Ndarray
+numpy,has_method,argsort,"(a, axis=-1, kind=None, order=None)",return_class,Ndarray
+numpy,has_method,squeeze,"(a, axis=None)",return_class,Ndarray
+numpy,has_method,count_nonzero,"(a, axis=None, *, keepdims=False)",return_class,Int Or Array Of Int
+numpy,has_method,cumprod,"(a, axis=None, dtype=None, out=None)",return_class,Ndarray
+numpy,has_method,cumsum,"(a, axis=None, dtype=None, out=None)",return_class,Ndarray
+numpy,has_method,nancumprod,"(a, axis=None, dtype=None, out=None)",return_class,Ndarray
+numpy,has_method,nancumsum,"(a, axis=None, dtype=None, out=None)",return_class,Ndarray
+numpy,has_method,std,"(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>, mean=<no value>)",return_class,Ndarray
+numpy,has_method,var,"(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>, mean=<no value>)",return_class,Ndarray
+numpy,has_method,nanstd,"(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>, mean=<no value>)",return_class,Ndarray
+numpy,has_method,nanvar,"(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>, mean=<no value>)",return_class,Ndarray
+numpy,has_method,mean,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no value>)",return_class,Ndarray
+numpy,has_method,nanmean,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no value>)",return_class,Ndarray
+numpy,has_method,prod,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,None
+numpy,has_method,sum,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,Ndarray
+numpy,has_method,nanprod,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,Ndarray
+numpy,has_method,nansum,"(a, axis=None, dtype=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,Ndarray
+numpy,has_method,argmax,"(a, axis=None, out=None, *, keepdims=<no value>)",return_class,Ndarray
+numpy,has_method,nanargmax,"(a, axis=None, out=None, *, keepdims=<no value>)",return_class,Ndarray
+numpy,has_method,argmin,"(a, axis=None, out=None, *, keepdims=<no value>)",return_class,Ndarray
+numpy,has_method,nanargmin,"(a, axis=None, out=None, *, keepdims=<no value>)",return_class,Ndarray
+numpy,has_method,ptp,"(a, axis=None, out=None, keepdims=<no value>)",return_class,Ndarray
+numpy,has_method,all,"(a, axis=None, out=None, keepdims=<no value>, *, where=<no value>)",return_class,Ndarray
+numpy,has_method,any,"(a, axis=None, out=None, keepdims=<no value>, *, where=<no value>)",return_class,Bool
+numpy,has_method,max,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,Ndarray
+numpy,has_method,amax,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,None
+numpy,has_method,nanmax,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,Ndarray
+numpy,has_method,min,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,Ndarray
+numpy,has_method,amin,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,None
+numpy,has_method,nanmin,"(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)",return_class,Ndarray
+numpy,has_method,nanmedian,"(a, axis=None, out=None, overwrite_input=False, keepdims=<no value>)",return_class,Ndarray
+numpy,has_method,median,"(a, axis=None, out=None, overwrite_input=False, keepdims=False)",return_class,Ndarray
+numpy,has_method,average,"(a, axis=None, weights=None, returned=False, *, keepdims=<no value>)",return_class,Array_Type Or Double
+numpy,has_method,swapaxes,"(a, axis1, axis2)",return_class,Ndarray
+numpy,has_method,kron,"(a, b)",return_class,Ndarray
+numpy,has_method,vdot,"(a, b, /)",return_class,Ndarray
+numpy,has_method,inner,"(a, b, /)",return_class,Ndarray
+numpy,has_method,shares_memory,"(a, b, /, max_work=None)",return_class,Bool
+numpy,has_method,may_share_memory,"(a, b, /, max_work=None)",return_class,Bool
+numpy,has_method,tensordot,"(a, b, axes=2)",return_class,Ndarray
+numpy,has_method,cross,"(a, b, axisa=-1, axisb=-1, axisc=-1, axis=None)",return_class,Ndarray
+numpy,has_method,dot,"(a, b, out=None)",return_class,Ndarray
+numpy,has_method,outer,"(a, b, out=None)",return_class,Ndarray
+numpy,has_method,allclose,"(a, b, rtol=1e-05, atol=1e-08, equal_nan=False)",return_class,Bool
+numpy,has_method,isclose,"(a, b, rtol=1e-05, atol=1e-08, equal_nan=False)",return_class,Ndarray
+numpy,has_method,histogram,"(a, bins=10, range=None, density=None, weights=None)",return_class,Ndarray
+numpy,has_method,histogram_bin_edges,"(a, bins=10, range=None, weights=None)",return_class,Array
+numpy,has_method,round,"(a, decimals=0, out=None)",return_class,None
+numpy,has_method,around,"(a, decimals=0, out=None)",return_class,None
+numpy,has_method,asfarray,"(a, dtype=<class 'double'>)",return_class,Ndarray
+numpy,has_method,ascontiguousarray,"(a, dtype=None, *, like=None)",return_class,Ndarray
+numpy,has_method,asfortranarray,"(a, dtype=None, *, like=None)",return_class,Ndarray
+numpy,has_method,ascontiguousarray,"(a, dtype=None, *, like=None)",return_class,Ndarray
+numpy,has_method,ones_like,"(a, dtype=None, order='K', subok=True, shape=None)",return_class,Ndarray
+numpy,has_method,zeros_like,"(a, dtype=None, order='K', subok=True, shape=None)",return_class,Ndarray
+numpy,has_method,asarray_chkfinite,"(a, dtype=None, order=None)",return_class,Ndarray
+numpy,has_method,asarray,"(a, dtype=None, order=None, *, like=None)",return_class,Ndarray
+numpy,has_method,asanyarray,"(a, dtype=None, order=None, *, like=None)",return_class,Ndarray
+numpy,has_method,asarray,"(a, dtype=None, order=None, *, like=None)",return_class,Ndarray
+numpy,has_method,asanyarray,"(a, dtype=None, order=None, *, like=None)",return_class,Ndarray
+numpy,has_method,require,"(a, dtype=None, requirements=None, *, like=None)",return_class,Ndarray
+numpy,has_method,full_like,"(a, fill_value, dtype=None, order='K', subok=True, shape=None)",return_class,Ndarray
+numpy,has_method,partition,"(a, kth, axis=-1, kind='introselect', order=None)",return_class,Ndarray
+numpy,has_method,argpartition,"(a, kth, axis=-1, kind='introselect', order=None)",return_class,Ndarray
+numpy,has_method,array_str,"(a, max_line_width=None, precision=None, suppress_small=None)",return_class,None
+numpy,has_method,array2string,"(a, max_line_width=None, precision=None, suppress_small=None, separator=' ', prefix='', style=<no value>, formatter=None, threshold=None, edgeitems=None, sign=None, floatmode=None, suffix='', *, legacy=None)",return_class,Str
+numpy,has_method,diff,"(a, n=1, axis=-1, prepend=<no value>, append=<no value>)",return_class,Ndarray
+numpy,has_method,resize,"(a, new_shape)",return_class,Ndarray
+numpy,has_method,reshape,"(a, newshape, order='C')",return_class,Ndarray
+numpy,has_method,reshape,"(a, newshape, order='C')",return_class,Ndarray
+numpy,has_method,trace,"(a, offset=0, axis1=0, axis2=1, dtype=None, out=None)",return_class,Ndarray
+numpy,has_method,ravel,"(a, order='C')",return_class,Ndarray
+numpy,has_method,copy,"(a, order='K', subok=False)",return_class,Ndarray
+numpy,has_method,nanpercentile,"(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=<no value>, *, interpolation=None)",return_class,Ndarray
+numpy,has_method,nanquantile,"(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=<no value>, *, interpolation=None)",return_class,Ndarray
+numpy,has_method,percentile,"(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=False, *, interpolation=None)",return_class,Ndarray
+numpy,has_method,quantile,"(a, q, axis=None, out=None, overwrite_input=False, method='linear', keepdims=False, *, interpolation=None)",return_class,Ndarray
+numpy,has_method,repeat,"(a, repeats, axis=None)",return_class,Ndarray
+numpy,has_method,tile,"(A, reps)",return_class,Ndarray
+numpy,has_method,roll,"(a, shift, axis=None)",return_class,Ndarray
+numpy,has_method,moveaxis,"(a, source, destination)",return_class,Np.Ndarray
+numpy,has_method,real_if_close,"(a, tol=100)",return_class,Ndarray
+numpy,has_method,convolve,"(a, v, mode='full')",return_class,Ndarray
+numpy,has_method,correlate,"(a, v, mode='valid')",return_class,Ndarray
+numpy,has_method,searchsorted,"(a, v, side='left', sorter=None)",return_class,Int
+numpy,has_method,array_equiv,"(a1, a2)",return_class,Bool
+numpy,has_method,polyadd,"(a1, a2)",return_class,Ndarray
+numpy,has_method,polymul,"(a1, a2)",return_class,Ndarray
+numpy,has_method,polysub,"(a1, a2)",return_class,Ndarray
+numpy,has_method,array_equal,"(a1, a2, equal_nan=False)",return_class,Bool
+numpy,has_method,seterr,"(all=None, divide=None, over=None, under=None, invalid=None)",return_class,Dict
+numpy,has_method,unique,"(ar, return_index=False, return_inverse=False, return_counts=False, axis=None, *, equal_nan=True)",return_class,None
+numpy,has_method,issubdtype,"(arg1, arg2)",return_class,Bool
+numpy,has_method,issubsctype,"(arg1, arg2)",return_class,Bool
+numpy,has_method,issubclass_,"(arg1, arg2)",return_class,Bool
+numpy,has_method,array_repr,"(arr, max_line_width=None, precision=None, suppress_small=None)",return_class,Str
+numpy,has_method,delete,"(arr, obj, axis=None)",return_class,Ndarray
+numpy,has_method,insert,"(arr, obj, values, axis=None)",return_class,Ndarray
+numpy,has_method,datetime_as_string,"(arr, unit=None, timezone='naive', casting='same_kind')",return_class,Ndarray
+numpy,has_method,append,"(arr, values, axis=None)",return_class,Ndarray
+numpy,has_method,pad,"(array, pad_width, mode='constant', **kwargs)",return_class,Ndarray
+numpy,has_method,broadcast_to,"(array, shape, subok=False)",return_class,Ndarray
+numpy,has_method,find_common_type,"(array_types, scalar_types)",return_class,Dtype
+numpy,has_method,block,(arrays),return_class,None
+numpy,has_method,stack,"(arrays, axis=0, out=None, *, dtype=None, casting='same_kind')",return_class,Ndarray
+numpy,has_method,dsplit,"(ary, indices_or_sections)",return_class,None
+numpy,has_method,hsplit,"(ary, indices_or_sections)",return_class,None
+numpy,has_method,vsplit,"(ary, indices_or_sections)",return_class,None
+numpy,has_method,split,"(ary, indices_or_sections, axis=0)",return_class,List
+numpy,has_method,array_split,"(ary, indices_or_sections, axis=0)",return_class,None
+numpy,has_method,ediff1d,"(ary, to_end=None, to_begin=None)",return_class,Ndarray
+numpy,has_method,busday_count,"(begindates, enddates, weekmask='1111100', holidays=[], busdaycal=None, out=None)",return_class,Array Of Int
+numpy,has_method,frombuffer,"(buffer, dtype=float, count=-1, offset=0, *, like=None)",return_class,Ndarray
+numpy,has_method,poly1d,"(c_or_r, r=False, variable=None)",return_class,None
+numpy,has_method,typename,(char),return_class,Str
+numpy,has_method,where,"(condition, [x, y, ]/)",return_class,Ndarray
+numpy,has_method,extract,"(condition, arr)",return_class,Ndarray
+numpy,has_method,asmatrix,"(data, dtype=None)",return_class,Matrix
+numpy,has_method,asmatrix,"(data, dtype=None)",return_class,Matrix
+numpy,has_method,mat,"(data, dtype=None)",return_class,Matrix
+numpy,has_method,is_busday,"(dates, weekmask='1111100', holidays=None, busdaycal=None, out=None)",return_class,Array
+numpy,has_method,copyto,"(dst, src, casting='same_kind', where=True)",return_class,None
+numpy,has_method,finfo,(dtype),return_class,None
+numpy,has_method,datetime_data,"(dtype, /)",return_class,Str
+numpy,has_method,isscalar,(element),return_class,Bool
+numpy,has_method,gradient,"(f, *varargs, axis=None, edge_order=1)",return_class,Ndarray
+numpy,has_method,set_string_function,"(f, repr=True)",return_class,None
+numpy,has_method,savez,"(file, *args, **kwds)",return_class,None
+numpy,has_method,savez_compressed,"(file, *args, **kwds)",return_class,None
+numpy,has_method,save,"(file, arr, allow_pickle=True, fix_imports=True)",return_class,None
+numpy,has_method,fromfile,"(file, dtype=float, count=-1, sep='', offset=0, *, like=None)",return_class,None
+numpy,has_method,load,"(file, mmap_mode=None, allow_pickle=False, fix_imports=True, encoding='ASCII', *, max_header_size=10000)",return_class,Array
+numpy,has_method,fromregex,"(file, regexp, dtype, encoding=None)",return_class,Ndarray
+numpy,has_method,trim_zeros,"(filt, trim='fb')",return_class,Array
+numpy,has_method,loadtxt,"(fname, dtype=<class 'float'>, comments='#', delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0, encoding='bytes', max_rows=None, *, quotechar=None, like=None)",return_class,Ndarray
+numpy,has_method,loadtxt,"(fname, dtype=<class 'float'>, comments='#', delimiter=None, converters=None, skiprows=0, usecols=None, unpack=False, ndmin=0, encoding='bytes', max_rows=None, *, quotechar=None, like=None)",return_class,Ndarray
+numpy,has_method,genfromtxt,"(fname, dtype=<class 'float'>, comments='#', delimiter=None, skip_header=0, skip_footer=0, converters=None, missing_values=None, filling_values=None, usecols=None, names=None, excludelist=None, deletechars="" !#$%&'()*+, -./:;<=>?@[\\]^{|}~"", replace_space='_', autostrip=False, case_sensitive=True, defaultfmt='f%i', unpack=None, usemask=False, loose=True, invalid_raise=True, max_rows=None, encoding='bytes', *, ndmin=0, like=None)",return_class,Ndarray
+numpy,has_method,savetxt,"(fname, X, fmt='%.18e', delimiter=' ', newline='\n', header='', footer='', comments='# ', encoding=None)",return_class,None
+numpy,has_method,format_parser,"(formats, names, titles, aligned=False, byteorder=None)",return_class,None
+numpy,has_method,can_cast,"(from_, to, casting='safe')",return_class,Bool
+numpy,has_method,seterrcall,(func),return_class,None
+numpy,has_method,frompyfunc,"(func, /, nin, nout, *[, identity])",return_class,Ufunc
+numpy,has_method,apply_over_axes,"(func, a, axes)",return_class,Ndarray
+numpy,has_method,apply_along_axis,"(func1d, axis, arr, *args, **kwargs)",return_class,Ndarray
+numpy,has_method,fromfunction,"(function, shape, *, dtype=<class 'float'>, like=None, **kwargs)",return_class,Any
+numpy,has_method,fromiter,"(iter, dtype, count=-1, *, like=None)",return_class,Ndarray
+numpy,has_method,lexsort,"(keys, axis=-1)",return_class,Ndarray
+numpy,has_method,bartlett,(M),return_class,Ndarray
+numpy,has_method,blackman,(M),return_class,Ndarray
+numpy,has_method,hamming,(M),return_class,Ndarray
+numpy,has_method,hanning,(M),return_class,Ndarray
+numpy,has_method,fliplr,(m),return_class,Ndarray
+numpy,has_method,flipud,(m),return_class,Ndarray
+numpy,has_method,flip,"(m, axis=None)",return_class,Ndarray
+numpy,has_method,kaiser,"(M, beta)",return_class,Ndarray
+numpy,has_method,tril,"(m, k=0)",return_class,Ndarray
+numpy,has_method,triu,"(m, k=0)",return_class,None
+numpy,has_method,rot90,"(m, k=1, axes=(0, 1))",return_class,Ndarray
+numpy,has_method,cov,"(m, y=None, rowvar=True, bias=False, ddof=None, fweights=None, aweights=None, *, dtype=None)",return_class,Ndarray
+numpy,has_method,disp,"(mesg, device=None, linefeed=True)",return_class,None
+numpy,has_method,show_config,(mode='stdout'),return_class,None
+numpy,has_method,deprecate_with_doc,(msg),return_class,Object
+numpy,has_method,identity,"(n, dtype=None, *, like=None)",return_class,Ndarray
+numpy,has_method,tri,"(N, M=None, k=0, dtype=<class 'float'>, *, like=None)",return_class,Ndarray
+numpy,has_method,eye,"(N, M=None, k=0, dtype=<class 'float'>, order='C', *, like=None)",return_class,Ndarray
+numpy,has_method,binary_repr,"(num, width=None)",return_class,Str
+numpy,has_method,binary_repr,"(num, width=None)",return_class,Str
+numpy,has_method,base_repr,"(number, base=2, padding=0)",return_class,Str
+numpy,has_method,bmat,"(obj, ldict=None, gdict=None)",return_class,Matrix
+numpy,has_method,array,"(object, dtype=None, *, copy=True, order='K', subok=False, ndmin=0, like=None)",return_class,Ndarray
+numpy,has_method,source,"(object, output=<_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>)",return_class,None
+numpy,has_method,info,"(object=None, maxwidth=76, output=None, toplevel='numpy')",return_class,None
+numpy,has_method,roots,(p),return_class,Ndarray
+numpy,has_method,unwrap,"(p, discont=None, axis=-1, *, period=6.283185307179586)",return_class,Ndarray
+numpy,has_method,polyder,"(p, m=1)",return_class,Poly1D
+numpy,has_method,polyint,"(p, m=1, k=None)",return_class,None
+numpy,has_method,polyval,"(p, x)",return_class,Ndarray
+numpy,has_method,set_printoptions,"(precision=None, threshold=None, edgeitems=None, linewidth=None, suppress=None, nanstr=None, infstr=None, formatter=None, sign=None, floatmode=None, *, legacy=None)",return_class,None
+numpy,has_method,empty_like,"(prototype, dtype=None, order='K', subok=True, shape=None)",return_class,Ndarray
+numpy,has_method,issctype,(rep),return_class,Bool
+numpy,has_method,histogramdd,"(sample, bins=10, range=None, density=None, weights=None)",return_class,Ndarray
+numpy,has_method,sctype2char,(sctype),return_class,Str
+numpy,has_method,poly,(seq_of_zeros),return_class,None
+numpy,has_method,empty,"(shape, dtype=float, order='C', *, like=None)",return_class,Ndarray
+numpy,has_method,zeros,"(shape, dtype=float, order='C', *, like=None)",return_class,Ndarray
+numpy,has_method,ones,"(shape, dtype=None, order='C', *, like=None)",return_class,Ndarray
+numpy,has_method,full,"(shape, fill_value, dtype=None, order='C', *, like=None)",return_class,Ndarray
+numpy,has_method,setbufsize,(size),return_class,None
+numpy,has_method,logspace,"(start, stop, num=50, endpoint=True, base=10.0, dtype=None, axis=0)",return_class,Ndarray
+numpy,has_method,geomspace,"(start, stop, num=50, endpoint=True, dtype=None, axis=0)",return_class,Ndarray
+numpy,has_method,linspace,"(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)",return_class,None
+numpy,has_method,fromstring,"(string, dtype=float, count=-1, *, sep, like=None)",return_class,Ndarray
+numpy,has_method,fromstring,"(string, dtype=float, count=-1, *, sep, like=None)",return_class,Ndarray
+numpy,has_method,einsum_path,"(subscripts, *operands, optimize='greedy')",return_class,List
+numpy,has_method,einsum,"(subscripts, *operands, out=None, dtype=None, order='K', casting='safe', optimize=False)",return_class,Ndarray
+numpy,has_method,maximum_sctype,(t),return_class,Dtype
+numpy,has_method,dstack,(tup),return_class,Ndarray
+numpy,has_method,column_stack,(tup),return_class,Ndarray
+numpy,has_method,vstack,"(tup, *, dtype=None, casting='same_kind')",return_class,Ndarray
+numpy,has_method,hstack,"(tup, *, dtype=None, casting='same_kind')",return_class,Ndarray
+numpy,has_method,row_stack,"(tup, *, dtype=None, casting='same_kind')",return_class,Ndarray
+numpy,has_method,iinfo,(type),return_class,None
+numpy,has_method,promote_types,"(type1, type2)",return_class,Dtype
+numpy,has_method,mintypecode,"(typechars, typeset='GDFgdf', default='d')",return_class,Str
+numpy,has_method,polydiv,"(u, v)",return_class,Ndarray
+numpy,has_method,diag,"(v, k=0)",return_class,Ndarray
+numpy,has_method,diagflat,"(v, k=0)",return_class,Ndarray
+numpy,has_method,real,(val),return_class,Ndarray
+numpy,has_method,imag,(val),return_class,Ndarray
+numpy,has_method,who,(vardict=None),return_class,None
+numpy,has_method,lookfor,"(what, module=None, import_modules=True, regenerate=False, output=None)",return_class,None
+numpy,has_method,iscomplex,(x),return_class,Ndarray
+numpy,has_method,iscomplexobj,(x),return_class,Bool
+numpy,has_method,isreal,(x),return_class,Ndarray
+numpy,has_method,isrealobj,(x),return_class,Bool
+numpy,has_method,i0,(x),return_class,Ndarray
+numpy,has_method,sinc,(x),return_class,Ndarray
+numpy,has_method,from_dlpack,"(x, /)",return_class,Ndarray
+numpy,has_method,sin,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,cos,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,isfinite,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,tan,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,invert,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,isinf,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Bool
+numpy,has_method,arcsin,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,isnan,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Bool
+numpy,has_method,arccos,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,isnat,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Bool
+numpy,has_method,arctan,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,degrees,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,radians,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,deg2rad,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,rad2deg,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,sinh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,cosh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,tanh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,logical_not,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Bool
+numpy,has_method,arcsinh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,arccosh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,arctanh,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,rint,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,floor,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,ceil,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,trunc,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,exp,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,expm1,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,exp2,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,log,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,log10,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,log2,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,log1p,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,signbit,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,spacing,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,reciprocal,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,positive,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,negative,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,conj,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,conjugate,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,sqrt,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,cbrt,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,square,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,absolute,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,fabs,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,sign,"(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,bincount,"(x, /, weights=None, minlength=0)",return_class,Ndarray
+numpy,has_method,frexp,"(x, [out1, out2, ]/, [out=(None, None), ]*, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,modf,"(x, [out1, out2, ]/, [out=(None, None), ]*, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,digitize,"(x, bins, right=False)",return_class,Ndarray
+numpy,has_method,piecewise,"(x, condlist, funclist, *args, **kw)",return_class,Ndarray
+numpy,has_method,nan_to_num,"(x, copy=True, nan=0.0, posinf=None, neginf=None)",return_class,Ndarray
+numpy,has_method,vander,"(x, N=None, increasing=False)",return_class,Ndarray
+numpy,has_method,isneginf,"(x, out=None)",return_class,None
+numpy,has_method,isposinf,"(x, out=None)",return_class,None
+numpy,has_method,fix,"(x, out=None)",return_class,None
+numpy,has_method,format_float_positional,"(x, precision=None, unique=True, fractional=True, trim='k', sign=False, pad_left=None, pad_right=None, min_digits=None)",return_class,Str
+numpy,has_method,format_float_scientific,"(x, precision=None, unique=True, trim='k', sign=False, pad_left=None, exp_digits=None, min_digits=None)",return_class,Str
+numpy,has_method,interp,"(x, xp, fp, left=None, right=None, period=None)",return_class,Float
+numpy,has_method,histogram2d,"(x, y, bins=10, range=None, density=None, weights=None)",return_class,Ndarray
+numpy,has_method,polyfit,"(x, y, deg, rcond=None, full=False, w=None, cov=False)",return_class,None
+numpy,has_method,corrcoef,"(x, y=None, rowvar=True, bias=<no value>, ddof=<no value>, *, dtype=None)",return_class,Ndarray
+numpy,has_method,matmul,"(x1, x2, /, out=None, *, casting='same_kind', order='K', dtype=None, subok=True[, signature, axes, axis])",return_class,Ndarray
+numpy,has_method,bitwise_and,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,bitwise_or,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,bitwise_xor,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,left_shift,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Array Of Integer Type
+numpy,has_method,right_shift,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,hypot,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,arctan2,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,logical_and,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Bool
+numpy,has_method,logical_or,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Bool
+numpy,has_method,logical_xor,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Bool
+numpy,has_method,greater,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,greater_equal,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Bool
+numpy,has_method,less,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,less_equal,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,equal,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,not_equal,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,logaddexp,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,logaddexp2,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,copysign,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,ldexp,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,nextafter,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,lcm,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,gcd,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,add,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,multiply,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,divide,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,power,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,subtract,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,true_divide,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,floor_divide,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,float_power,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,fmod,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,mod,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,remainder,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,maximum,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,fmax,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,minimum,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,fmin,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,heaviside,"(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,divmod,"(x1, x2, [out1, out2, ]/, [out=(None, None), ]*, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature])",return_class,Ndarray
+numpy,has_method,trapz,"(y, x=None, dx=1.0, axis=-1)",return_class,Ndarray
+numpy,has_method,angle,"(z, deg=False)",return_class,None
+chebyshev,has_method,chebx,"([0, 1])",return_class,None
+chebyshev,has_method,chebzero,([0]),return_class,None
+chebyshev,has_method,chebdomain,"([-1,? 1])",return_class,None
+chebyshev,has_method,chebone,([1]),return_class,None
+chebyshev,has_method,chebmulx,(c),return_class,Ndarray
+chebyshev,has_method,chebroots,(c),return_class,Ndarray
+chebyshev,has_method,chebcompanion,(c),return_class,Ndarray
+chebyshev,has_method,cheb2poly,(c),return_class,Ndarray
+chebyshev,has_method,chebint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",return_class,Ndarray
+chebyshev,has_method,chebder,"(c, m=1, scl=1, axis=0)",return_class,Ndarray
+chebyshev,has_method,chebpow,"(c, pow, maxpower=16)",return_class,Ndarray
+chebyshev,has_method,chebtrim,"(c, tol=0)",return_class,Ndarray
+chebyshev,has_method,chebadd,"(c1, c2)",return_class,Ndarray
+chebyshev,has_method,chebsub,"(c1, c2)",return_class,Ndarray
+chebyshev,has_method,chebmul,"(c1, c2)",return_class,Ndarray
+chebyshev,has_method,chebdiv,"(c1, c2)",return_class,Ndarray
+chebyshev,has_method,Chebyshev,"(coef, domain=None, window=None, symbol='x')",return_class,None
+chebyshev,has_method,chebgauss,(deg),return_class,Ndarray
+chebyshev,has_method,chebinterpolate,"(func, deg, args=())",return_class,Ndarray
+chebyshev,has_method,chebpts1,(npts),return_class,Ndarray
+chebyshev,has_method,chebpts2,(npts),return_class,Ndarray
+chebyshev,has_method,chebline,"(off, scl)",return_class,Ndarray
+chebyshev,has_method,poly2cheb,(pol),return_class,Ndarray
+chebyshev,has_method,chebfromroots,(roots),return_class,Ndarray
+chebyshev,has_method,chebweight,(x),return_class,Ndarray
+chebyshev,has_method,chebval,"(x, c, tensor=True)",return_class,Ndarray
+chebyshev,has_method,chebvander,"(x, deg)",return_class,Ndarray
+chebyshev,has_method,chebval2d,"(x, y, c)",return_class,Ndarray
+chebyshev,has_method,chebgrid2d,"(x, y, c)",return_class,Ndarray
+chebyshev,has_method,chebvander2d,"(x, y, deg)",return_class,Ndarray
+chebyshev,has_method,chebfit,"(x, y, deg, rcond=None, full=False, w=None)",return_class,None
+chebyshev,has_method,chebval3d,"(x, y, z, c)",return_class,Ndarray
+chebyshev,has_method,chebgrid3d,"(x, y, z, c)",return_class,Ndarray
+chebyshev,has_method,chebvander3d,"(x, y, z, deg)",return_class,Ndarray
+hermite,has_method,hermx,"([0. , 0.5])",return_class,None
+hermite,has_method,hermzero,([0]),return_class,None
+hermite,has_method,hermdomain,"([-1,? 1])",return_class,None
+hermite,has_method,hermone,([1]),return_class,None
+hermite,has_method,hermmulx,(c),return_class,Ndarray
+hermite,has_method,hermroots,(c),return_class,Ndarray
+hermite,has_method,hermcompanion,(c),return_class,Ndarray
+hermite,has_method,herm2poly,(c),return_class,Ndarray
+hermite,has_method,hermint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",return_class,Ndarray
+hermite,has_method,hermder,"(c, m=1, scl=1, axis=0)",return_class,Ndarray
+hermite,has_method,hermpow,"(c, pow, maxpower=16)",return_class,Ndarray
+hermite,has_method,hermtrim,"(c, tol=0)",return_class,Ndarray
+hermite,has_method,hermadd,"(c1, c2)",return_class,Ndarray
+hermite,has_method,hermsub,"(c1, c2)",return_class,Ndarray
+hermite,has_method,hermmul,"(c1, c2)",return_class,Ndarray
+hermite,has_method,hermdiv,"(c1, c2)",return_class,Ndarray
+hermite,has_method,Hermite,"(coef, domain=None, window=None, symbol='x')",return_class,None
+hermite,has_method,hermgauss,(deg),return_class,Ndarray
+hermite,has_method,hermline,"(off, scl)",return_class,Ndarray
+hermite,has_method,poly2herm,(pol),return_class,Ndarray
+hermite,has_method,hermfromroots,(roots),return_class,Ndarray
+hermite,has_method,hermweight,(x),return_class,Ndarray
+hermite,has_method,hermval,"(x, c, tensor=True)",return_class,Ndarray
+hermite,has_method,hermvander,"(x, deg)",return_class,Ndarray
+hermite,has_method,hermval2d,"(x, y, c)",return_class,Ndarray
+hermite,has_method,hermgrid2d,"(x, y, c)",return_class,Ndarray
+hermite,has_method,hermvander2d,"(x, y, deg)",return_class,Ndarray
+hermite,has_method,hermfit,"(x, y, deg, rcond=None, full=False, w=None)",return_class,None
+hermite,has_method,hermval3d,"(x, y, z, c)",return_class,Ndarray
+hermite,has_method,hermgrid3d,"(x, y, z, c)",return_class,Ndarray
+hermite,has_method,hermvander3d,"(x, y, z, deg)",return_class,Ndarray
+hermite_e,has_method,hermex,"([0, 1])",return_class,None
+hermite_e,has_method,hermezero,([0]),return_class,None
+hermite_e,has_method,hermedomain,"([-1,? 1])",return_class,None
+hermite_e,has_method,hermeone,([1]),return_class,None
+hermite_e,has_method,hermemulx,(c),return_class,Ndarray
+hermite_e,has_method,hermeroots,(c),return_class,Ndarray
+hermite_e,has_method,hermecompanion,(c),return_class,Ndarray
+hermite_e,has_method,herme2poly,(c),return_class,Ndarray
+hermite_e,has_method,hermeint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",return_class,Ndarray
+hermite_e,has_method,hermeder,"(c, m=1, scl=1, axis=0)",return_class,Ndarray
+hermite_e,has_method,hermepow,"(c, pow, maxpower=16)",return_class,Ndarray
+hermite_e,has_method,hermetrim,"(c, tol=0)",return_class,Ndarray
+hermite_e,has_method,hermeadd,"(c1, c2)",return_class,Ndarray
+hermite_e,has_method,hermesub,"(c1, c2)",return_class,Ndarray
+hermite_e,has_method,hermemul,"(c1, c2)",return_class,Ndarray
+hermite_e,has_method,hermediv,"(c1, c2)",return_class,Ndarray
+hermite_e,has_method,HermiteE,"(coef, domain=None, window=None, symbol='x')",return_class,None
+hermite_e,has_method,hermegauss,(deg),return_class,Ndarray
+hermite_e,has_method,hermeline,"(off, scl)",return_class,Ndarray
+hermite_e,has_method,poly2herme,(pol),return_class,Ndarray
+hermite_e,has_method,hermefromroots,(roots),return_class,Ndarray
+hermite_e,has_method,hermeweight,(x),return_class,Ndarray
+hermite_e,has_method,hermeval,"(x, c, tensor=True)",return_class,Ndarray
+hermite_e,has_method,hermevander,"(x, deg)",return_class,Ndarray
+hermite_e,has_method,hermeval2d,"(x, y, c)",return_class,Ndarray
+hermite_e,has_method,hermegrid2d,"(x, y, c)",return_class,Ndarray
+hermite_e,has_method,hermevander2d,"(x, y, deg)",return_class,Ndarray
+hermite_e,has_method,hermefit,"(x, y, deg, rcond=None, full=False, w=None)",return_class,None
+hermite_e,has_method,hermeval3d,"(x, y, z, c)",return_class,Ndarray
+hermite_e,has_method,hermegrid3d,"(x, y, z, c)",return_class,Ndarray
+hermite_e,has_method,hermevander3d,"(x, y, z, deg)",return_class,Ndarray
+laguerre,has_method,lagx,"([ 1, -1])",return_class,None
+laguerre,has_method,lagdomain,"([0, 1])",return_class,None
+laguerre,has_method,lagzero,([0]),return_class,None
+laguerre,has_method,lagone,([1]),return_class,None
+laguerre,has_method,lagmulx,(c),return_class,Ndarray
+laguerre,has_method,lagroots,(c),return_class,Ndarray
+laguerre,has_method,lagcompanion,(c),return_class,Ndarray
+laguerre,has_method,lag2poly,(c),return_class,Ndarray
+laguerre,has_method,lagint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",return_class,Ndarray
+laguerre,has_method,lagder,"(c, m=1, scl=1, axis=0)",return_class,Ndarray
+laguerre,has_method,lagpow,"(c, pow, maxpower=16)",return_class,Ndarray
+laguerre,has_method,lagtrim,"(c, tol=0)",return_class,Ndarray
+laguerre,has_method,lagadd,"(c1, c2)",return_class,Ndarray
+laguerre,has_method,lagsub,"(c1, c2)",return_class,Ndarray
+laguerre,has_method,lagmul,"(c1, c2)",return_class,Ndarray
+laguerre,has_method,lagdiv,"(c1, c2)",return_class,Ndarray
+laguerre,has_method,Laguerre,"(coef, domain=None, window=None, symbol='x')",return_class,None
+laguerre,has_method,laggauss,(deg),return_class,Ndarray
+laguerre,has_method,lagline,"(off, scl)",return_class,Ndarray
+laguerre,has_method,poly2lag,(pol),return_class,Ndarray
+laguerre,has_method,lagfromroots,(roots),return_class,Ndarray
+laguerre,has_method,lagweight,(x),return_class,Ndarray
+laguerre,has_method,lagval,"(x, c, tensor=True)",return_class,Ndarray
+laguerre,has_method,lagvander,"(x, deg)",return_class,Ndarray
+laguerre,has_method,lagval2d,"(x, y, c)",return_class,Ndarray
+laguerre,has_method,laggrid2d,"(x, y, c)",return_class,Ndarray
+laguerre,has_method,lagvander2d,"(x, y, deg)",return_class,Ndarray
+laguerre,has_method,lagfit,"(x, y, deg, rcond=None, full=False, w=None)",return_class,None
+laguerre,has_method,lagval3d,"(x, y, z, c)",return_class,Ndarray
+laguerre,has_method,laggrid3d,"(x, y, z, c)",return_class,Ndarray
+laguerre,has_method,lagvander3d,"(x, y, z, deg)",return_class,Ndarray
+legendre,has_method,legx,"([0, 1])",return_class,None
+legendre,has_method,legzero,([0]),return_class,None
+legendre,has_method,legdomain,"([-1,? 1])",return_class,None
+legendre,has_method,legone,([1]),return_class,None
+legendre,has_method,legmulx,(c),return_class,Ndarray
+legendre,has_method,legroots,(c),return_class,Ndarray
+legendre,has_method,legcompanion,(c),return_class,Ndarray
+legendre,has_method,leg2poly,(c),return_class,Ndarray
+legendre,has_method,legint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",return_class,Ndarray
+legendre,has_method,legder,"(c, m=1, scl=1, axis=0)",return_class,Ndarray
+legendre,has_method,legpow,"(c, pow, maxpower=16)",return_class,Ndarray
+legendre,has_method,legtrim,"(c, tol=0)",return_class,Ndarray
+legendre,has_method,legadd,"(c1, c2)",return_class,Ndarray
+legendre,has_method,legsub,"(c1, c2)",return_class,Ndarray
+legendre,has_method,legmul,"(c1, c2)",return_class,Ndarray
+legendre,has_method,legdiv,"(c1, c2)",return_class,Ndarray
+legendre,has_method,Legendre,"(coef, domain=None, window=None, symbol='x')",return_class,None
+legendre,has_method,leggauss,(deg),return_class,Ndarray
+legendre,has_method,legline,"(off, scl)",return_class,Ndarray
+legendre,has_method,poly2leg,(pol),return_class,Ndarray
+legendre,has_method,legfromroots,(roots),return_class,Ndarray
+legendre,has_method,legweight,(x),return_class,Ndarray
+legendre,has_method,legval,"(x, c, tensor=True)",return_class,Ndarray
+legendre,has_method,legvander,"(x, deg)",return_class,Ndarray
+legendre,has_method,legval2d,"(x, y, c)",return_class,Ndarray
+legendre,has_method,leggrid2d,"(x, y, c)",return_class,Ndarray
+legendre,has_method,legvander2d,"(x, y, deg)",return_class,Ndarray
+legendre,has_method,legfit,"(x, y, deg, rcond=None, full=False, w=None)",return_class,None
+legendre,has_method,legval3d,"(x, y, z, c)",return_class,Ndarray
+legendre,has_method,leggrid3d,"(x, y, z, c)",return_class,Ndarray
+legendre,has_method,legvander3d,"(x, y, z, deg)",return_class,Ndarray
+polynomial,has_method,polyx,"([0, 1])",return_class,None
+polynomial,has_method,polyzero,([0]),return_class,None
+polynomial,has_method,polydomain,"([-1,? 1])",return_class,None
+polynomial,has_method,polyone,([1]),return_class,None
+polynomial,has_method,polymulx,(c),return_class,Ndarray
+polynomial,has_method,polyroots,(c),return_class,Ndarray
+polynomial,has_method,polycompanion,(c),return_class,Ndarray
+polynomial,has_method,polyint,"(c, m=1, k=[], lbnd=0, scl=1, axis=0)",return_class,Ndarray
+polynomial,has_method,polyder,"(c, m=1, scl=1, axis=0)",return_class,Ndarray
+polynomial,has_method,polypow,"(c, pow, maxpower=None)",return_class,Ndarray
+polynomial,has_method,polytrim,"(c, tol=0)",return_class,Ndarray
+polynomial,has_method,polyadd,"(c1, c2)",return_class,Ndarray
+polynomial,has_method,polysub,"(c1, c2)",return_class,Ndarray
+polynomial,has_method,polymul,"(c1, c2)",return_class,Ndarray
+polynomial,has_method,polydiv,"(c1, c2)",return_class,Ndarray
+polynomial,has_method,,"(coef, domain=None, window=None, symbol='x')",return_class,None
+polynomial,has_method,polyline,"(off, scl)",return_class,Ndarray
+polynomial,has_method,polyfromroots,(roots),return_class,Ndarray
+polynomial,has_method,polyval,"(x, c, tensor=True)",return_class,Ndarray
+polynomial,has_method,polyvander,"(x, deg)",return_class,Ndarray
+polynomial,has_method,polyvalfromroots,"(x, r, tensor=True)",return_class,Ndarray
+polynomial,has_method,polyval2d,"(x, y, c)",return_class,Ndarray
+polynomial,has_method,polygrid2d,"(x, y, c)",return_class,Ndarray
+polynomial,has_method,polyvander2d,"(x, y, deg)",return_class,Ndarray
+polynomial,has_method,polyfit,"(x, y, deg, rcond=None, full=False, w=None)",return_class,None
+polynomial,has_method,polyval3d,"(x, y, z, c)",return_class,Ndarray
+polynomial,has_method,polygrid3d,"(x, y, z, c)",return_class,Ndarray
+polynomial,has_method,polyvander3d,"(x, y, z, deg)",return_class,Ndarray
+polyutils,has_method,as_series,"(alist, trim=True)",return_class,List
+polyutils,has_method,trimcoef,"(c, tol=0)",return_class,Ndarray
+polyutils,has_method,mapparms,"(old, new)",return_class,Scalars
+polyutils,has_method,trimseq,(seq),return_class,Sequence
+polyutils,has_method,getdomain,(x),return_class,Ndarray
+polyutils,has_method,mapdomain,"(x, old, new)",return_class,Ndarray
+testing,has_method,assert_no_warnings,"(*args, **kwargs)",return_class,None
+testing,has_method,assert_no_gc_cycles,"(*args, **kwargs)",return_class,None
+testing,has_method,assert_array_max_ulp,"(a, b, maxulp=1, dtype=None)",return_class,Ndarray
+testing,has_method,assert_string_equal,"(actual, desired)",return_class,None
+testing,has_method,assert_almost_equal,"(actual, desired, decimal=7, err_msg='', verbose=True)",return_class,None
+testing,has_method,assert_equal,"(actual, desired, err_msg='', verbose=True)",return_class,None
+testing,has_method,assert_allclose,"(actual, desired, rtol=1e-07, atol=0, equal_nan=True, err_msg='', verbose=True)",return_class,None
+testing,has_method,assert_approx_equal,"(actual, desired, significant=7, err_msg='', verbose=True)",return_class,None
+testing,has_method,decorate_methods,"(cls, decorator, testmatch=None)",return_class,None
+testing,has_method,measure,"(code_str, times=1, label=None)",return_class,Float
+testing,has_method,assert_raises,"(exception_class, callable, *args, **kwargs) assert_raises(exception_class)",return_class,None
+testing,has_method,assert_raises_regex,"(exception_class, expected_regexp, callable, *args, **kwargs) assert_raises_regex(exception_class, expected_regexp)",return_class,None
+testing,has_method,rundocs,"(filename=None, raise_on_error=True)",return_class,None
+testing,has_method,clear_and_catch_warnings,"(record=False, modules=())",return_class,None
+testing,has_method,print_assert_equal,"(test_string, actual, desired)",return_class,None
+testing,has_method,assert_,"(val, msg='')",return_class,None
+testing,has_method,assert_warns,"(warning_class, *args, **kwargs)",return_class,None
+testing,has_method,assert_array_almost_equal,"(x, y, decimal=6, err_msg='', verbose=True)",return_class,None
+testing,has_method,assert_array_less,"(x, y, err_msg='', verbose=True)",return_class,None
+testing,has_method,assert_array_equal,"(x, y, err_msg='', verbose=True, *, strict=False)",return_class,None
+testing,has_method,assert_array_almost_equal_nulp,"(x, y, nulp=1)",return_class,None
+extbuild,has_method,build_and_import_extension,"(modname, functions, *, prologue='', build_dir=None, include_dirs=[], more_init='')",return_class,None
+overrides,has_method,get_overridable_numpy_ufuncs,(),return_class,None
+overrides,has_method,get_overridable_numpy_array_functions,(),return_class,None
+overrides,has_method,allows_array_function_override,(func),return_class,None
+overrides,has_method,allows_array_ufunc_override,(func),return_class,None
