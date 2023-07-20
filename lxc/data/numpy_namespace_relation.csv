@@ -1,0 +1,14 @@
+num,subject,relation,object
+1,core,has_namespace,defchararray
+1,core,has_namespace,records
+2,lib,has_namespace,mixins
+3,ma,has_namespace,masked_array
+3,ma,has_namespace,MaskedArray
+4,polynomial,has_namespace,chebyshev
+4,polynomial,has_namespace,hermite
+4,polynomial,has_namespace,hermite_e
+4,polynomial,has_namespace,laguerre
+4,polynomial,has_namespace,legendre
+4,polynomial,has_namespace,polyutils
+5,testing,has_namespace,extbuild
+5,testing,has_namespace,overrides

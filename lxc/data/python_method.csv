@@ -1,0 +1,87 @@
+class,relation1,method,parameters,relation2,return_class
+Str,has_method,capitalize,(),return_class,Str
+Str,has_method,casefold,(),return_class,Str
+Str,has_method,center,(width: int),return_class,Str
+Str,has_method,count,(sub: str),return_class,Int
+Str,has_method,encode,(encoding: str),return_class,Bytes
+Str,has_method,endswith,(suffix: str),return_class,Bool
+Str,has_method,expandtabs,(tabsize: int),return_class,Str
+Str,has_method,find,(sub: str),return_class,Int
+Str,has_method,format,"(*args, **kwargs)",return_class,Str
+Str,has_method,index,(sub: str),return_class,Int
+Str,has_method,isalnum,(),return_class,Bool
+Str,has_method,isalpha,(),return_class,Bool
+Str,has_method,isdecimal,(),return_class,Bool
+Str,has_method,isdigit,(),return_class,Bool
+Str,has_method,isidentifier,(),return_class,Bool
+Str,has_method,islower,(),return_class,Bool
+Str,has_method,isnumeric,(),return_class,Bool
+Str,has_method,isprintable,(),return_class,Bool
+Str,has_method,isspace,(),return_class,Bool
+Str,has_method,istitle,(),return_class,Bool
+Str,has_method,isupper,(),return_class,Bool
+Str,has_method,join,(iterable: iterable),return_class,Str
+Str,has_method,ljust,(width: int),return_class,Str
+Str,has_method,lower,(),return_class,Str
+Str,has_method,lstrip,(chars: str),return_class,Str
+Str,has_method,partition,(sep: str),return_class,Tuple
+Str,has_method,replace,"(old: str, new: str)",return_class,Str
+Str,has_method,rfind,(sub: str),return_class,Int
+Str,has_method,rindex,(sub: str),return_class,Int
+Str,has_method,rjust,(width: int),return_class,Str
+Str,has_method,rpartition,(sep: str),return_class,Tuple
+Str,has_method,rsplit,"(sep: str, maxsplit: int)",return_class,List
+Str,has_method,rstrip,(chars: str),return_class,Str
+Str,has_method,split,"(sep: str, maxsplit: int)",return_class,List
+Str,has_method,splitlines,(keepends: bool),return_class,List
+Str,has_method,startswith,(prefix: str),return_class,Bool
+Str,has_method,strip,(chars: str),return_class,Str
+Str,has_method,swapcase,(),return_class,Str
+Str,has_method,title,(),return_class,Str
+Str,has_method,translate,(table: bytes),return_class,Str
+Str,has_method,upper,(),return_class,Str
+Str,has_method,zfill,(width: int),return_class,Str
+Dict,has_method,clear,(),return_class,None
+Dict,has_method,copy,(),return_class,Dict
+Dict,has_method,fromkeys,"(keys: iterable, value: any)",return_class,Dict
+Dict,has_method,get,"(key: any, default: any)",return_class,Any
+Dict,has_method,items,(),return_class,Dict_Items
+Dict,has_method,keys,(),return_class,Dict_Keys
+Dict,has_method,values,(),return_class,Dict_Values
+Dict,has_method,pop,"(key: any, default: any)",return_class,Any
+Dict,has_method,popitem,(),return_class,Tuple
+Dict,has_method,setdefault,"(key: any, default: any)",return_class,Any
+Dict,has_method,update,(other: dict or iterable of key-value tuples),return_class,None
+Dict,has_method,contains,(key: any),return_class,Bool
+Dict,has_method,delitem,(key: any),return_class,None
+Dict,has_method,getitem,(key: any),return_class,Any
+Dict,has_method,len,(),return_class,Int
+Dict,has_method,setitem,"(key: any, value: any)",return_class,None
+List,has_method,append,(item: any),return_class,None
+List,has_method,clear,(),return_class,None
+List,has_method,copy,(),return_class,List
+List,has_method,count,(item: any),return_class,Int
+List,has_method,extend,(iterable: iterable),return_class,None
+List,has_method,index,"(item: any, start: int, end: int)",return_class,Int
+List,has_method,insert,"(index: int, item: any)",return_class,None
+List,has_method,pop,(index: int),return_class,Any
+List,has_method,remove,(item: any),return_class,None
+List,has_method,reverse,(),return_class,None
+List,has_method,sort,"(key: callable, reverse: bool)",return_class,None
+Set,has_method,add,(elem: any),return_class,None
+Set,has_method,clear,(),return_class,None
+Set,has_method,copy,(),return_class,Set
+Set,has_method,difference,(other: iterable),return_class,Set
+Set,has_method,difference_update,(other: iterable),return_class,None
+Set,has_method,discard,(elem: any),return_class,None
+Set,has_method,intersection,(other: iterable),return_class,Set
+Set,has_method,intersection_update,(other: iterable),return_class,None
+Set,has_method,isdisjoint,(other: iterable),return_class,Bool
+Set,has_method,issubset,(other: iterable),return_class,Bool
+Set,has_method,issuperset,(other: iterable),return_class,Bool
+Set,has_method,pop,(),return_class,Any
+Set,has_method,remove,(elem: any),return_class,None
+Set,has_method,symmetric_difference,(other: iterable),return_class,Set
+Set,has_method,symmetric_difference_update,(other: iterable),return_class,None
+Set,has_method,union,(other: iterable),return_class,Set
+Set,has_method,update,(other: iterable),return_class,None
