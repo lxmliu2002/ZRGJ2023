@@ -1,0 +1,1291 @@
+BQuarterBegin,copy,(),None
+BQuarterBegin,is_anchored,(),Bool
+BQuarterBegin,is_on_offset,(),Bool
+BQuarterBegin,is_month_start,(),Bool
+BQuarterBegin,is_month_end,(),Bool
+BQuarterBegin,is_quarter_start,(),Bool
+BQuarterBegin,is_quarter_end,(),Bool
+BQuarterBegin,is_year_start,(),Bool
+BQuarterBegin,is_year_end,(),Bool
+BQuarterEnd,copy,(),None
+BQuarterEnd,is_anchored,(),Bool
+BQuarterEnd,is_on_offset,(),Bool
+BQuarterEnd,is_month_start,(),Bool
+BQuarterEnd,is_month_end,(),Bool
+BQuarterEnd,is_quarter_start,(),Bool
+BQuarterEnd,is_quarter_end,(),Bool
+BQuarterEnd,is_year_start,(),Bool
+BQuarterEnd,is_year_end,(),Bool
+BusinessDay,copy,(),None
+BusinessDay,is_anchored,(),Bool
+BusinessDay,is_on_offset,(),Bool
+BusinessDay,is_month_start,(),Bool
+BusinessDay,is_month_end,(),Bool
+BusinessDay,is_quarter_start,(),Bool
+BusinessDay,is_quarter_end,(),Bool
+BusinessDay,is_year_start,(),Bool
+BusinessDay,is_year_end,(),Bool
+BusinessHour,copy,(),None
+BusinessHour,is_anchored,(),Bool
+BusinessHour,is_on_offset,(),Bool
+BusinessHour,is_month_start,(),Bool
+BusinessHour,is_month_end,(),Bool
+BusinessHour,is_quarter_start,(),Bool
+BusinessHour,is_quarter_end,(),Bool
+BusinessHour,is_year_start,(),Bool
+BusinessHour,is_year_end,(),Bool
+BusinessMonthBegin,copy,(),None
+BusinessMonthBegin,is_anchored,(),Bool
+BusinessMonthBegin,is_on_offset,(),Bool
+BusinessMonthBegin,is_month_start,(),Bool
+BusinessMonthBegin,is_month_end,(),Bool
+BusinessMonthBegin,is_quarter_start,(),Bool
+BusinessMonthBegin,is_quarter_end,(),Bool
+BusinessMonthBegin,is_year_start,(),Bool
+BusinessMonthBegin,is_year_end,(),Bool
+BusinessMonthEnd,copy,(),None
+BusinessMonthEnd,is_anchored,(),Bool
+BusinessMonthEnd,is_on_offset,(),Bool
+BusinessMonthEnd,is_month_start,(),Bool
+BusinessMonthEnd,is_month_end,(),Bool
+BusinessMonthEnd,is_quarter_start,(),Bool
+BusinessMonthEnd,is_quarter_end,(),Bool
+BusinessMonthEnd,is_year_start,(),Bool
+BusinessMonthEnd,is_year_end,(),Bool
+BYearBegin,copy,(),None
+BYearBegin,is_anchored,(),Bool
+BYearBegin,is_on_offset,(),Bool
+BYearBegin,is_month_start,(),Bool
+BYearBegin,is_month_end,(),Bool
+BYearBegin,is_quarter_start,(),Bool
+BYearBegin,is_quarter_end,(),Bool
+BYearBegin,is_year_start,(),Bool
+BYearBegin,is_year_end,(),Bool
+BYearEnd,copy,(),None
+BYearEnd,is_anchored,(),Bool
+BYearEnd,is_on_offset,(),Bool
+BYearEnd,is_month_start,(),Bool
+BYearEnd,is_month_end,(),Bool
+BYearEnd,is_quarter_start,(),Bool
+BYearEnd,is_quarter_end,(),Bool
+BYearEnd,is_year_start,(),Bool
+BYearEnd,is_year_end,(),Bool
+CustomBusinessDay,copy,(),None
+CustomBusinessDay,is_anchored,(),Bool
+CustomBusinessDay,is_on_offset,(),Bool
+CustomBusinessDay,is_month_start,(),Bool
+CustomBusinessDay,is_month_end,(),Bool
+CustomBusinessDay,is_quarter_start,(),Bool
+CustomBusinessDay,is_quarter_end,(),Bool
+CustomBusinessDay,is_year_start,(),Bool
+CustomBusinessDay,is_year_end,(),Bool
+CustomBusinessHour,copy,(),None
+CustomBusinessHour,is_anchored,(),Bool
+CustomBusinessHour,is_on_offset,(),Bool
+CustomBusinessHour,is_month_start,(),Bool
+CustomBusinessHour,is_month_end,(),Bool
+CustomBusinessHour,is_quarter_start,(),Bool
+CustomBusinessHour,is_quarter_end,(),Bool
+CustomBusinessHour,is_year_start,(),Bool
+CustomBusinessHour,is_year_end,(),Bool
+CustomBusinessMonthBegin,copy,(),None
+CustomBusinessMonthBegin,is_anchored,(),Bool
+CustomBusinessMonthBegin,is_on_offset,(),Bool
+CustomBusinessMonthBegin,is_month_start,(),Bool
+CustomBusinessMonthBegin,is_month_end,(),Bool
+CustomBusinessMonthBegin,is_quarter_start,(),Bool
+CustomBusinessMonthBegin,is_quarter_end,(),Bool
+CustomBusinessMonthBegin,is_year_start,(),Bool
+CustomBusinessMonthBegin,is_year_end,(),Bool
+CustomBusinessMonthEnd,copy,(),None
+CustomBusinessMonthEnd,is_anchored,(),Bool
+CustomBusinessMonthEnd,is_on_offset,(),Bool
+CustomBusinessMonthEnd,is_month_start,(),Bool
+CustomBusinessMonthEnd,is_month_end,(),Bool
+CustomBusinessMonthEnd,is_quarter_start,(),Bool
+CustomBusinessMonthEnd,is_quarter_end,(),Bool
+CustomBusinessMonthEnd,is_year_start,(),Bool
+CustomBusinessMonthEnd,is_year_end,(),Bool
+DataFrame,items,(),None
+DataFrame,iterrows,(),None
+DataFrame,abs,(),Abs
+DataFrame,bool,(),Bool
+DataFrame,isna,(),Dataframe
+DataFrame,isnull,(),Dataframe
+DataFrame,notna,(),Dataframe
+DataFrame,notnull,(),Dataframe
+DataFrame,keys,(),Index
+DataFrame,__iter__,(),Iterator
+sparse,to_dense,(),Dataframe
+DataFrameGroupBy,ohlc,(),Dataframe
+DataFrameGroupBy,size,(),Dataframe
+DataFrameGroupBy,count,(),Series
+DateOffset,copy,(),None
+DateOffset,is_month_start,(),Bool
+DateOffset,is_month_end,(),Bool
+DateOffset,is_anchored,(),Bool
+DateOffset,is_on_offset,(),Bool
+DateOffset,is_quarter_start,(),Bool
+DateOffset,is_quarter_end,(),Bool
+DateOffset,is_year_start,(),Bool
+DateOffset,is_year_end,(),Bool
+Day,copy,(),None
+Day,is_anchored,(),Bool
+Day,is_on_offset,(),Bool
+Day,is_month_start,(),Bool
+Day,is_month_end,(),Bool
+Day,is_quarter_start,(),Bool
+Day,is_quarter_end,(),Bool
+Day,is_year_start,(),Bool
+Day,is_year_end,(),Bool
+Easter,copy,(),None
+Easter,is_anchored,(),Bool
+Easter,is_on_offset,(),Bool
+Easter,is_month_start,(),Bool
+Easter,is_month_end,(),Bool
+Easter,is_quarter_start,(),Bool
+Easter,is_quarter_end,(),Bool
+Easter,is_year_start,(),Bool
+Easter,is_year_end,(),Bool
+FY5253,copy,(),None
+FY5253,get_rule_code_suffix,(),None
+FY5253,get_year_end,(),None
+FY5253,is_anchored,(),Bool
+FY5253,is_on_offset,(),Bool
+FY5253,is_month_start,(),Bool
+FY5253,is_month_end,(),Bool
+FY5253,is_quarter_start,(),Bool
+FY5253,is_quarter_end,(),Bool
+FY5253,is_year_start,(),Bool
+FY5253,is_year_end,(),Bool
+FY5253Quarter,copy,(),None
+FY5253Quarter,get_rule_code_suffix,(),None
+FY5253Quarter,get_weeks,(),None
+FY5253Quarter,year_has_extra_week,(),None
+FY5253Quarter,is_anchored,(),Bool
+FY5253Quarter,is_on_offset,(),Bool
+FY5253Quarter,is_month_start,(),Bool
+FY5253Quarter,is_month_end,(),Bool
+FY5253Quarter,is_quarter_start,(),Bool
+FY5253Quarter,is_quarter_end,(),Bool
+FY5253Quarter,is_year_start,(),Bool
+FY5253Quarter,is_year_end,(),Bool
+HDFStore,groups,(),List
+HDFStore,info,(),Str
+Hour,copy,(),None
+Hour,is_anchored,(),Bool
+Hour,is_on_offset,(),Bool
+Hour,is_month_start,(),Bool
+Hour,is_month_end,(),Bool
+Hour,is_quarter_start,(),Bool
+Hour,is_quarter_end,(),Bool
+Hour,is_year_start,(),Bool
+Hour,is_year_end,(),Bool
+Index,item,(),None
+Index,is_boolean,(),Bool
+Index,is_categorical,(),Bool
+Index,is_floating,(),Bool
+Index,is_integer,(),Bool
+Index,is_interval,(),Bool
+Index,is_numeric,(),Bool
+Index,is_object,(),Bool
+Index,to_list,(),List
+Index,isna,(),Ndarray
+Index,notna,(),Ndarray
+Interval,overlaps,(),Bool
+LastWeekOfMonth,copy,(),None
+LastWeekOfMonth,is_anchored,(),Bool
+LastWeekOfMonth,is_on_offset,(),Bool
+LastWeekOfMonth,is_month_start,(),Bool
+LastWeekOfMonth,is_month_end,(),Bool
+LastWeekOfMonth,is_quarter_start,(),Bool
+LastWeekOfMonth,is_quarter_end,(),Bool
+LastWeekOfMonth,is_year_start,(),Bool
+LastWeekOfMonth,is_year_end,(),Bool
+Micro,copy,(),None
+Micro,is_anchored,(),Bool
+Micro,is_on_offset,(),Bool
+Micro,is_month_start,(),Bool
+Micro,is_month_end,(),Bool
+Micro,is_quarter_start,(),Bool
+Micro,is_quarter_end,(),Bool
+Micro,is_year_start,(),Bool
+Micro,is_year_end,(),Bool
+Milli,copy,(),None
+Milli,is_anchored,(),Bool
+Milli,is_on_offset,(),Bool
+Milli,is_month_start,(),Bool
+Milli,is_month_end,(),Bool
+Milli,is_quarter_start,(),Bool
+Milli,is_quarter_end,(),Bool
+Milli,is_year_start,(),Bool
+Milli,is_year_end,(),Bool
+Minute,copy,(),None
+Minute,is_anchored,(),Bool
+Minute,is_on_offset,(),Bool
+Minute,is_month_start,(),Bool
+Minute,is_month_end,(),Bool
+Minute,is_quarter_start,(),Bool
+Minute,is_quarter_end,(),Bool
+Minute,is_year_start,(),Bool
+Minute,is_year_end,(),Bool
+MonthBegin,copy,(),None
+MonthBegin,is_anchored,(),Bool
+MonthBegin,is_on_offset,(),Bool
+MonthBegin,is_month_start,(),Bool
+MonthBegin,is_month_end,(),Bool
+MonthBegin,is_quarter_start,(),Bool
+MonthBegin,is_quarter_end,(),Bool
+MonthBegin,is_year_start,(),Bool
+MonthBegin,is_year_end,(),Bool
+MonthEnd,copy,(),None
+MonthEnd,is_anchored,(),Bool
+MonthEnd,is_on_offset,(),Bool
+MonthEnd,is_month_start,(),Bool
+MonthEnd,is_month_end,(),Bool
+MonthEnd,is_quarter_start,(),Bool
+MonthEnd,is_quarter_end,(),Bool
+MonthEnd,is_year_start,(),Bool
+MonthEnd,is_year_end,(),Bool
+MultiIndex,remove_unused_levels,(),Index
+MultiIndex,to_flat_index,(),Index
+Nano,copy,(),None
+Nano,is_anchored,(),Bool
+Nano,is_on_offset,(),Bool
+Nano,is_month_start,(),Bool
+Nano,is_month_end,(),Bool
+Nano,is_quarter_start,(),Bool
+Nano,is_quarter_end,(),Bool
+Nano,is_year_start,(),Bool
+Nano,is_year_end,(),Bool
+types,is_list_like,(),Bool
+types,is_iterator,(),Bool
+types,is_bool,(),Bool
+types,is_complex,(),Bool
+types,is_float,(),Bool
+types,is_integer,(),Bool
+types,is_interval,(),Bool
+types,is_scalar,(),Bool
+types,infer_dtype,(),Str
+plotting,deregister_matplotlib_converters,(),None
+plotting,register_matplotlib_converters,(),None
+Period,now,(),None
+Period,strftime,(),None
+Period,to_timestamp,(),Timestamp
+QuarterBegin,copy,(),None
+QuarterBegin,is_anchored,(),Bool
+QuarterBegin,is_on_offset,(),Bool
+QuarterBegin,is_month_start,(),Bool
+QuarterBegin,is_month_end,(),Bool
+QuarterBegin,is_quarter_start,(),Bool
+QuarterBegin,is_quarter_end,(),Bool
+QuarterBegin,is_year_start,(),Bool
+QuarterBegin,is_year_end,(),Bool
+QuarterEnd,copy,(),None
+QuarterEnd,is_anchored,(),Bool
+QuarterEnd,is_on_offset,(),Bool
+QuarterEnd,is_month_start,(),Bool
+QuarterEnd,is_month_end,(),Bool
+QuarterEnd,is_quarter_start,(),Bool
+QuarterEnd,is_quarter_end,(),Bool
+QuarterEnd,is_year_start,(),Bool
+QuarterEnd,is_year_end,(),Bool
+Resampler,size,(),Dataframe
+Resampler,count,(),Series
+Second,copy,(),None
+Second,is_anchored,(),Bool
+Second,is_on_offset,(),Bool
+Second,is_month_start,(),Bool
+Second,is_month_end,(),Bool
+Second,is_quarter_start,(),Bool
+Second,is_quarter_end,(),Bool
+Second,is_year_start,(),Bool
+Second,is_year_end,(),Bool
+SemiMonthBegin,copy,(),None
+SemiMonthBegin,is_anchored,(),Bool
+SemiMonthBegin,is_on_offset,(),Bool
+SemiMonthBegin,is_month_start,(),Bool
+SemiMonthBegin,is_month_end,(),Bool
+SemiMonthBegin,is_quarter_start,(),Bool
+SemiMonthBegin,is_quarter_end,(),Bool
+SemiMonthBegin,is_year_start,(),Bool
+SemiMonthBegin,is_year_end,(),Bool
+SemiMonthEnd,copy,(),None
+SemiMonthEnd,is_anchored,(),Bool
+SemiMonthEnd,is_on_offset,(),Bool
+SemiMonthEnd,is_month_start,(),Bool
+SemiMonthEnd,is_month_end,(),Bool
+SemiMonthEnd,is_quarter_start,(),Bool
+SemiMonthEnd,is_quarter_end,(),Bool
+SemiMonthEnd,is_year_start,(),Bool
+SemiMonthEnd,is_year_end,(),Bool
+Series,item,(),None
+Series,abs,(),Abs
+Series,bool,(),Bool
+Series,keys,(),Index
+Series,count,(),Int
+Series,items,(),Iterable
+Series,__iter__,(),Iterator
+Series,to_list,(),List
+Series,unique,(),Ndarray
+Series,isna,(),Series
+Series,isnull,(),Series
+Series,notna,(),Series
+Series,notnull,(),Series
+dt,isocalendar,(),Dataframe
+dt,to_pydatetime,(),Ndarray
+dt,to_pytimedelta,(),Ndarray
+str,isalnum,(),Series
+str,isalpha,(),Series
+str,isdigit,(),Series
+str,isspace,(),Series
+str,islower,(),Series
+str,isupper,(),Series
+str,istitle,(),Series
+str,isnumeric,(),Series
+str,isdecimal,(),Series
+str,len,(),Series
+str,capitalize,(),Series
+str,casefold,(),Series
+str,lower,(),Series
+str,swapcase,(),Series
+str,title,(),Series
+str,upper,(),Series
+SeriesGroupBy,ohlc,(),Dataframe
+SeriesGroupBy,size,(),Dataframe
+SeriesGroupBy,unique,(),Ndarray
+SeriesGroupBy,count,(),Series
+StataReader,value_labels,(),Dict
+StataReader,variable_labels,(),Dict
+StataWriter,write_file,(),None
+Styler,clear,(),None
+Styler,export,(),Dict
+Tick,copy,(),None
+Tick,is_anchored,(),Bool
+Tick,is_on_offset,(),Bool
+Tick,is_month_start,(),Bool
+Tick,is_month_end,(),Bool
+Tick,is_quarter_start,(),Bool
+Tick,is_quarter_end,(),Bool
+Tick,is_year_start,(),Bool
+Tick,is_year_end,(),Bool
+Timedelta,view,(),None
+Timedelta,to_timedelta64,(),None
+Timedelta,total_seconds,(),None
+Timedelta,isoformat,(),Str
+Timedelta,as_unit,(),Timedelta
+Timestamp,ctime,(),None
+Timestamp,date,(),None
+Timestamp,dst,(),None
+Timestamp,isocalendar,(),None
+Timestamp,isoweekday,(),None
+Timestamp,normalize,(),None
+Timestamp,time,(),None
+Timestamp,timestamp,(),None
+Timestamp,timetuple,(),None
+Timestamp,timetz,(),None
+Timestamp,to_datetime64,(),None
+Timestamp,to_julian_date,(),None
+Timestamp,to_period,(),None
+Timestamp,to_pydatetime,(),None
+Timestamp,toordinal,(),None
+Timestamp,tzname,(),None
+Timestamp,utcnow,(),None
+Timestamp,utcoffset,(),None
+Timestamp,utctimetuple,(),None
+Timestamp,weekday,(),None
+Timestamp,to_numpy,(),Ndarray
+Timestamp,day_name,(),Str
+Timestamp,isoformat,(),Str
+Timestamp,month_name,(),Str
+Timestamp,as_unit,(),Timestamp
+Week,copy,(),None
+Week,is_anchored,(),Bool
+Week,is_on_offset,(),Bool
+Week,is_month_start,(),Bool
+Week,is_month_end,(),Bool
+Week,is_quarter_start,(),Bool
+Week,is_quarter_end,(),Bool
+Week,is_year_start,(),Bool
+Week,is_year_end,(),Bool
+WeekOfMonth,copy,(),None
+WeekOfMonth,is_anchored,(),Bool
+WeekOfMonth,is_on_offset,(),Bool
+WeekOfMonth,is_month_start,(),Bool
+WeekOfMonth,is_month_end,(),Bool
+WeekOfMonth,is_quarter_start,(),Bool
+WeekOfMonth,is_quarter_end,(),Bool
+WeekOfMonth,is_year_start,(),Bool
+WeekOfMonth,is_year_end,(),Bool
+YearBegin,copy,(),None
+YearBegin,is_anchored,(),Bool
+YearBegin,is_on_offset,(),Bool
+YearBegin,is_month_start,(),Bool
+YearBegin,is_month_end,(),Bool
+YearBegin,is_quarter_start,(),Bool
+YearBegin,is_quarter_end,(),Bool
+YearBegin,is_year_start,(),Bool
+YearBegin,is_year_end,(),Bool
+YearEnd,copy,(),None
+YearEnd,is_anchored,(),Bool
+YearEnd,is_on_offset,(),Bool
+YearEnd,is_month_start,(),Bool
+YearEnd,is_month_end,(),Bool
+YearEnd,is_quarter_start,(),Bool
+YearEnd,is_quarter_end,(),Bool
+YearEnd,is_year_start,(),Bool
+YearEnd,is_year_end,(),Bool
+DataFrame,assign,(**kwargs),Dataframe
+plot,pie,(**kwargs),Ndarray
+SeriesGroupBy,describe,(**kwargs),Series
+Series,sort_values,"(*, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)",Series
+DataFrame,any,"(*, axis=0, bool_only=None, skipna=True, **kwargs)",Series
+Series,any,"(*, axis=0, bool_only=None, skipna=True, **kwargs)",Scalar
+DataFrame,dropna,"(*, axis=0, how=_NoDefault.no_default, thresh=_NoDefault.no_default, subset=None, inplace=False, ignore_index=False)",Dataframe
+Series,dropna,"(*, axis=0, inplace=False, how=None, ignore_index=False)",Series
+DataFrame,sort_index,"(*, axis=0, level=None, ascending=True, inplace=False, kind='quicksort', na_position='last', sort_remaining=True, ignore_index=False, key=None)",Dataframe
+Series,sort_index,"(*, axis=0, level=None, ascending=True, inplace=False, kind='quicksort', na_position='last', sort_remaining=True, ignore_index=False, key=None)",Series
+DataFrame,backfill,"(*, axis=None, inplace=False, limit=None, downcast=None)",Series
+DataFrame,bfill,"(*, axis=None, inplace=False, limit=None, downcast=None)",Series
+DataFrame,ffill,"(*, axis=None, inplace=False, limit=None, downcast=None)",Series
+DataFrame,pad,"(*, axis=None, inplace=False, limit=None, downcast=None)",Series
+Series,backfill,"(*, axis=None, inplace=False, limit=None, downcast=None)",Series
+Series,bfill,"(*, axis=None, inplace=False, limit=None, downcast=None)",Series
+Series,ffill,"(*, axis=None, inplace=False, limit=None, downcast=None)",Series
+Series,pad,"(*, axis=None, inplace=False, limit=None, downcast=None)",Series
+DataFrame,pivot,"(*, columns, index=typing.Literal[<no_default>], values=typing.Literal[<no_default>])",Dataframe
+DataFrame,set_flags,"(*, copy=False, allows_duplicate_labels=None)",Series
+Series,set_flags,"(*, copy=False, allows_duplicate_labels=None)",Series
+Index,drop_duplicates,"(*, keep='first')",Index
+Series,drop_duplicates,"(*, keep='first', inplace=False, ignore_index=False)",Series
+DatetimeIndex,mean,"(*, skipna=True, axis=0)",Scalar
+TimedeltaIndex,mean,"(*, skipna=True, axis=0)",Scalar
+pandas,option_context,(*args),None
+CategoricalIndex,rename_categories,"(*args, **kwargs)",Categorical
+CategoricalIndex,reorder_categories,"(*args, **kwargs)",Categorical
+CategoricalIndex,add_categories,"(*args, **kwargs)",Categorical
+CategoricalIndex,remove_categories,"(*args, **kwargs)",Categorical
+CategoricalIndex,remove_unused_categories,"(*args, **kwargs)",Categorical
+CategoricalIndex,as_ordered,"(*args, **kwargs)",Categorical
+CategoricalIndex,as_unordered,"(*args, **kwargs)",Categorical
+CategoricalIndex,set_categories,"(*args, **kwargs)",Categorical
+DataFrame,plot,"(*args, **kwargs)",Axes
+DatetimeIndex,round,"(*args, **kwargs)",Datetimeindex
+DatetimeIndex,floor,"(*args, **kwargs)",Datetimeindex
+DatetimeIndex,ceil,"(*args, **kwargs)",Datetimeindex
+DatetimeIndex,to_pydatetime,"(*args, **kwargs)",Ndarray
+DatetimeIndex,to_period,"(*args, **kwargs)",Index
+DatetimeIndex,month_name,"(*args, **kwargs)",Series
+DatetimeIndex,day_name,"(*args, **kwargs)",Series
+DatetimeIndex,std,"(*args, **kwargs)",Timedelta
+Index,all,"(*args, **kwargs)",Bool
+Index,any,"(*args, **kwargs)",Bool
+Index,argsort,"(*args, **kwargs)",Ndarray
+IntervalIndex,contains,"(*args, **kwargs)",Array
+IntervalIndex,set_closed,"(*args, **kwargs)",Array
+IntervalIndex,overlaps,"(*args, **kwargs)",Ndarray
+IntervalIndex,to_tuples,"(*args, **kwargs)",Tuple
+PeriodIndex,strftime,"(*args, **kwargs)",Ndarray
+Resampler,ohlc,"(*args, **kwargs)",Dataframe
+Resampler,nunique,"(*args, **kwargs)",Series
+Series,plot,"(*args, **kwargs)",Axes
+cat,rename_categories,"(*args, **kwargs)",Categorical
+cat,reorder_categories,"(*args, **kwargs)",Categorical
+cat,add_categories,"(*args, **kwargs)",Categorical
+cat,remove_categories,"(*args, **kwargs)",Categorical
+cat,remove_unused_categories,"(*args, **kwargs)",Categorical
+cat,as_ordered,"(*args, **kwargs)",Categorical
+cat,as_unordered,"(*args, **kwargs)",Categorical
+cat,set_categories,"(*args, **kwargs)",Categorical
+dt,as_unit,"(*args, **kwargs)",None
+dt,tz_convert,"(*args, **kwargs)",Array
+dt,round,"(*args, **kwargs)",Datetimeindex
+dt,floor,"(*args, **kwargs)",Datetimeindex
+dt,ceil,"(*args, **kwargs)",Datetimeindex
+dt,total_seconds,"(*args, **kwargs)",Ndarray
+dt,strftime,"(*args, **kwargs)",Ndarray
+dt,to_period,"(*args, **kwargs)",Index
+dt,month_name,"(*args, **kwargs)",Series
+dt,day_name,"(*args, **kwargs)",Series
+TimedeltaIndex,round,"(*args, **kwargs)",Datetimeindex
+TimedeltaIndex,floor,"(*args, **kwargs)",Datetimeindex
+TimedeltaIndex,ceil,"(*args, **kwargs)",Datetimeindex
+TimedeltaIndex,to_pytimedelta,"(*args, **kwargs)",Ndarray
+DataFrame,transpose,"(*args, copy=False)",Dataframe
+Timedelta,resolution,('0 days 00:00:00.000000001'),None
+Timestamp,resolution,('0 days 00:00:00.000000001'),None
+Timedelta,max,('106751 days 23:47:16.854775807'),None
+Timedelta,min,('-106752 days +00:12:43.145224193'),None
+Timestamp,min,('1677-09-21 00:12:43.145224193'),None
+Timestamp,max,('2262-04-11 23:47:16.854775807'),None
+pandas,set_eng_float_format,"(accuracy=3, use_eng_prefix=False)",None
+Resampler,transform,"(arg, *args, **kwargs)",Series
+pandas,to_datetime,"(arg, errors='raise', dayfirst=False, yearfirst=False, utc=False, format=None, exact=_NoDefault.no_default, unit=None, infer_datetime_format=_NoDefault.no_default, origin='unix', cache=True)",Datetime
+Series,map,"(arg, na_action=None)",Series
+pandas,to_timedelta,"(arg, unit=None, errors='raise')",Timedelta
+types,is_sparse,(arr),Bool
+types,is_any_real_numeric_dtype,(arr_or_dtype),Bool
+types,is_bool_dtype,(arr_or_dtype),Bool
+types,is_categorical_dtype,(arr_or_dtype),Bool
+types,is_complex_dtype,(arr_or_dtype),Bool
+types,is_datetime64_any_dtype,(arr_or_dtype),Bool
+types,is_datetime64_dtype,(arr_or_dtype),Bool
+types,is_datetime64_ns_dtype,(arr_or_dtype),Bool
+types,is_datetime64tz_dtype,(arr_or_dtype),Bool
+types,is_extension_array_dtype,(arr_or_dtype),Bool
+types,is_float_dtype,(arr_or_dtype),Bool
+types,is_int64_dtype,(arr_or_dtype),Bool
+types,is_integer_dtype,(arr_or_dtype),Bool
+types,is_interval_dtype,(arr_or_dtype),Bool
+types,is_numeric_dtype,(arr_or_dtype),Bool
+types,is_object_dtype,(arr_or_dtype),Bool
+types,is_period_dtype,(arr_or_dtype),Bool
+types,is_signed_integer_dtype,(arr_or_dtype),Bool
+types,is_string_dtype,(arr_or_dtype),Bool
+types,is_timedelta64_dtype,(arr_or_dtype),Bool
+types,is_timedelta64_ns_dtype,(arr_or_dtype),Bool
+types,is_unsigned_integer_dtype,(arr_or_dtype),Bool
+indexers,check_array_indexer,"(array, indexer)",Ndarray
+MultiIndex,from_arrays,"(arrays, sortorder=None, names=_NoDefault.no_default)",Index
+pandas,show_versions,(as_json=False),None
+DataFrameGroupBy,cumcount,(ascending=True),Series
+DataFrameGroupBy,ngroup,(ascending=True),Series
+SeriesGroupBy,cumcount,(ascending=True),Series
+SeriesGroupBy,ngroup,(ascending=True),Series
+Styler,set_table_attributes,(attributes),Styler
+DataFrameGroupBy,skew,"(axis=_NoDefault.no_default, skipna=True, numeric_only=False, **kwargs)",Dataframe
+SeriesGroupBy,skew,"(axis=_NoDefault.no_default, skipna=True, numeric_only=False, **kwargs)",Series
+DataFrameGroupBy,cumprod,"(axis=0, *args, **kwargs)",Series
+DataFrameGroupBy,cumsum,"(axis=0, *args, **kwargs)",Series
+SeriesGroupBy,cumprod,"(axis=0, *args, **kwargs)",Series
+SeriesGroupBy,cumsum,"(axis=0, *args, **kwargs)",Series
+DataFrame,all,"(axis=0, bool_only=None, skipna=True, **kwargs)",Series
+Series,all,"(axis=0, bool_only=None, skipna=True, **kwargs)",Scalar
+DataFrame,nunique,"(axis=0, dropna=True)",Series
+Series,argsort,"(axis=0, kind='quicksort', order=None)",Series
+DataFrame,count,"(axis=0, numeric_only=False)",Series
+DataFrameGroupBy,cummax,"(axis=0, numeric_only=False, **kwargs)",Series
+DataFrameGroupBy,cummin,"(axis=0, numeric_only=False, **kwargs)",Series
+SeriesGroupBy,cummax,"(axis=0, numeric_only=False, **kwargs)",Series
+SeriesGroupBy,cummin,"(axis=0, numeric_only=False, **kwargs)",Series
+DataFrame,mode,"(axis=0, numeric_only=False, dropna=True)",Dataframe
+Styler,set_sticky,"(axis=0, pixel_size=None, levels=None)",Styler
+SeriesGroupBy,idxmax,"(axis=0, skipna=True)",Index
+SeriesGroupBy,idxmin,"(axis=0, skipna=True)",Index
+Series,idxmax,"(axis=0, skipna=True, *args, **kwargs)",Index
+Series,idxmin,"(axis=0, skipna=True, *args, **kwargs)",Index
+DataFrame,idxmax,"(axis=0, skipna=True, numeric_only=False)",Series
+DataFrame,idxmin,"(axis=0, skipna=True, numeric_only=False)",Series
+DataFrame,kurt,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Series
+DataFrame,kurtosis,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Series
+DataFrame,max,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Series
+DataFrame,mean,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Series
+DataFrame,median,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Series
+DataFrame,min,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Series
+DataFrame,skew,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Series
+Series,kurt,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Scalar
+Series,max,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Scalar
+Series,mean,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Scalar
+Series,median,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Scalar
+Series,min,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Scalar
+Series,skew,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Scalar
+Series,kurtosis,"(axis=0, skipna=True, numeric_only=False, **kwargs)",Scalar
+DataFrame,squeeze,(axis=None),"Dataframe, Series"
+Series,squeeze,(axis=None),"Dataframe, Series"
+DataFrame,cummax,"(axis=None, skipna=True, *args, **kwargs)",Series
+DataFrame,cummin,"(axis=None, skipna=True, *args, **kwargs)",Series
+DataFrame,cumprod,"(axis=None, skipna=True, *args, **kwargs)",Series
+DataFrame,cumsum,"(axis=None, skipna=True, *args, **kwargs)",Series
+Index,argmin,"(axis=None, skipna=True, *args, **kwargs)",Int
+Index,argmax,"(axis=None, skipna=True, *args, **kwargs)",Int
+Index,min,"(axis=None, skipna=True, *args, **kwargs)",Scalar
+Index,max,"(axis=None, skipna=True, *args, **kwargs)",Scalar
+Series,argmin,"(axis=None, skipna=True, *args, **kwargs)",Int
+Series,argmax,"(axis=None, skipna=True, *args, **kwargs)",Int
+Series,cummax,"(axis=None, skipna=True, *args, **kwargs)",Scalar
+Series,cummin,"(axis=None, skipna=True, *args, **kwargs)",Scalar
+Series,cumprod,"(axis=None, skipna=True, *args, **kwargs)",Scalar
+Series,cumsum,"(axis=None, skipna=True, *args, **kwargs)",Scalar
+DataFrame,sem,"(axis=None, skipna=True, ddof=1, numeric_only=False, **kwargs)",Series
+DataFrame,std,"(axis=None, skipna=True, ddof=1, numeric_only=False, **kwargs)",Series
+DataFrame,var,"(axis=None, skipna=True, ddof=1, numeric_only=False, **kwargs)",Series
+Series,sem,"(axis=None, skipna=True, ddof=1, numeric_only=False, **kwargs)",Scalar
+Series,std,"(axis=None, skipna=True, ddof=1, numeric_only=False, **kwargs)",Scalar
+Series,var,"(axis=None, skipna=True, ddof=1, numeric_only=False, **kwargs)",Scalar
+DataFrameGroupBy,idxmax,"(axis=None, skipna=True, numeric_only=False)",Series
+DataFrameGroupBy,idxmin,"(axis=None, skipna=True, numeric_only=False)",Series
+DataFrame,prod,"(axis=None, skipna=True, numeric_only=False, min_count=0, **kwargs)",Series
+DataFrame,product,"(axis=None, skipna=True, numeric_only=False, min_count=0, **kwargs)",Series
+DataFrame,sum,"(axis=None, skipna=True, numeric_only=False, min_count=0, **kwargs)",Series
+Series,product,"(axis=None, skipna=True, numeric_only=False, min_count=0, **kwargs)",Scalar
+Series,prod,"(axis=None, skipna=True, numeric_only=False, min_count=0, **kwargs)",Scalar
+Series,sum,"(axis=None, skipna=True, numeric_only=False, min_count=0, **kwargs)",Scalar
+MultiIndex,truncate,"(before=None, after=None)",Index
+ExponentialMovingWindow,std,"(bias=False, numeric_only=False)",Series
+ExponentialMovingWindow,var,"(bias=False, numeric_only=False)",Series
+IntervalIndex,from_breaks,"(breaks, closed='right', name=None, copy=False, dtype=None)",Index
+Styler,to_latex,"(buf=None, *, column_format=None, position=None, position_float=None, hrules=None, clines=None, label=None, caption=None, sparse_index=None, sparse_columns=None, multirow_align=None, multicol_align=None, siunitx=False, environment=None, encoding=None, convert_css=False)",Str
+Styler,to_string,"(buf=None, *, encoding=None, sparse_index=None, sparse_columns=None, max_rows=None, max_columns=None, delimiter=' ')",Str
+Styler,to_html,"(buf=None, *, table_uuid=None, table_attributes=None, sparse_index=None, sparse_columns=None, bold_headers=False, caption=None, max_rows=None, max_columns=None, encoding=None, doctype_html=False, exclude_styles=False, **kwargs)",Str
+DataFrame,to_html,"(buf=None, columns=None, col_space=None, header=True, index=True, na_rep='NaN', formatters=None, float_format=None, sparsify=None, index_names=True, justify=None, max_rows=None, max_cols=None, show_dimensions=False, decimal='.', bold_rows=True, classes=None, escape=True, notebook=False, border=None, table_id=None, render_links=False, encoding=None)",Str
+DataFrame,to_string,"(buf=None, columns=None, col_space=None, header=True, index=True, na_rep='NaN', formatters=None, float_format=None, sparsify=None, index_names=True, justify=None, max_rows=None, max_cols=None, show_dimensions=False, decimal='.', line_width=None, min_rows=None, max_colwidth=None, encoding=None)",Str
+DataFrame,to_latex,"(buf=None, columns=None, header=True, index=True, na_rep='NaN', formatters=None, float_format=None, sparsify=None, index_names=True, bold_rows=False, column_format=None, longtable=None, escape=None, encoding=None, decimal='.', multicolumn=None, multicolumn_format=None, multirow=None, caption=None, label=None, position=None)",Str
+Series,to_latex,"(buf=None, columns=None, header=True, index=True, na_rep='NaN', formatters=None, float_format=None, sparsify=None, index_names=True, bold_rows=False, column_format=None, longtable=None, escape=None, encoding=None, decimal='.', multicolumn=None, multicolumn_format=None, multirow=None, caption=None, label=None, position=None)",Str
+DataFrame,to_markdown,"(buf=None, mode='wt', index=True, storage_options=None, **kwargs)",Str
+Series,to_markdown,"(buf=None, mode='wt', index=True, storage_options=None, **kwargs)",Str
+Series,to_string,"(buf=None, na_rep='NaN', float_format=None, header=True, index=True, length=False, dtype=False, name=False, max_rows=None, min_rows=None)",Str
+plot,density,"(bw_method=None, ind=None, **kwargs)",Axes
+plot,kde,"(bw_method=None, ind=None, **kwargs)",Axes
+DataFrame,sort_values,"(by, *, axis=0, ascending=True, inplace=False, kind='quicksort', na_position='last', ignore_index=False, key=None)",Dataframe
+plot,box,"(by=None, **kwargs)",Axes
+Series,hist,"(by=None, ax=None, grid=True, xlabelsize=None, xrot=None, ylabelsize=None, yrot=None, figsize=None, bins=10, backend=None, legend=False, **kwargs)",Axessubplot
+SeriesGroupBy,hist,"(by=None, ax=None, grid=True, xlabelsize=None, xrot=None, ylabelsize=None, yrot=None, figsize=None, bins=10, backend=None, legend=False, **kwargs)",Axessubplot
+DataFrame,groupby,"(by=None, axis=0, level=None, as_index=True, sort=True, group_keys=True, observed=False, dropna=True)",Dataframe
+Series,groupby,"(by=None, axis=0, level=None, as_index=True, sort=True, group_keys=True, observed=False, dropna=True)",Series
+Styler,set_caption,(caption),Styler
+pandas,CategoricalDtype,"(categories=None, ordered=False)",None
+errors,AbstractMethodError,"(class_instance, methodtype='method')",None
+Styler,set_td_classes,(classes),Styler
+extensions,register_extension_dtype,(cls),Callable
+Index,view,(cls=None),None
+Styler,background_gradient,"(cmap='PuBu', low=0, high=0, axis=0, subset=None, text_color_threshold=0.408, vmin=None, vmax=None, gmap=None)",Styler
+Styler,text_gradient,"(cmap='PuBu', low=0, high=0, axis=0, subset=None, vmin=None, vmax=None, gmap=None)",Styler
+Categorical,from_codes,"(codes, categories=None, ordered=None, dtype=None)",Categorical
+MultiIndex,drop,"(codes, level=None, errors='raise')",Index
+Styler,highlight_null,"(color='red', subset=None, props=None)",Styler
+pandas,NamedAgg,"(column, aggfunc)",None
+DataFrame,explode,"(column, ignore_index=False)",Dataframe
+DataFrame,hist,"(column=None, by=None, grid=True, xlabelsize=None, xrot=None, ylabelsize=None, yrot=None, ax=None, sharex=False, sharey=False, figsize=None, layout=None, bins=10, backend=None, legend=False, **kwargs)",Ndarray
+DataFrameGroupBy,hist,"(column=None, by=None, grid=True, xlabelsize=None, xrot=None, ylabelsize=None, yrot=None, ax=None, sharex=False, sharey=False, figsize=None, layout=None, bins=10, backend=None, legend=False, **kwargs)",Ndarray
+DataFrame,where,"(cond, other=_NoDefault.no_default, *, inplace=False, axis=None, level=None)",None
+DataFrame,mask,"(cond, other=_NoDefault.no_default, *, inplace=False, axis=None, level=None)",None
+Series,where,"(cond, other=_NoDefault.no_default, *, inplace=False, axis=None, level=None)",None
+Series,mask,"(cond, other=_NoDefault.no_default, *, inplace=False, axis=None, level=None)",None
+Index,where,"(cond, other=None)",Index
+pandas,pivot,"(data, *, columns, index=typing.Literal[<no_default>], values=typing.Literal[<no_default>])",Dataframe
+pandas,IntervalIndex,"(data, closed=None, dtype=None, copy=False, name=None, verify_integrity=True)",None
+arrays,IntervalArray,"(data, closed=None, dtype=None, copy=False, verify_integrity=True)",None
+IntervalIndex,from_tuples,"(data, closed='right', name=None, copy=False, dtype=None)",Index
+pandas,array,"(data, dtype=None, copy=True)",Array
+pandas,lreshape,"(data, groups, dropna=True)",Dataframe
+sparse,from_spmatrix,"(data, index=None, columns=None)",Dataframe
+DataFrame,from_records,"(data, index=None, exclude=None, columns=None, coerce_float=False, nrows=None)",Dataframe
+RangeIndex,from_range,"(data, name=None, dtype=None)",Index
+DataFrame,from_dict,"(data, orient='columns', dtype=None, columns=None)",Dataframe
+pandas,get_dummies,"(data, prefix=None, prefix_sep='_', dummy_na=False, columns=None, sparse=False, drop_first=False, dtype=None)",Dataframe
+pandas,json_normalize,"(data, record_path=None, meta=None, meta_prefix=None, record_prefix=None, errors='raise', sep='.', max_level=None)",Dataframe
+pandas,from_dummies,"(data, sep=None, default_category=None)",Dataframe
+arrays,SparseArray,"(data, sparse_index=None, fill_value=None, kind='integer', dtype=None, copy=False)",None
+pandas,pivot_table,"(data, values=None, index=None, columns=None, aggfunc='mean', fill_value=None, margins=False, dropna=True, margins_name='All', observed=False, sort=True)",Dataframe
+pandas,CategoricalIndex,"(data=None, categories=None, ordered=None, dtype=None, copy=False, name=None)",None
+pandas,Index,"(data=None, dtype=None, copy=False, name=None, tupleize_cols=True)",None
+pandas,DatetimeIndex,"(data=None, freq=_NoDefault.no_default, tz=_NoDefault.no_default, normalize=False, closed=None, ambiguous='raise', dayfirst=False, yearfirst=False, dtype=None, copy=False, name=None)",None
+pandas,DataFrame,"(data=None, index=None, columns=None, dtype=None, copy=None)",None
+pandas,Series,"(data=None, index=None, dtype=None, name=None, copy=None, fastpath=False)",None
+pandas,PeriodIndex,"(data=None, ordinal=None, freq=None, dtype=None, copy=False, name=None, **fields)",None
+pandas,TimedeltaIndex,"(data=None, unit=None, freq=_NoDefault.no_default, closed=None, dtype=None, copy=False, name=None)",None
+Timestamp,combine,"(date, time)",None
+DatetimeIndex,strftime,(date_format),Ndarray
+DataFrameGroupBy,std,"(ddof=1, engine=None, engine_kwargs=None, numeric_only=False)",Series
+DataFrameGroupBy,var,"(ddof=1, engine=None, engine_kwargs=None, numeric_only=False)",Series
+SeriesGroupBy,std,"(ddof=1, engine=None, engine_kwargs=None, numeric_only=False)",Series
+SeriesGroupBy,var,"(ddof=1, engine=None, engine_kwargs=None, numeric_only=False)",Series
+DataFrameGroupBy,sem,"(ddof=1, numeric_only=False)",Series
+Expanding,sem,"(ddof=1, numeric_only=False)",Series
+Rolling,sem,"(ddof=1, numeric_only=False)",Series
+SeriesGroupBy,sem,"(ddof=1, numeric_only=False)",Series
+Window,var,"(ddof=1, numeric_only=False, **kwargs)",Series
+Window,std,"(ddof=1, numeric_only=False, **kwargs)",Series
+Resampler,std,"(ddof=1, numeric_only=False, *args, **kwargs)",Dataframe
+Resampler,var,"(ddof=1, numeric_only=False, *args, **kwargs)",Dataframe
+Resampler,sem,"(ddof=1, numeric_only=False, *args, **kwargs)",Series
+Expanding,var,"(ddof=1, numeric_only=False, engine=None, engine_kwargs=None)",Series
+Expanding,std,"(ddof=1, numeric_only=False, engine=None, engine_kwargs=None)",Series
+Rolling,var,"(ddof=1, numeric_only=False, engine=None, engine_kwargs=None)",Series
+Rolling,std,"(ddof=1, numeric_only=False, engine=None, engine_kwargs=None)",Series
+DataFrame,round,"(decimals=0, *args, **kwargs)",Dataframe
+Series,round,"(decimals=0, *args, **kwargs)",Series
+Index,memory_usage,(deep=False),Bytes
+DataFrame,copy,(deep=True),Series
+Series,copy,(deep=True),Series
+DataFrame,to_gbq,"(destination_table, project_id=None, chunksize=None, reauth=False, if_exists='fail', auth_local_webserver=True, table_schema=None, location=None, progress_bar=True, credentials=None)",None
+interchange,from_dataframe,"(df, allow_copy=True)",Dataframe
+MultiIndex,from_frame,"(df, sortorder=None, names=None)",Index
+pandas,wide_to_long,"(df, stubnames, i, j, sep='', suffix='\\d+')",Dataframe
+DataFrameGroupBy,nunique,(dropna=True),Dataframe
+Index,nunique,(dropna=True),Int
+Series,nunique,(dropna=True),Int
+Series,mode,(dropna=True),Series
+SeriesGroupBy,nunique,(dropna=True),Series
+Index,astype,"(dtype, copy=True)",Index
+pandas,SparseDtype,"(dtype=<class 'numpy.float64'>, fill_value=None)",None
+Categorical,__array__,(dtype=None),Array
+Series,__array__,(dtype=None),Ndarray
+Series,view,(dtype=None),Series
+Series,to_numpy,"(dtype=None, copy=False, na_value=_NoDefault.no_default, **kwargs)",Ndarray
+str,decode,"(encoding, errors='strict')",Series
+str,encode,"(encoding, errors='strict')",Series
+Styler,to_excel,"(excel_writer, sheet_name='Sheet1', na_rep='', float_format=None, columns=None, header=True, index=True, index_label=None, startrow=0, startcol=0, engine=None, merge_cells=True, encoding=None, inf_rep='inf', verbose=True, freeze_panes=None, storage_options=None)",None
+DataFrame,to_excel,"(excel_writer, sheet_name='Sheet1', na_rep='', float_format=None, columns=None, header=True, index=True, index_label=None, startrow=0, startcol=0, engine=None, merge_cells=True, inf_rep='inf', freeze_panes=None, storage_options=None)",None
+Series,to_excel,"(excel_writer, sheet_name='Sheet1', na_rep='', float_format=None, columns=None, header=True, index=True, index_label=None, startrow=0, startcol=0, engine=None, merge_cells=True, inf_rep='inf', freeze_panes=None, storage_options=None)",None
+DataFrame,to_clipboard,"(excel=True, sep=None, **kwargs)",None
+Series,to_clipboard,"(excel=True, sep=None, **kwargs)",None
+DataFrame,query,"(expr, *, inplace=False, **kwargs)",Dataframe
+DataFrame,eval,"(expr, *, inplace=False, **kwargs)",Ndarray
+pandas,eval,"(expr, parser='pandas', engine=None, local_dict=None, global_dict=None, resolvers=(), level=0, target=None, inplace=False)",Ndarray
+pandas,test,(extra_args=None),None
+pandas,read_fwf,"(filepath_or_buffer, *, colspecs='infer', widths=None, infer_nrows=100, dtype_backend=_NoDefault.no_default, **kwds)",Dataframe
+pandas,read_stata,"(filepath_or_buffer, *, convert_dates=True, convert_categoricals=True, index_col=None, convert_missing=False, preserve_dtypes=True, columns=None, order_categoricals=True, chunksize=None, iterator=False, compression='infer', storage_options=None)",Dataframe
+pandas,read_sas,"(filepath_or_buffer, *, format=None, index=None, encoding=None, chunksize=None, iterator=False, compression='infer')",Dataframe
+pandas,read_table,"(filepath_or_buffer, *, sep=_NoDefault.no_default, delimiter=None, header='infer', names=_NoDefault.no_default, index_col=None, usecols=None, dtype=None, engine=None, converters=None, true_values=None, false_values=None, skipinitialspace=False, skiprows=None, skipfooter=0, nrows=None, na_values=None, keep_default_na=True, na_filter=True, verbose=False, skip_blank_lines=True, parse_dates=False, infer_datetime_format=_NoDefault.no_default, keep_date_col=False, date_parser=_NoDefault.no_default, date_format=None, dayfirst=False, cache_dates=True, iterator=False, chunksize=None, compression='infer', thousands=None, decimal='.', lineterminator=None, quotechar='""', quoting=0, doublequote=True, escapechar=None, comment=None, encoding=None, encoding_errors='strict', dialect=None, on_bad_lines='error', delim_whitespace=False, low_memory=True, memory_map=False, float_precision=None, storage_options=None, dtype_backend=_NoDefault.no_default)",Dataframe
+pandas,read_csv,"(filepath_or_buffer, *, sep=_NoDefault.no_default, delimiter=None, header='infer', names=_NoDefault.no_default, index_col=None, usecols=None, dtype=None, engine=None, converters=None, true_values=None, false_values=None, skipinitialspace=False, skiprows=None, skipfooter=0, nrows=None, na_values=None, keep_default_na=True, na_filter=True, verbose=False, skip_blank_lines=True, parse_dates=None, infer_datetime_format=_NoDefault.no_default, keep_date_col=False, date_parser=_NoDefault.no_default, date_format=None, dayfirst=False, cache_dates=True, iterator=False, chunksize=None, compression='infer', thousands=None, decimal='.', lineterminator=None, quotechar='""', quoting=0, doublequote=True, escapechar=None, comment=None, encoding=None, encoding_errors='strict', dialect=None, on_bad_lines='error', delim_whitespace=False, low_memory=True, memory_map=False, float_precision=None, storage_options=None, dtype_backend=_NoDefault.no_default)",Dataframe
+Resampler,asfreq,(fill_value=None),Dataframe
+str,normalize,(form),Series
+Timestamp,strftime,(format),None
+Styler,format_index,"(formatter=None, axis=0, level=None, na_rep=None, precision=None, decimal='.', thousands=None, escape=None, hyperlinks=None)",Styler
+Styler,format,"(formatter=None, subset=None, na_rep=None, precision=None, decimal='.', thousands=None, escape=None, hyperlinks=None)",Styler
+plotting,scatter_matrix,"(frame, alpha=0.5, figsize=None, ax=None, grid=False, diagonal='hist', marker='.', density_kwds=None, hist_kwds=None, range_padding=0.05, **kwargs)",Ndarray
+plotting,radviz,"(frame, class_column, ax=None, color=None, colormap=None, **kwds)",Axes
+plotting,andrews_curves,"(frame, class_column, ax=None, samples=200, color=None, colormap=None, **kwargs)",Axes
+plotting,parallel_coordinates,"(frame, class_column, cols=None, ax=None, color=None, use_columns=False, xticks=None, colormap=None, axvlines=True, axvlines_kwds=None, sort_labels=False, **kwargs)",Axes
+pandas,melt,"(frame, id_vars=None, value_vars=None, var_name=None, value_name='value', col_level=None, ignore_index=True)",Dataframe
+Timedelta,ceil,(freq),None
+Timedelta,floor,(freq),None
+Timestamp,ceil,"(freq, ambiguous='raise', nonexistent='raise')",None
+Timestamp,floor,"(freq, ambiguous='raise', nonexistent='raise')",None
+DataFrame,asfreq,"(freq, method=None, how=None, normalize=False, fill_value=None)",Dataframe
+Series,asfreq,"(freq, method=None, how=None, normalize=False, fill_value=None)",Series
+pandas,PeriodDtype,(freq=None),None
+DataFrame,to_period,"(freq=None, axis=0, copy=None)",Dataframe
+Series,to_period,"(freq=None, copy=None)",Series
+DataFrame,to_timestamp,"(freq=None, how='start', axis=0, copy=None)",Dataframe
+Series,to_timestamp,"(freq=None, how='start', copy=None)",Series
+DatetimeIndex,snap,(freq='S'),Datetimeindex
+DataFrameGroupBy,apply,"(func, *args, **kwargs)",Series
+Expanding,aggregate,"(func, *args, **kwargs)",Scalar
+Rolling,aggregate,"(func, *args, **kwargs)",Scalar
+SeriesGroupBy,apply,"(func, *args, **kwargs)",Series
+Styler,pipe,"(func, *args, **kwargs)",Object
+DataFrameGroupBy,transform,"(func, *args, engine=None, engine_kwargs=None, **kwargs)",Dataframe
+SeriesGroupBy,transform,"(func, *args, engine=None, engine_kwargs=None, **kwargs)",Series
+DataFrame,transform,"(func, axis=0, *args, **kwargs)",Dataframe
+Series,transform,"(func, axis=0, *args, **kwargs)",Series
+Styler,apply_index,"(func, axis=0, level=None, **kwargs)",Styler
+Styler,applymap_index,"(func, axis=0, level=None, **kwargs)",Styler
+DataFrame,apply,"(func, axis=0, raw=False, result_type=None, args=(), **kwargs)",Series
+Styler,apply,"(func, axis=0, subset=None, **kwargs)",Styler
+Series,apply,"(func, convert_dtype=True, args=(), **kwargs)",Series
+DataFrameGroupBy,filter,"(func, dropna=True, *args, **kwargs)",Dataframe
+SeriesGroupBy,filter,"(func, dropna=True, *args, **kwargs)",Series
+DataFrame,applymap,"(func, na_action=None, **kwargs)",Dataframe
+Expanding,apply,"(func, raw=False, engine=None, engine_kwargs=None, args=None, kwargs=None)",Series
+Rolling,apply,"(func, raw=False, engine=None, engine_kwargs=None, args=None, kwargs=None)",Series
+Styler,applymap,"(func, subset=None, **kwargs)",Styler
+Resampler,apply,"(func=None, *args, **kwargs)",Scalar
+Resampler,aggregate,"(func=None, *args, **kwargs)",Scalar
+DataFrameGroupBy,agg,"(func=None, *args, engine=None, engine_kwargs=None, **kwargs)",Dataframe
+DataFrameGroupBy,aggregate,"(func=None, *args, engine=None, engine_kwargs=None, **kwargs)",Dataframe
+SeriesGroupBy,agg,"(func=None, *args, engine=None, engine_kwargs=None, **kwargs)",Series
+SeriesGroupBy,aggregate,"(func=None, *args, engine=None, engine_kwargs=None, **kwargs)",Series
+DataFrame,agg,"(func=None, axis=0, *args, **kwargs)",Scalar
+DataFrame,aggregate,"(func=None, axis=0, *args, **kwargs)",Scalar
+Series,agg,"(func=None, axis=0, *args, **kwargs)",Scalar
+Series,aggregate,"(func=None, axis=0, *args, **kwargs)",Scalar
+Index,dropna,(how='any'),Index
+str,get,(i),Series
+MultiIndex,swaplevel,"(i=- 2, j=- 1)",Index
+DataFrame,swaplevel,"(i=- 2, j=- 1, axis=0)",Dataframe
+Series,swaplevel,"(i=- 2, j=- 1, copy=None)",Series
+DataFrame,melt,"(id_vars=None, value_vars=None, var_name=None, value_name='value', col_level=None, ignore_index=True)",Dataframe
+Series,explode,(ignore_index=False),Series
+DataFrame,select_dtypes,"(include=None, exclude=None)",Dataframe
+HDFStore,keys,(include='pandas'),List
+pandas,infer_freq,(index),Str
+pandas,crosstab,"(index, columns, values=None, rownames=None, colnames=None, aggfunc=None, margins=False, margins_name='All', dropna=True, normalize=False)",Dataframe
+indexers,BaseIndexer,"(index_array=None, window_size=0, **kwargs)",None
+indexers,FixedForwardWindowIndexer,"(index_array=None, window_size=0, **kwargs)",None
+indexers,VariableOffsetWindowIndexer,"(index_array=None, window_size=0, index=None, offset=None, **kwargs)",None
+Series,rename,"(index=None, *, axis=None, copy=None, inplace=False, level=None, errors='ignore')",Series
+Series,reindex,"(index=None, *, axis=None, method=None, copy=None, level=None, fill_value=None, limit=None, tolerance=None)",Series
+DatetimeIndex,to_series,"(index=None, name=None)",Series
+Index,to_series,"(index=None, name=None)",Series
+TimedeltaIndex,to_series,"(index=None, name=None)",Series
+DataFrame,memory_usage,"(index=True, deep=False)",Series
+Series,memory_usage,"(index=True, deep=False)",Int
+DatetimeIndex,to_frame,"(index=True, name=_NoDefault.no_default)",Dataframe
+Index,to_frame,"(index=True, name=_NoDefault.no_default)",Dataframe
+TimedeltaIndex,to_frame,"(index=True, name=_NoDefault.no_default)",Dataframe
+MultiIndex,to_frame,"(index=True, name=_NoDefault.no_default, allow_duplicates=False)",Dataframe
+DataFrame,itertuples,"(index=True, name='Pandas')",Iterator
+DataFrameGroupBy,take,"(indices, axis=0, **kwargs)",Dataframe
+SeriesGroupBy,take,"(indices, axis=0, **kwargs)",Series
+Index,take,"(indices, axis=0, allow_fill=True, fill_value=None, **kwargs)",Index
+DataFrame,convert_dtypes,"(infer_objects=True, convert_string=True, convert_integer=True, convert_boolean=True, convert_floating=True, dtype_backend='numpy_nullable')",Series
+Series,convert_dtypes,"(infer_objects=True, convert_string=True, convert_integer=True, convert_boolean=True, convert_floating=True, dtype_backend='numpy_nullable')",Series
+Series,to_dict,(into=<class 'dict'>),Mapping
+pandas,read_html,"(io, *, match='.+', flavor=None, header=None, index_col=None, skiprows=None, attrs=None, parse_dates=False, thousands=',', encoding=None, decimal='.', converters=None, na_values=None, keep_default_na=True, displayed_only=True, extract_links=None, dtype_backend=_NoDefault.no_default)",Dfs
+pandas,read_excel,"(io, sheet_name=0, *, header=0, names=None, index_col=None, usecols=None, dtype=None, engine=None, converters=None, true_values=None, false_values=None, skiprows=None, nrows=None, na_values=None, keep_default_na=True, na_filter=True, verbose=False, parse_dates=False, date_parser=_NoDefault.no_default, date_format=None, thousands=None, decimal='.', comment=None, skipfooter=0, storage_options=None, dtype_backend=_NoDefault.no_default)",Dataframe
+DataFrame,pop,(item),Series
+MultiIndex,from_product,"(iterables, sortorder=None, names=_NoDefault.no_default)",Index
+Index,duplicated,(keep='first'),Ndarray
+Series,duplicated,(keep='first'),Series
+HDFStore,get,(key),Object
+Index,get_loc,(key),Int
+IntervalIndex,get_loc,(key),Int
+MultiIndex,get_loc,(key),Int
+DataFrame,xs,"(key, axis=0, level=None, drop_level=True)",Series
+Series,xs,"(key, axis=0, level=None, drop_level=True)",Series
+MultiIndex,get_loc_level,"(key, level=0, drop_level=True)",Tuple
+HDFStore,append,"(key, value, format=None, axes=None, index=True, append=True, complib=None, complevel=None, columns=None, min_itemsize=None, nan_rep=None, chunksize=None, expectedrows=None, dropna=None, data_columns=None, encoding=None, errors='strict')",None
+HDFStore,put,"(key, value, format=None, index=True, append=False, complib=None, complevel=None, min_itemsize=None, nan_rep=None, data_columns=None, encoding=None, errors='strict', track_times=True, dropna=False)",None
+HDFStore,select,"(key, where=None, start=None, stop=None, columns=None, iterator=False, chunksize=None, auto_close=False)",Object
+DataFrame,set_index,"(keys, *, drop=True, append=False, inplace=False, verify_integrity=False)",Dataframe
+Index,asof,(label),Object
+Index,get_slice_bound,"(label, side)",Int
+DataFrame,set_axis,"(labels, *, axis=0, copy=None)",Dataframe
+Series,set_axis,"(labels, *, axis=0, copy=None)",Series
+Styler,relabel_index,"(labels, axis=0, level=None)",Styler
+Index,drop,"(labels, errors='raise')",Index
+DataFrame,drop,"(labels=None, *, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise')",Dataframe
+Series,drop,"(labels=None, *, axis=0, index=None, columns=None, level=None, inplace=False, errors='raise')",Series
+DataFrame,reindex,"(labels=None, *, index=None, columns=None, axis=None, method=None, copy=None, level=None, fill_value=nan, limit=None, tolerance=None)",Dataframe
+Series,autocorr,(lag=1),Float
+testing,assert_frame_equal,"(left, right, check_dtype=True, check_index_type='equiv', check_column_type='equiv', check_frame_type=True, check_names=True, by_blocks=False, check_exact=False, check_datetimelike_compat=False, check_categorical=True, check_like=False, check_freq=True, check_flags=True, rtol=1e-05, atol=1e-08, obj='DataFrame')",None
+testing,assert_series_equal,"(left, right, check_dtype=True, check_index_type='equiv', check_series_type=True, check_names=True, check_exact=False, check_datetimelike_compat=False, check_categorical=True, check_category_order=True, check_freq=True, check_flags=True, rtol=1e-05, atol=1e-08, obj='Series', *, check_index=True, check_like=False)",None
+testing,assert_extension_array_equal,"(left, right, check_dtype=True, index_values=None, check_exact=False, rtol=1e-05, atol=1e-08, obj='ExtensionArray')",None
+IntervalIndex,from_arrays,"(left, right, closed='right', name=None, copy=False, dtype=None)",Index
+testing,assert_index_equal,"(left, right, exact='equiv', check_names=True, check_exact=True, check_categorical=True, check_order=True, rtol=1e-05, atol=1e-08, obj='Index')",None
+pandas,merge,"(left, right, how='inner', on=None, left_on=None, right_on=None, left_index=False, right_index=False, sort=False, suffixes=('_x', '_y'), copy=None, indicator=False, validate=None)",Dataframe
+Series,between,"(left, right, inclusive='both')",Series
+pandas,merge_ordered,"(left, right, on=None, left_on=None, right_on=None, left_by=None, right_by=None, fill_method=None, suffixes=('_x', '_y'), how='outer')",Dataframe
+pandas,merge_asof,"(left, right, on=None, left_on=None, right_on=None, left_index=False, right_index=False, by=None, left_by=None, right_by=None, suffixes=('_x', '_y'), tolerance=None, allow_exact_matches=True, direction='backward')",Dataframe
+Index,get_level_values,(level),Index
+MultiIndex,get_level_values,(level),Index
+DataFrame,droplevel,"(level, axis=0)",Series
+Series,droplevel,"(level, axis=0)",Series
+DataFrame,stack,"(level=- 1, dropna=True)",Dataframe
+DataFrame,unstack,"(level=- 1, fill_value=None)",Series
+Series,unstack,"(level=- 1, fill_value=None)",Dataframe
+Index,droplevel,(level=0),Index
+MultiIndex,droplevel,(level=0),Index
+Index,unique,(level=None),Index
+DataFrame,reset_index,"(level=None, *, drop=False, inplace=False, col_level=0, col_fill='', allow_duplicates=_NoDefault.no_default, names=None)",Dataframe
+Series,reset_index,"(level=None, *, drop=False, name=_NoDefault.no_default, inplace=False, allow_duplicates=False)",Series
+MultiIndex,set_levels,"(levels, *, level=None, verify_integrity=True)",Index
+pandas,MultiIndex,"(levels=None, codes=None, sortorder=None, names=None, dtype=None, copy=False, name=None, verify_integrity=True)",None
+DataFrameGroupBy,bfill,(limit=None),Series
+DataFrameGroupBy,ffill,(limit=None),Series
+Resampler,nearest,(limit=None),Series
+Resampler,bfill,(limit=None),Series
+SeriesGroupBy,bfill,(limit=None),Series
+SeriesGroupBy,ffill,(limit=None),Series
+Index,delete,(loc),Index
+DataFrame,insert,"(loc, column, value, allow_duplicates=_NoDefault.no_default)",None
+Index,insert,"(loc, item)",Index
+DataFrame,clip,"(lower=None, upper=None, *, axis=None, inplace=False, **kwargs)",Series
+Series,clip,"(lower=None, upper=None, *, axis=None, inplace=False, **kwargs)",Series
+CategoricalIndex,map,(mapper),Index
+Series,rename_axis,"(mapper=_NoDefault.no_default, *, index=_NoDefault.no_default, axis=0, copy=True, inplace=False)",Series
+DataFrame,rename_axis,"(mapper=_NoDefault.no_default, *, index=_NoDefault.no_default, columns=_NoDefault.no_default, axis=0, copy=None, inplace=False)",Series
+DataFrame,rename,"(mapper=None, *, index=None, columns=None, axis=None, copy=None, inplace=False, level=None, errors='ignore')",Dataframe
+Index,putmask,"(mask, value)",Index
+errors,PyperclipWindowsException,(message),None
+Resampler,fillna,"(method, limit=None)",Series
+DataFrameGroupBy,rank,"(method='average', ascending=True, na_option='keep', pct=False, axis=0)",Dataframe
+SeriesGroupBy,rank,"(method='average', ascending=True, na_option='keep', pct=False, axis=0)",Dataframe
+Expanding,rank,"(method='average', ascending=True, pct=False, numeric_only=False)",Series
+Rolling,rank,"(method='average', ascending=True, pct=False, numeric_only=False)",Series
+Resampler,interpolate,"(method='linear', *, axis=0, limit=None, inplace=False, limit_direction='forward', limit_area=None, downcast=None, **kwargs)",Series
+DataFrame,interpolate,"(method='linear', *, axis=0, limit=None, inplace=False, limit_direction=None, limit_area=None, downcast=None, **kwargs)",Series
+Series,interpolate,"(method='linear', *, axis=0, limit=None, inplace=False, limit_direction=None, limit_area=None, downcast=None, **kwargs)",Series
+DataFrame,corr,"(method='pearson', min_periods=1, numeric_only=False)",Dataframe
+DataFrameGroupBy,corr,"(method='pearson', min_periods=1, numeric_only=False)",Dataframe
+DataFrame,expanding,"(min_periods=1, axis=0, method='single')",Expanding Subclass
+Series,expanding,"(min_periods=1, axis=0, method='single')",Expanding Subclass
+DataFrame,cov,"(min_periods=None, ddof=1, numeric_only=False)",Dataframe
+DataFrameGroupBy,cov,"(min_periods=None, ddof=1, numeric_only=False)",Dataframe
+DataFrame,nlargest,"(n, columns, keep='first')",Dataframe
+DataFrame,nsmallest,"(n, columns, keep='first')",Dataframe
+DataFrameGroupBy,head,(n=5),Series
+DataFrameGroupBy,tail,(n=5),Series
+SeriesGroupBy,head,(n=5),Series
+SeriesGroupBy,tail,(n=5),Series
+Series,nlargest,"(n=5, keep='first')",Series
+Series,nsmallest,"(n=5, keep='first')",Series
+SeriesGroupBy,nlargest,"(n=5, keep='first')",Series
+SeriesGroupBy,nsmallest,"(n=5, keep='first')",Series
+DataFrameGroupBy,sample,"(n=None, frac=None, replace=False, weights=None, random_state=None)",Series
+SeriesGroupBy,sample,"(n=None, frac=None, replace=False, weights=None, random_state=None)",Series
+DataFrame,sample,"(n=None, frac=None, replace=False, weights=None, random_state=None, axis=None, ignore_index=False)",Series
+Series,sample,"(n=None, frac=None, replace=False, weights=None, random_state=None, axis=None, ignore_index=False)",Series
+extensions,register_dataframe_accessor,(name),Callable
+extensions,register_series_accessor,(name),Callable
+extensions,register_index_accessor,(name),Callable
+DataFrame,to_sql,"(name, con, schema=None, if_exists='fail', index=True, index_label=None, chunksize=None, dtype=None, method=None)",Int
+Series,to_sql,"(name, con, schema=None, if_exists='fail', index=True, index_label=None, chunksize=None, dtype=None, method=None)",Int
+Index,rename,"(name, inplace=False)",Index
+errors,UndefinedVariableError,"(name, is_local=None)",None
+Series,to_frame,(name=_NoDefault.no_default),Dataframe
+Index,copy,"(name=None, deep=False)",Index
+Index,set_names,"(names, *, level=None, inplace=False)",Index
+MultiIndex,copy,"(names=None, deep=False, name=None)",Index
+DataFrame,__dataframe__,"(nan_as_null=False, allow_copy=True)",Dataframe
+Index,value_counts,"(normalize=False, sort=True, ascending=False, bins=None, dropna=True)",Series
+Series,value_counts,"(normalize=False, sort=True, ascending=False, bins=None, dropna=True)",Series
+SeriesGroupBy,value_counts,"(normalize=False, sort=True, ascending=False, bins=None, dropna=True)",None
+DataFrameGroupBy,median,(numeric_only=False),Series
+Expanding,count,(numeric_only=False),Series
+Expanding,skew,(numeric_only=False),Series
+Expanding,kurt,(numeric_only=False),Series
+Rolling,count,(numeric_only=False),Series
+Rolling,skew,(numeric_only=False),Series
+Rolling,kurt,(numeric_only=False),Series
+SeriesGroupBy,median,(numeric_only=False),Series
+Window,mean,"(numeric_only=False, **kwargs)",Series
+Window,sum,"(numeric_only=False, **kwargs)",Series
+Resampler,mean,"(numeric_only=False, *args, **kwargs)",Dataframe
+Resampler,median,"(numeric_only=False, *args, **kwargs)",Series
+Rolling,max,"(numeric_only=False, *args, engine=None, engine_kwargs=None, **kwargs)",Series
+DataFrameGroupBy,mean,"(numeric_only=False, engine='cython', engine_kwargs=None)",Dataframe
+SeriesGroupBy,mean,"(numeric_only=False, engine='cython', engine_kwargs=None)",Dataframe
+Expanding,sum,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+Expanding,mean,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+Expanding,median,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+Expanding,min,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+Expanding,max,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+ExponentialMovingWindow,mean,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+ExponentialMovingWindow,sum,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+Rolling,sum,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+Rolling,mean,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+Rolling,median,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+Rolling,min,"(numeric_only=False, engine=None, engine_kwargs=None)",Series
+DataFrameGroupBy,first,"(numeric_only=False, min_count=- 1)",Series
+DataFrameGroupBy,last,"(numeric_only=False, min_count=- 1)",Series
+SeriesGroupBy,first,"(numeric_only=False, min_count=- 1)",Series
+SeriesGroupBy,last,"(numeric_only=False, min_count=- 1)",Series
+DataFrameGroupBy,max,"(numeric_only=False, min_count=- 1, engine=None, engine_kwargs=None)",Series
+DataFrameGroupBy,min,"(numeric_only=False, min_count=- 1, engine=None, engine_kwargs=None)",Series
+SeriesGroupBy,max,"(numeric_only=False, min_count=- 1, engine=None, engine_kwargs=None)",Series
+SeriesGroupBy,min,"(numeric_only=False, min_count=- 1, engine=None, engine_kwargs=None)",Series
+DataFrameGroupBy,prod,"(numeric_only=False, min_count=0)",Series
+SeriesGroupBy,prod,"(numeric_only=False, min_count=0)",Series
+Resampler,max,"(numeric_only=False, min_count=0, *args, **kwargs)",None
+Resampler,min,"(numeric_only=False, min_count=0, *args, **kwargs)",None
+Resampler,sum,"(numeric_only=False, min_count=0, *args, **kwargs)",None
+Resampler,first,"(numeric_only=False, min_count=0, *args, **kwargs)",Series
+Resampler,last,"(numeric_only=False, min_count=0, *args, **kwargs)",Series
+Resampler,prod,"(numeric_only=False, min_count=0, *args, **kwargs)",Series
+DataFrameGroupBy,sum,"(numeric_only=False, min_count=0, engine=None, engine_kwargs=None)",Series
+SeriesGroupBy,sum,"(numeric_only=False, min_count=0, engine=None, engine_kwargs=None)",Series
+pandas,isna,(obj),Bool
+pandas,isnull,(obj),Bool
+pandas,notna,(obj),Bool
+pandas,notnull,(obj),Bool
+types,is_dict_like,(obj),Bool
+types,is_file_like,(obj),Bool
+types,is_named_tuple,(obj),Bool
+types,is_hashable,(obj),Bool
+types,is_number,(obj),Bool
+types,is_re,(obj),Bool
+types,is_re_compilable,(obj),Bool
+pandas,Flags,"(obj, *, allows_duplicate_labels)",None
+util,hash_pandas_object,"(obj, index=True, encoding='utf8', hash_key='0123456789123456', categorize=True)",Series
+pandas,concat,"(objs, *, axis=0, join='outer', ignore_index=False, keys=None, levels=None, names=None, verify_integrity=False, sort=False, copy=None)",Object
+DataFrame,first,(offset),Series
+DataFrame,last,(offset),Series
+Series,first,(offset),Series
+Series,last,(offset),Series
+MultiIndex,reorder_levels,(order),Index
+DataFrame,reorder_levels,"(order, axis=0)",Dataframe
+Index,ravel,(order='C'),Index
+Series,ravel,(order='C'),Ndarray
+Timestamp,fromordinal,"(ordinal, tz=None)",None
+DataFrame,to_dict,"(orient='dict', into=<class 'dict'>, index=True)",Dict
+CategoricalIndex,equals,(other),Bool
+DataFrame,equals,(other),Bool
+DataFrame,__add__,(other),Dataframe
+DataFrame,combine_first,(other),Dataframe
+DataFrame,dot,(other),Series
+Index,equals,(other),Bool
+Index,identical,(other),Bool
+Index,is_,(other),Bool
+Index,append,(other),Index
+MultiIndex,append,(other),Index
+Series,update,(other),None
+Series,equals,(other),Bool
+Series,dot,(other),Scalar
+Series,combine_first,(other),Series
+Styler,concat,(other),Styler
+DataFrame,compare,"(other, align_axis=1, keep_shape=False, keep_equal=False, result_names=('self', 'other'))",Dataframe
+Series,compare,"(other, align_axis=1, keep_shape=False, keep_equal=False, result_names=('self', 'other'))",Series
+DataFrame,corrwith,"(other, axis=0, drop=False, method='pearson', numeric_only=False)",Series
+DataFrameGroupBy,corrwith,"(other, axis=0, drop=False, method='pearson', numeric_only=False)",Series
+DataFrame,lt,"(other, axis='columns', level=None)",Dataframe
+DataFrame,gt,"(other, axis='columns', level=None)",Dataframe
+DataFrame,le,"(other, axis='columns', level=None)",Dataframe
+DataFrame,ge,"(other, axis='columns', level=None)",Dataframe
+DataFrame,ne,"(other, axis='columns', level=None)",Dataframe
+DataFrame,eq,"(other, axis='columns', level=None)",Dataframe
+DataFrame,add,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,sub,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,mul,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,div,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,truediv,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,floordiv,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,mod,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,pow,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,radd,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,rsub,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,rmul,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,rdiv,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,rtruediv,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,rfloordiv,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,rmod,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+DataFrame,rpow,"(other, axis='columns', level=None, fill_value=None)",Dataframe
+Series,combine,"(other, func, fill_value=None)",Series
+DataFrame,combine,"(other, func, fill_value=None, overwrite=True)",Dataframe
+DataFrame,update,"(other, join='left', overwrite=True, filter_func=None, errors='ignore')",None
+DataFrame,align,"(other, join='outer', axis=None, level=None, copy=None, fill_value=None, method=None, limit=None, fill_axis=0, broadcast_axis=None)",Tuple
+Series,align,"(other, join='outer', axis=None, level=None, copy=None, fill_value=None, method=None, limit=None, fill_axis=0, broadcast_axis=None)",Tuple
+Series,add,"(other, level=None, fill_value=None, axis=0)",Series
+Series,sub,"(other, level=None, fill_value=None, axis=0)",Series
+Series,mul,"(other, level=None, fill_value=None, axis=0)",Series
+Series,div,"(other, level=None, fill_value=None, axis=0)",Series
+Series,truediv,"(other, level=None, fill_value=None, axis=0)",Series
+Series,floordiv,"(other, level=None, fill_value=None, axis=0)",Series
+Series,mod,"(other, level=None, fill_value=None, axis=0)",Series
+Series,pow,"(other, level=None, fill_value=None, axis=0)",Series
+Series,radd,"(other, level=None, fill_value=None, axis=0)",Series
+Series,rsub,"(other, level=None, fill_value=None, axis=0)",Series
+Series,rmul,"(other, level=None, fill_value=None, axis=0)",Series
+Series,rdiv,"(other, level=None, fill_value=None, axis=0)",Series
+Series,rtruediv,"(other, level=None, fill_value=None, axis=0)",Series
+Series,rfloordiv,"(other, level=None, fill_value=None, axis=0)",Series
+Series,rmod,"(other, level=None, fill_value=None, axis=0)",Series
+Series,rpow,"(other, level=None, fill_value=None, axis=0)",Series
+Series,lt,"(other, level=None, fill_value=None, axis=0)",Series
+Series,gt,"(other, level=None, fill_value=None, axis=0)",Series
+Series,le,"(other, level=None, fill_value=None, axis=0)",Series
+Series,ge,"(other, level=None, fill_value=None, axis=0)",Series
+Series,ne,"(other, level=None, fill_value=None, axis=0)",Series
+Series,eq,"(other, level=None, fill_value=None, axis=0)",Series
+DataFrame,reindex_like,"(other, method=None, copy=None, limit=None, tolerance=None)",Series
+Series,reindex_like,"(other, method=None, copy=None, limit=None, tolerance=None)",Series
+Series,corr,"(other, method='pearson', min_periods=None)",Float
+SeriesGroupBy,corr,"(other, method='pearson', min_periods=None)",Float
+Series,cov,"(other, min_periods=None, ddof=1)",Float
+SeriesGroupBy,cov,"(other, min_periods=None, ddof=1)",Float
+DataFrame,join,"(other, on=None, how='left', lsuffix='', rsuffix='', sort=False, validate=None)",Dataframe
+Index,symmetric_difference,"(other, result_name=None, sort=None)",Index
+Index,intersection,"(other, sort=False)",Index
+Index,union,"(other, sort=None)",Index
+Index,difference,"(other, sort=None)",Index
+ExponentialMovingWindow,cov,"(other=None, pairwise=None, bias=False, numeric_only=False)",Series
+Expanding,corr,"(other=None, pairwise=None, ddof=1, numeric_only=False)",Series
+Expanding,cov,"(other=None, pairwise=None, ddof=1, numeric_only=False)",Series
+Rolling,corr,"(other=None, pairwise=None, ddof=1, numeric_only=False)",Series
+Rolling,cov,"(other=None, pairwise=None, ddof=1, numeric_only=False)",Series
+ExponentialMovingWindow,corr,"(other=None, pairwise=None, numeric_only=False)",Series
+str,cat,"(others=None, sep=None, na_rep=None, join='left')",Str
+pandas,reset_option,(pat),None
+str,fullmatch,"(pat, case=True, flags=0, na=None)",Series
+str,match,"(pat, case=True, flags=0, na=None)",Series
+str,contains,"(pat, case=True, flags=0, na=None, regex=True)",Series
+str,extractall,"(pat, flags=0)",Dataframe
+str,count,"(pat, flags=0)",Series
+str,findall,"(pat, flags=0)",Series
+str,extract,"(pat, flags=0, expand=True)",Dataframe
+str,endswith,"(pat, na=None)",Series
+str,startswith,"(pat, na=None)",Series
+str,replace,"(pat, repl, n=- 1, case=None, flags=0, regex=False)",Series
+pandas,set_option,"(pat, value)",None
+str,rsplit,"(pat=None, *, n=- 1, expand=False)",Series
+str,split,"(pat=None, *, n=- 1, expand=False, regex=None)",Series
+DataFrame,to_feather,"(path, **kwargs)",None
+DataFrame,to_stata,"(path, *, convert_dates=None, write_index=True, byteorder=None, time_stamp=None, data_label=None, variable_labels=None, version=114, convert_strl=None, compression='infer', storage_options=None, value_labels=None)",None
+pandas,read_orc,"(path, columns=None, dtype_backend=_NoDefault.no_default, **kwargs)",Dataframe
+DataFrame,to_pickle,"(path, compression='infer', protocol=5, storage_options=None)",None
+Series,to_pickle,"(path, compression='infer', protocol=5, storage_options=None)",None
+pandas,read_parquet,"(path, engine='auto', columns=None, storage_options=None, use_nullable_dtypes=_NoDefault.no_default, dtype_backend=_NoDefault.no_default, **kwargs)",Dataframe
+pandas,ExcelWriter,"(path, engine=None, date_format=None, datetime_format=None, mode='w', storage_options=None, if_sheet_exists=None, engine_kwargs=None)",None
+pandas,read_spss,"(path, usecols=None, convert_categoricals=True, dtype_backend=_NoDefault.no_default)",Dataframe
+pandas,read_json,"(path_or_buf, *, orient=None, typ='frame', dtype=None, convert_axes=None, convert_dates=True, keep_default_dates=True, precise_float=False, date_unit=None, encoding=None, encoding_errors='strict', lines=False, chunksize=None, compression='infer', nrows=None, storage_options=None, dtype_backend=_NoDefault.no_default, engine='ujson')",Series
+DataFrame,to_hdf,"(path_or_buf, key, mode='a', complevel=None, complib=None, append=False, format=None, index=True, min_itemsize=None, nan_rep=None, dropna=None, data_columns=None, errors='strict', encoding='UTF-8')",None
+Series,to_hdf,"(path_or_buf, key, mode='a', complevel=None, complib=None, append=False, format=None, index=True, min_itemsize=None, nan_rep=None, dropna=None, data_columns=None, errors='strict', encoding='UTF-8')",None
+pandas,read_hdf,"(path_or_buf, key=None, mode='r', errors='strict', where=None, start=None, stop=None, columns=None, iterator=False, chunksize=None, **kwargs)",Object
+DataFrame,to_json,"(path_or_buf=None, orient=None, date_format=None, double_precision=10, force_ascii=True, date_unit='ms', default_handler=None, lines=False, compression='infer', index=True, indent=None, storage_options=None, mode='w')",Str
+Series,to_json,"(path_or_buf=None, orient=None, date_format=None, double_precision=10, force_ascii=True, date_unit='ms', default_handler=None, lines=False, compression='infer', index=True, indent=None, storage_options=None, mode='w')",Str
+DataFrame,to_csv,"(path_or_buf=None, sep=',', na_rep='', float_format=None, columns=None, header=True, index=True, index_label=None, mode='w', encoding=None, compression='infer', quoting=None, quotechar='""', lineterminator=None, chunksize=None, date_format=None, doublequote=True, escapechar=None, decimal='.', errors='strict', storage_options=None)",Str
+Series,to_csv,"(path_or_buf=None, sep=',', na_rep='', float_format=None, columns=None, header=True, index=True, index_label=None, mode='w', encoding=None, compression='infer', quoting=None, quotechar='""', lineterminator=None, chunksize=None, date_format=None, doublequote=True, escapechar=None, decimal='.', errors='strict', storage_options=None)",Str
+pandas,read_xml,"(path_or_buffer, *, xpath='./*', namespaces=None, elems_only=False, attrs_only=False, names=None, dtype=None, converters=None, parse_dates=None, encoding='utf-8', parser='lxml', stylesheet=None, iterparse=None, compression='infer', storage_options=None, dtype_backend=_NoDefault.no_default)",Dataframe
+pandas,ExcelFile,"(path_or_buffer, engine=None, storage_options=None)",None
+DataFrame,to_xml,"(path_or_buffer=None, index=True, root_name='data', row_name='row', na_rep=None, attr_cols=None, elem_cols=None, namespaces=None, prefix=None, encoding='utf-8', xml_declaration=True, pretty_print=True, parser='lxml', stylesheet=None, compression='infer', storage_options=None)",Str
+DataFrame,to_orc,"(path=None, *, engine='pyarrow', index=None, engine_kwargs=None)",Bytes
+DataFrame,to_parquet,"(path=None, engine='auto', compression='snappy', index=None, partition_cols=None, storage_options=None, **kwargs)",Bytes
+DataFrame,describe,"(percentiles=None, include=None, exclude=None)",Series
+DataFrameGroupBy,describe,"(percentiles=None, include=None, exclude=None)",Series
+Series,describe,"(percentiles=None, include=None, exclude=None)",Series
+Series,diff,(periods=1),Series
+DataFrame,diff,"(periods=1, axis=0)",Dataframe
+DataFrameGroupBy,diff,"(periods=1, axis=0)",Series
+SeriesGroupBy,diff,"(periods=1, axis=0)",Series
+DataFrameGroupBy,pct_change,"(periods=1, fill_method='ffill', limit=None, freq=None, axis=0)",Series
+SeriesGroupBy,pct_change,"(periods=1, fill_method='ffill', limit=None, freq=None, axis=0)",Series
+DataFrame,pct_change,"(periods=1, fill_method='pad', limit=None, freq=None, **kwargs)",Series
+Series,pct_change,"(periods=1, fill_method='pad', limit=None, freq=None, **kwargs)",Series
+Index,shift,"(periods=1, freq=None)",Index
+DataFrame,shift,"(periods=1, freq=None, axis=0, fill_value=_NoDefault.no_default)",Dataframe
+DataFrameGroupBy,shift,"(periods=1, freq=None, axis=0, fill_value=None)",Series
+Series,shift,"(periods=1, freq=None, axis=0, fill_value=None)",Series
+SeriesGroupBy,shift,"(periods=1, freq=None, axis=0, fill_value=None)",Series
+str,removeprefix,(prefix),Series
+DataFrame,add_prefix,"(prefix, axis=None)",Series
+Series,add_prefix,"(prefix, axis=None)",Series
+pandas,ArrowDtype,(pyarrow_dtype),Arrowdtype
+Resampler,quantile,"(q=0.5, **kwargs)",Dataframe
+DataFrame,quantile,"(q=0.5, axis=0, numeric_only=False, interpolation='linear', method='single')",Series
+Series,quantile,"(q=0.5, interpolation='linear')",Float
+DataFrameGroupBy,quantile,"(q=0.5, interpolation='linear', numeric_only=False)",Series
+SeriesGroupBy,quantile,"(q=0.5, interpolation='linear', numeric_only=False)",Series
+Expanding,quantile,"(quantile, interpolation='linear', numeric_only=False)",Series
+Rolling,quantile,"(quantile, interpolation='linear', numeric_only=False)",Series
+pandas,read_gbq,"(query, project_id=None, index_col=None, col_order=None, reauth=False, auth_local_webserver=True, dialect=None, location=None, configuration=None, credentials=None, use_bqstorage_api=None, max_results=None, progress_bar_type=None)",Dataframe
+str,repeat,(repeats),Series
+Index,repeat,"(repeats, axis=None)",Index
+Series,repeat,"(repeats, axis=None)",Series
+DataFrame,merge,"(right, how='inner', on=None, left_on=None, right_on=None, left_index=False, right_index=False, sort=False, suffixes=('_x', '_y'), copy=None, indicator=False, validate=None)",Dataframe
+DataFrameGroupBy,resample,"(rule, *args, **kwargs)",Grouper
+SeriesGroupBy,resample,"(rule, *args, **kwargs)",Grouper
+str,join,(sep),Series
+str,partition,"(sep=' ', expand=True)",Dataframe
+str,rpartition,"(sep=' ', expand=True)",Dataframe
+pandas,read_clipboard,"(sep='\\s+', dtype_backend=_NoDefault.no_default, **kwargs)",Dataframe
+str,get_dummies,(sep='|'),Dataframe
+MultiIndex,get_locs,(seq),Ndarray
+plotting,autocorrelation_plot,"(series, ax=None, **kwargs)",Axes
+plotting,lag_plot,"(series, lag=1, ax=None, **kwds)",Axes
+ExcelFile,parse,"(sheet_name=0, header=0, names=None, index_col=None, usecols=None, converters=None, true_values=None, false_values=None, skiprows=None, nrows=None, na_values=None, parse_dates=False, date_parser=_NoDefault.no_default, date_format=None, thousands=None, comment=None, skipfooter=0, dtype_backend=_NoDefault.no_default, **kwds)",Dataframe
+DataFrameGroupBy,all,(skipna=True),Series
+DataFrameGroupBy,any,(skipna=True),Series
+SeriesGroupBy,all,(skipna=True),Series
+SeriesGroupBy,any,(skipna=True),Series
+Index,factorize,"(sort=False, use_na_sentinel=True)",Array
+Series,factorize,"(sort=False, use_na_sentinel=True)",Array
+pandas,read_sql_query,"(sql, con, index_col=None, coerce_float=True, params=None, parse_dates=None, chunksize=None, dtype=None, dtype_backend=_NoDefault.no_default)",Dataframe
+pandas,read_sql,"(sql, con, index_col=None, coerce_float=True, params=None, parse_dates=None, columns=None, chunksize=None, dtype_backend=_NoDefault.no_default, dtype=None)",Dataframe
+DatetimeIndex,indexer_between_time,"(start_time, end_time, include_start=True, include_end=True)",Ndarray
+DataFrame,between_time,"(start_time, end_time, inclusive='both', axis=None)",Series
+Series,between_time,"(start_time, end_time, inclusive='both', axis=None)",Series
+pandas,bdate_range,"(start=None, end=None, periods=None, freq='B', tz=None, normalize=True, name=None, weekmask=None, holidays=None, inclusive='both', **kwargs)",Datetimeindex
+pandas,period_range,"(start=None, end=None, periods=None, freq=None, name=None)",Index
+pandas,timedelta_range,"(start=None, end=None, periods=None, freq=None, name=None, closed=None, *, unit=None)",Index
+pandas,interval_range,"(start=None, end=None, periods=None, freq=None, name=None, closed='right')",Index
+pandas,date_range,"(start=None, end=None, periods=None, freq=None, tz=None, normalize=False, name=None, inclusive='both', *, unit=None, **kwargs)",Datetimeindex
+Index,slice_locs,"(start=None, end=None, step=None)",Tuple
+str,slice_replace,"(start=None, stop=None, repl=None)",Series
+str,slice,"(start=None, stop=None, step=None)",Series
+pandas,RangeIndex,"(start=None, stop=None, step=None, dtype=None, copy=False, name=None)",None
+pandas,StringDtype,(storage=None),None
+Timestamp,strptime,"(string, format)",None
+Styler,use,(styles),Styler
+str,find,"(sub, start=0, end=None)",Series
+str,rfind,"(sub, start=0, end=None)",Series
+str,index,"(sub, start=0, end=None)",Series
+str,rindex,"(sub, start=0, end=None)",Series
+DataFrameGroupBy,boxplot,"(subplots=True, column=None, fontsize=None, rot=0, grid=True, ax=None, figsize=None, layout=None, sharex=False, sharey=True, backend=None, **kwargs)",Dict
+Styler,set_properties,"(subset=None, **kwargs)",Styler
+DataFrame,drop_duplicates,"(subset=None, *, keep='first', inplace=False, ignore_index=False)",Dataframe
+Styler,bar,"(subset=None, axis=0, *, color=None, cmap=None, width=100, height=100, align='mid', vmin=None, vmax=None, props='width: 10em;')",Styler
+Styler,hide,"(subset=None, axis=0, level=None, names=False)",Styler
+Styler,highlight_between,"(subset=None, color='yellow', axis=0, left=None, right=None, inclusive='both', props=None)",Styler
+Styler,highlight_max,"(subset=None, color='yellow', axis=0, props=None)",Styler
+Styler,highlight_min,"(subset=None, color='yellow', axis=0, props=None)",Styler
+Styler,highlight_quantile,"(subset=None, color='yellow', axis=0, q_left=0.0, q_right=1.0, interpolation='linear', inclusive='both', props=None)",Styler
+DataFrame,duplicated,"(subset=None, keep='first')",Series
+DataFrame,value_counts,"(subset=None, normalize=False, sort=True, ascending=False, dropna=True)",Series
+DataFrameGroupBy,value_counts,"(subset=None, normalize=False, sort=True, ascending=False, dropna=True)",Series
+pandas,IntervalDtype,"(subtype=None, closed=None)",None
+str,removesuffix,(suffix),Series
+DataFrame,add_suffix,"(suffix, axis=None)",Series
+Series,add_suffix,"(suffix, axis=None)",Series
+str,translate,(table),Series
+pandas,read_sql_table,"(table_name, con, schema=None, index_col=None, coerce_float=True, parse_dates=None, columns=None, chunksize=None, dtype_backend=_NoDefault.no_default)",Dataframe
+Styler,set_table_styles,"(table_styles=None, axis=0, overwrite=True, css_class_names=None)",Styler
+Index,get_indexer_non_unique,(target),Ndarray
+Index,get_indexer_for,(target),Ndarray
+Index,reindex,"(target, method=None, level=None, limit=None, tolerance=None)",Index
+Index,get_indexer,"(target, method=None, limit=None, tolerance=None)",Ndarray
+IntervalIndex,get_indexer,"(target, method=None, limit=None, tolerance=None)",Ndarray
+MultiIndex,get_indexer,"(target, method=None, limit=None, tolerance=None)",Ndarray
+DatetimeIndex,indexer_at_time,"(time, asof=False)",Ndarray
+DataFrame,at_time,"(time, asof=False, axis=None)",Series
+Series,at_time,"(time, asof=False, axis=None)",Series
+DataFrame,replace,"(to_replace=None, value=_NoDefault.no_default, *, inplace=False, limit=None, regex=False, method=_NoDefault.no_default)",Dataframe
+Series,replace,"(to_replace=None, value=_NoDefault.no_default, *, inplace=False, limit=None, regex=False, method=_NoDefault.no_default)",Series
+str,lstrip,(to_strip=None),Series
+str,rstrip,(to_strip=None),Series
+str,strip,(to_strip=None),Series
+types,union_categoricals,"(to_union, sort_categories=False, ignore_order=False)",Categorical
+Timestamp,fromtimestamp,(ts),None
+Timestamp,utcfromtimestamp,(ts),None
+pandas,Timestamp,"(ts_input=<object object>, year=None, month=None, day=None, hour=None, minute=None, second=None, microsecond=None, tzinfo=None, *, nanosecond=None, tz=None, unit=None, fold=None)",None
+Styler,set_tooltips,"(ttips, props=None, css_class=None)",Styler
+MultiIndex,from_tuples,"(tuples, sortorder=None, names=None)",Index
+DatetimeIndex,tz_convert,(tz),Array
+Timestamp,astimezone,(tz),Convertedtimestamp
+Timestamp,tz_convert,(tz),Convertedtimestamp
+DataFrame,tz_convert,"(tz, axis=0, level=None, copy=None)",Series
+Series,tz_convert,"(tz, axis=0, level=None, copy=None)",Series
+DataFrame,tz_localize,"(tz, axis=0, level=None, copy=None, ambiguous='raise', nonexistent='raise')",Series
+Series,tz_localize,"(tz, axis=0, level=None, copy=None, ambiguous='raise', nonexistent='raise')",Series
+Timestamp,now,(tz=None),None
+Timestamp,today,(tz=None),None
+pandas,DatetimeTZDtype,"(unit='ns', tz=None)",None
+Styler,set_uuid,(uuid),Styler
+util,hash_array,"(vals, encoding='utf8', hash_key='0123456789123456', categorize=True)",Ndarray
+Index,searchsorted,"(value, side='left', sorter=None)",Int
+Series,searchsorted,"(value, side='left', sorter=None)",Int
+pandas,Timedelta,"(value=<object object>, unit=None, **kwargs)",None
+DataFrame,fillna,"(value=None, *, method=None, axis=None, inplace=False, limit=None, downcast=None)",Dataframe
+Series,fillna,"(value=None, *, method=None, axis=None, inplace=False, limit=None, downcast=None)",Series
+Index,fillna,"(value=None, downcast=None)",Index
+pandas,Period,"(value=None, freq=None, ordinal=None, year=None, month=None, quarter=None, day=None, hour=None, minute=None, second=None)",None
+DataFrameGroupBy,fillna,"(value=None, method=None, axis=None, inplace=False, limit=None, downcast=None)",Dataframe
+SeriesGroupBy,fillna,"(value=None, method=None, axis=None, inplace=False, limit=None, downcast=None)",Series
+DataFrame,isin,(values),Dataframe
+pandas,unique,(values),Ndarray
+arrays,ArrowStringArray,(values),None
+arrays,ArrowExtensionArray,(values),Arrowextensionarray
+Series,isin,(values),Series
+pandas,Categorical,"(values, categories=None, ordered=None, dtype=None, fastpath=False, copy=True)",None
+arrays,PandasArray,"(values, copy=False)",None
+arrays,StringArray,"(values, copy=False)",None
+arrays,DatetimeArray,"(values, dtype=None, freq=_NoDefault.no_default, copy=False)",None
+arrays,TimedeltaArray,"(values, dtype=None, freq=_NoDefault.no_default, copy=False)",None
+arrays,PeriodArray,"(values, dtype=None, freq=None, copy=False)",None
+Index,isin,"(values, level=None)",Ndarray
+arrays,BooleanArray,"(values, mask, copy=False)",Array
+arrays,FloatingArray,"(values, mask, copy=False)",Array
+arrays,IntegerArray,"(values, mask, copy=False)",Array
+pandas,factorize,"(values, sort=False, use_na_sentinel=True, size_hint=None)",Array
+DataFrame,pivot_table,"(values=None, index=None, columns=None, aggfunc='mean', fill_value=None, margins=False, dropna=True, margins_name='All', observed=False, sort=True)",Dataframe
+DataFrame,info,"(verbose=None, buf=None, max_cols=None, memory_usage=None, show_counts=None)",None
+Index,asof_locs,"(where, mask)",Ndarray
+DataFrame,asof,"(where, subset=None)",Scalar
+Series,asof,"(where, subset=None)",Scalar
+HDFStore,walk,(where='/'),None
+str,zfill,(width),Series
+str,wrap,"(width, **kwargs)",Series
+str,center,"(width, fillchar=' ')",Series
+str,ljust,"(width, fillchar=' ')",Series
+str,rjust,"(width, fillchar=' ')",Series
+str,pad,"(width, side='left', fillchar=' ')",Series
+pandas,cut,"(x, bins, right=True, labels=None, retbins=False, precision=3, include_lowest=False, duplicates='raise', ordered=True)",Categorical
+pandas,qcut,"(x, q, labels=None, retbins=False, precision=3, duplicates='raise')",Categorical
+plot,hexbin,"(x, y, C=None, reduce_C_function=None, gridsize=None, **kwargs)",Axessubplot
+plot,scatter,"(x, y, s=None, c=None, **kwargs)",Axes
+plot,bar,"(x=None, y=None, **kwargs)",Ndarray
+plot,barh,"(x=None, y=None, **kwargs)",Ndarray
+plot,line,"(x=None, y=None, **kwargs)",Ndarray
+plot,area,"(x=None, y=None, stacked=True, **kwargs)",Axes
+Timestamp,replace,"(year=None, month=None, day=None, hour=None, minute=None, second=None, microsecond=None, nanosecond=None, tzinfo=<class 'object'>, fold=None)",Timestamp
