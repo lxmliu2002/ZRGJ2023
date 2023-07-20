@@ -1,0 +1,9 @@
+namespace,relation,class
+pandas,has_class,Arrowdtype
+pandas,has_class,Categorical
+pandas,has_class,Datetimeindex
+pandas,has_class,Grouper
+pandas,has_class,Index
+pandas,has_class,Timedelta
+pandas,has_class,Timestamp
+arrays,has_class,Categorical

@@ -397,7 +397,7 @@ numpy,has_method,quantile,"(a, q, axis=None, out=None, overwrite_input=False, me
 numpy,has_method,repeat,"(a, repeats, axis=None)",return_class,Ndarray
 numpy,has_method,tile,"(A, reps)",return_class,Ndarray
 numpy,has_method,roll,"(a, shift, axis=None)",return_class,Ndarray
-numpy,has_method,moveaxis,"(a, source, destination)",return_class,Np.Ndarray
+numpy,has_method,moveaxis,"(a, source, destination)",return_class,Ndarray
 numpy,has_method,real_if_close,"(a, tol=100)",return_class,Ndarray
 numpy,has_method,convolve,"(a, v, mode='full')",return_class,Ndarray
 numpy,has_method,correlate,"(a, v, mode='valid')",return_class,Ndarray
