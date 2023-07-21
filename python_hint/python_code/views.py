@@ -1,8 +1,7 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render
 from python_hint.settings import graph
 from django.http import HttpResponse
 import json
-import numpy as np
 
 
 # Create your views here.
@@ -23,7 +22,7 @@ def find_next_id(m,n,id):
         result_id = result_idtype['ID(n)']
     return result_id
 
-# 根据id查询所属的类 
+# 根据id查询所属的类
 def find_full_type(id):
     labels = []
     path = []

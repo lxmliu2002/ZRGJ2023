@@ -1,0 +1,401 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>代码编写</title>
+    <script src="{% static 'js/jquery-3.7.0.js' %}"></script>
+    <script src="{% static 'plugins/ace-builds-1.5.0/src/ace.js' %}"></script>
+    <script src="{% static 'plugins/ace-builds-1.5.0/src/ext-language_tools.js' %}"></script>
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <style>
+        body {
+            height: 100vh;
+            background: linear-gradient(#141e30,#243b55);
+            display: flex;
+            flex-direction: column;
+        
+        }
+        #editor {
+            min-width: 90vw;
+            min-height:500px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            
+        }
+        .logo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.1); /* 半透明黑色遮罩 */
+            pointer-events: none; /* 使遮罩不响应任何事件 */
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div class="logo">
+        <img src="{% static 'img/2.png' %}" width="600px" alt="">
+    </div> -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark" style="z-index: 11;">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'img/2.png' %}" width="40" height="40" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" >
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/codes/">代码编写</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/query/">API查询</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid d-flex flex-column" style="flex:1;">
+        <div id="editor" style="flex: 1;"></div>
+        <script>
+            var editor = ace.edit("editor");
+            var langTools = ace.require("ace/ext/language_tools");
+            var session = editor.getSession();
+            editor.$blockScrolling = Infinity;
+            editor.setReadOnly(false);
+            editor.setFontSize(20);
+            editor.session.setMode("ace/mode/python");
+            editor.setTheme("ace/theme/twilight"); 
+            //editor.execCommand('find');
+            editor.setShowPrintMargin(false);
+            editor.setOptions({
+                wrap: true,
+                autoScrollEditorIntoView: true, 
+                enableBasicAutocompletion: true,
+                enableSnippets: true,
+                enableLiveAutocompletion: true
+            });
+            //setCompleters(myHint);
+            function setCompleters(comp) {
+                let tipsCompleter = {
+                    getCompletions: (editor, session, pos, prefix, callback) => {
+                        callback(null, comp)
+                    }
+                }
+                langTools.setCompleters([tipsCompleter])
+            }
+            function resetCompleter() {
+                var completersDefault = [langTools.snippetCompleter, langTools.textCompleter, langTools.keyWordCompleter];
+                langTools.setCompleters(completersDefault);
+            }
+            localVariable = {};//工作区的变量、导入的包
+            localClass = {};//工作区的类
+            localFunction = {};//工作区的函数返回值类型
+            editor.on('change',function(event){
+                //console.log(event);
+                if(event.action == 'insert') {
+                    if(event.lines.length == 1) {
+                        if (event.lines[0] == '.') {
+                            var cursorPosition = editor.selection.getCursor();
+                            //console.log(cursorPosition);
+                            //var token = session.getTokenAt(cursorPosition.row, cursorPosition.column);
+                            //console.log(token);
+                            var currentLine = session.getLine(cursorPosition.row).trim();
+                            if (testVariable(currentLine)) {
+                                var match = currentLine.match(/\s*=\s*/);
+                                var localVar = currentLine.slice(0, match.index);
+                                var varValue = currentLine.slice(match.index + match[0].length);
+                                varValue = varValue.replace(/\(.+?\)/g, "()");
+                                currentLine = varValue;
+                            }
+                            var firstVar = currentLine.split('.', 1)[0];
+                            firstVar = firstVar.replace(/\(.*\)/,'');
+                            //console.log('firstVar: ', firstVar);
+                            var firstVarType;
+                            //对第一个变量进行处理，如果是本地定义的变量或函数，修改其类型
+                            if (localVariable[firstVar] != null) {
+                                if(localVariable[firstVar] == 'unknown') {
+                                    guessType(firstVar,varValue.replace(/.+?\./, ''),'var');
+                                }
+                                firstVarType = localVariable[firstVar] + '.';
+                            }
+                            else if (localFunction[firstVar] != null) {
+                                var functionDetail = localFunction[firstVar]
+                                firstVarType = functionDetail['ret'];
+                                if (firstVarType == 'unknown') {
+                                    if (varValue.replace(/.+?\./, '') == '') return;
+                                    guessType(firstVar, varValue.replace(/.+?\./, ''),'func');
+                                    firstVarType = localFunction[firstVar]['ret'] + '.';
+                                }
+                                else if (firstVarType == 'none') {
+                                    return;
+                                }
+                                else {
+                                    firstVarType = firstVarType + '.';
+                                }
+                            }
+                            else {
+                                //console.log('varValue',varValue)
+                                localVariable[firstVar] = 'unknown';
+                                if (varValue.replace(/.+?\./, '') == '') return;
+                                guessType(firstVar, varValue.replace(/.+?\./, ''),'var');
+                                return;
+                            }
+                            varValue = currentLine.replace(/.+?\./, firstVarType);
+                            //console.log("varValue: ", varValue);
+                            $.ajax({
+                                url: '/type/',
+                                type: 'get',
+                                data: { 'line': varValue.slice(0, -1),'needList':1 },
+                                success: function (res) {
+                                    var res_str = JSON.parse(res);
+                                    //console.log(res_str)
+                                    nodes = res_str['nodes']
+                                    let myHints = []
+                                    for (i = 0; i < nodes.length; i++) {
+                                        temp = {
+                                            name:nodes[i].name + nodes[i].des,
+                                            value:nodes[i].name,
+                                            score:2,
+                                            meta:nodes[i].category
+                                        };
+                                        myHints.push(temp);
+                                    }
+                                    setCompleters(myHints);
+                                }
+                            })
+                        }
+                        else if (event.lines[0] == ' ' || event.lines[0] == ',') {
+                            resetCompleter();
+                        }
+                    }
+                    else if(event.lines.length == 2 && event.lines[0] == '') {
+                        //console.log('换行');
+                        var cursorPosition = editor.selection.getCursor();
+                        //console.log(cursorPosition);
+                        //var token = session.getTokenAt(cursorPosition.row, cursorPosition.column);
+                        //console.log(token);
+                        var currentLine = session.getLine(cursorPosition.row).trim();
+                        matchCategory(currentLine);
+                    }
+                    else {
+                        for (i = 0; i < event.lines.length; i++) {
+                            matchCategory(event.lines[i].trim());
+                        }
+                    }
+                function matchCategory(str) {
+                    if (testVariable(str)) {
+                        //console.log('匹配为赋值');
+                        var match = str.match(/\s*=\s*/);
+                        var localVar = str.slice(0, match.index);
+                        var varValue = str.slice(match.index + match[0].length);
+                        //console.log(localVar,varValue);
+                        if (/^\[.*\]$/.test(varValue)) {
+                            localVariable[localVar] = 'List';
+                        }
+                        else if (/^\{.*\}$/.test(varValue)) {
+                            localVariable[localVar] = 'Dict';
+                        }
+                        else if (/^\(.*\)$/.test(varValue)) {
+                            localVariable[localVar] = 'Set';
+                        }
+                        else if (/^".*"$/.test(varValue) || /^'.*'$/.test(varValue)) {
+                            localVariable[localVar] = 'Str';
+                        }
+                        else if(/^[0-9]+$/.test(varValue)) {
+                            localVariable[localVar] = 'Int';
+                        }
+                        else if(/^[0-9.]+$/.test(varValue)) {
+                            localVariable[localVar] = 'Float';
+                        }
+                        else {
+                            var varValue = varValue.replace(/\(.+?\)/g, "");
+                            var firstVar = varValue.split('.',1)[0];
+                            //console.log('firstVar: ',firstVar);
+                            //console.log('localFunction[firstVar]',localFunction[firstVar]);
+                            var firstVarType;
+                            //对第一个变量进行处理，如果是本地定义的变量或函数，修改其类型
+                            let real_method = varValue.replace(/.+?\./, '');
+                            if(localVariable[firstVar] != null) {
+                                if(real_method == '') return;
+                                if(localVariable[firstVar] == 'unknown') {
+                                    guessType(firstVar,real_method,'var');
+                                }
+                                firstVarType = localVariable[firstVar] + '.';
+                            }
+                            else if (localFunction[firstVar] != null) {
+                                if(real_method == '') return;
+                                var functionDetail = localFunction[firstVar]
+                                firstVarType = functionDetail['ret'];
+                                if(firstVarType == 'unknown') {
+                                    guessType(firstVar,real_method,'func');
+                                    firstVarType = localFunction[firstVar]['ret'] + '.';
+                                }
+                                else if(firstVarType == 'none') {
+                                    return;
+                                }
+                                else {
+                                    firstVarType = firstVarType + '.';
+                                }
+                            }
+                            else {
+                                firstVarType = firstVar + '.';
+                            }
+                            //console.log('firstVarType',firstVarType);
+                            varValue = varValue.replace(/.+?\./,firstVarType);
+                            //console.log("varValue: ",varValue);
+                            $.ajax({
+                                url: '/type/',
+                                type: 'get',
+                                data: { 'line': varValue ,'needList':0},
+                                success: function (res) {
+                                    var res_str = JSON.parse(res);
+                                    localVariable[localVar] = res_str['type'];
+                                    //console.log(localVariable);
+                                    
+                                }
+                            })
+                        }
+                    }
+                    else if (testImport(str)) {
+                        //console.log('匹配为导入');
+                        splitStr = str.split(/\s+/);
+                        if (splitStr[0] == 'import' && splitStr.length == 2) {
+                            localVariable[splitStr[1]] = splitStr[1];
+                        }
+                        else if (splitStr[0] == 'import' && splitStr.length == 4) {
+                            localVariable[splitStr[3]] = splitStr[1];
+                        }
+                        else {
+                            localVariable[splitStr[3]] = splitStr[1] + '.' + splitStr[3];
+                        }
+                    }
+                    else if(testDef(str)) {
+                        //console.log('匹配为函数');
+                        splitStr = str.split(/\s+/);
+                        funcName = splitStr[1].replace(/\(.*\):/,'');
+                        temp = {
+                            'ret': 'unknown',
+                            'method': [],
+                        }
+                        localFunction[funcName] = temp;
+                        //console.log(localFunction);
+                    }
+                    else if(testClass(str)) {
+                        //console.log('匹配为类');
+                        splitStr = str.split(/\s+/);
+                        if(splitStr[1].match(/\(/)) {
+                            className = splitStr[1].replace(/\(.*\):/, '');
+                            localClass[className] = 'none';
+                        }
+                        else {
+                            className = splitStr[1].replace(':', '');
+                            localClass[className] = 'none';
+                        }
+                        //console.log(localClass);
+                    }
+                }
+                }
+                //匹配赋值语句
+                function testVariable(str) {
+                    var match = str.match(/\s*=\s*/);
+                    if(match != null && /^\w+$/.test(str.slice(0, match.index))) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+                //匹配导入包的语句
+                function testImport(str) {
+                    if(/^import\s.+$/.test(str) || /^from\s.+\simport\s.+$/.test(str) || /^import\s.+\sas\s.+$/.test(str)) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+                //匹配定义函数的语句
+                function testDef(str) {
+                    if(/^def\s\w+\(.*\):$/.test(str)) { 
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+                //匹配定义类的语句
+                function testClass(str) {
+                    if (/^class\s\w+\({0,1}.*\){0,1}:$/.test(str)) {
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+                //猜测函数返回类型
+                function guessType(func,method,sel) {
+                    //console.log('进入猜测类型',func,'method',method);
+                    if(method == '') return '';
+                    else if(method[method.length - 1] == '.') method = method.slice(0,method.length - 1);
+                    method.replace(/\(.*?\)/,'');
+                    if(sel=='func') localFunction[func]['method'].push(method);
+                    var res_str;
+                    $.ajax({
+                        url: '/type/',
+                        type: 'get',
+                        async:false,
+                        data: { 'line': method ,'needList':1},
+                        success: function (res) {
+                            res_str = JSON.parse(res);
+                            res_type_list = res_str['type'].split('.');
+                            method_type_list = method.replace('()','').split('.');
+                            index = res_type_list.findIndex((v)=>v === method_type_list[1]);
+                            if(sel == 'func') localFunction[func]['ret'] = res_type_list.slice(0,index).join('.');
+                            else if(sel == 'var') localVariable[func] = res_type_list.slice(0,index).join('.');
+                            if(method.split('.').length == 1) {
+                                //console.log('再次发送');
+                                $.ajax({
+                                    url: '/type/',
+                                    type: 'get',
+                                    data: { 'line': res_str['type'] ,'needList':1},
+                                    success: function (res) {
+                                        res_str = JSON.parse(res);
+                                        setHints(res_str['nodes']);
+                                    }
+                                })
+                            }
+                            else {
+                                setHints(res_str['nodes']);
+                                return res_str['type'];
+                            }
+                        }
+                    })
+                } 
+            })
+            //自定义提示
+            function setHints(nodes) {
+                let myHints = []
+                for (i = 0; i < nodes.length; i++) {
+                    temp = {
+                        name:nodes[i].name + nodes[i].des,
+                        value:nodes[i].name,
+                        score:2,
+                        meta:nodes[i].category
+                    };
+                    myHints.push(temp);
+                }
+                setCompleters(myHints);
+            }
+        </script>
+    </div>
+</body>
+</html>

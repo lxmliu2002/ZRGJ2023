@@ -118,10 +118,13 @@
                             }
                             var firstVar = currentLine.split('.', 1)[0];
                             firstVar = firstVar.replace(/\(.*\)/,'');
-                            console.log('firstVar: ', firstVar);
+                            //console.log('firstVar: ', firstVar);
                             var firstVarType;
                             //对第一个变量进行处理，如果是本地定义的变量或函数，修改其类型
                             if (localVariable[firstVar] != null) {
+                                if(localVariable[firstVar] == 'unknown') {
+                                    guessType(firstVar,varValue.replace(/.+?\./, ''),'var');
+                                }
                                 firstVarType = localVariable[firstVar] + '.';
                             }
                             else if (localFunction[firstVar] != null) {
@@ -147,14 +150,14 @@
                                 return;
                             }
                             varValue = currentLine.replace(/.+?\./, firstVarType);
-                            console.log("varValue: ", varValue);
+                            //console.log("varValue: ", varValue);
                             $.ajax({
                                 url: '/type/',
                                 type: 'get',
                                 data: { 'line': varValue.slice(0, -1),'needList':1 },
                                 success: function (res) {
                                     var res_str = JSON.parse(res);
-                                    console.log(res_str)
+                                    //console.log(res_str)
                                     nodes = res_str['nodes']
                                     let myHints = []
                                     for (i = 0; i < nodes.length; i++) {
@@ -194,7 +197,7 @@
                         var match = str.match(/\s*=\s*/);
                         var localVar = str.slice(0, match.index);
                         var varValue = str.slice(match.index + match[0].length);
-                        console.log(localVar,varValue);
+                        //console.log(localVar,varValue);
                         if (/^\[.*\]$/.test(varValue)) {
                             localVariable[localVar] = 'List';
                         }
@@ -216,8 +219,8 @@
                         else {
                             var varValue = varValue.replace(/\(.+?\)/g, "");
                             var firstVar = varValue.split('.',1)[0];
-                            console.log('firstVar: ',firstVar);
-                            console.log('localFunction[firstVar]',localFunction[firstVar]);
+                            //console.log('firstVar: ',firstVar);
+                            //console.log('localFunction[firstVar]',localFunction[firstVar]);
                             var firstVarType;
                             //对第一个变量进行处理，如果是本地定义的变量或函数，修改其类型
                             let real_method = varValue.replace(/.+?\./, '');
@@ -246,9 +249,9 @@
                             else {
                                 firstVarType = firstVar + '.';
                             }
-                            console.log('firstVarType',firstVarType);
+                            //console.log('firstVarType',firstVarType);
                             varValue = varValue.replace(/.+?\./,firstVarType);
-                            console.log("varValue: ",varValue);
+                            //console.log("varValue: ",varValue);
                             $.ajax({
                                 url: '/type/',
                                 type: 'get',
@@ -340,7 +343,7 @@
                 }
                 //猜测函数返回类型
                 function guessType(func,method,sel) {
-                    console.log('进入猜测类型',func,'method',method);
+                    //console.log('进入猜测类型',func,'method',method);
                     if(method == '') return '';
                     else if(method[method.length - 1] == '.') method = method.slice(0,method.length - 1);
                     method.replace(/\(.*?\)/,'');

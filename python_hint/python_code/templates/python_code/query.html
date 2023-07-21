@@ -197,19 +197,22 @@
         function searchNode(){
             let searchName = $('#search').val();
             //console.log(searchName);
-            let nodeId = option.series[0].data.findIndex((element)=>element.name === searchName);
+            let nodeId = option.series[0].data.findIndex((element)=>element.name.includes(searchName));
             if(nodeId == -1) {
                 alert('查无此项！');
                 return;
             }
             else {
                 new_nodes = option.series[0].data.filter((val,index)=>{
-                    return (index == option.series[0].data.length - 1) || (val.name === searchName);
+                    return (index === option.series[0].data.length - 1) || (val.name.includes(searchName));
                 })
                 new_links = []
+                let this_cat = new_nodes[new_nodes.length - 1]['category'];
+                //console.log('this_cat',this_cat)
                 for (i = 0; i < new_nodes.length - 1; i++) {
                     let relation_name = '';
-                    if(option.series[0].data[nodeId]['category'] == 'method') {
+                    
+                    if(this_cat == 'method' || this_cat == 'property') {
                         relation_name = 'return_class';
                     }
                     else {

@@ -1,0 +1,254 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API查询</title>
+    <script src="{% static 'js/jquery-3.7.0.js' %}"></script>
+    <script src="{% static 'js/echarts.js' %}"></script>
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
+    <style>
+        body {
+            height: 100vh;
+            background: linear-gradient(#141e30,#243b55);
+            display: flex;
+            flex-direction: column;
+        
+        }
+        #main {
+            flex:1;
+            border: 3px solid #141e30 ;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px 15px #141e30;
+            background-color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="logo">
+        <img src="{% static 'img/2.png' %}" width="600px" alt="">
+    </div> -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark" style="z-index: 11;">
+        <a class="navbar-brand" href="#">
+            <img src="{% static 'img/2.png' %}" width="40" height="40" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: space-between;">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link" href="/codes/">代码编写</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/query/">API查询</a>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <span style="color:white;margin-left:20px;margin-right:20px;">查询范围：</span>
+                <input type="number" class="form-control" placeholder="过滤起始" id="start" value="0">
+                <span style="color:white;margin-left:20px;margin-right:20px;">-</span>
+                <input type="number" class="form-control" placeholder="过滤结束" id="end" value="50">
+            </div>
+            <div class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" onclick="searchNode()">Search</button>
+            </div>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/query/">#</a></li>
+        {% for bread in bread_list %}
+        <li class="breadcrumb-item"><a href="#" id='{{bread.id}}'>{{bread.name}}</a></li>
+        {% endfor %}
+    </ol>
+    </nav>
+    <div class="container-fluid d-flex flex-column" style="flex:1;">
+        <div id="main"></div>
+    </div>
+    <script>
+        var nodes = {{nodes | safe}};
+        var lines = {{lines | safe}};
+        var categories = [{'name':'namespace'},{'name':'class'},{'name':'method'},{'name':'property'}];
+        var bread_list = {{ bread_list | safe}};
+        var myChart = echarts.init(document.getElementById('main'));
+        var option = {
+            tooltip: {
+                formatter: function (x) {
+                    return "type: "+ x.data.category+ "<br>" + x.data.des;
+                }
+            },
+            legend: [
+                {
+                    left:'center',
+                    data:categories.map((a)=>a.name)
+                }
+            ],
+            series: [
+                {
+                    type: 'graph',
+                    layout: 'force',
+                    symbolSize: 60,
+                    roam: true,
+                    edgeSymbol: ['circle', 'arrow'],
+                    edgeSymbolSize: [4, 10],
+                    force: {
+                        repulsion: 2500,
+                        edgeLength: [70, 90]
+                    },
+                    draggable: true,
+
+                    lineStyle: {
+                        normal: {
+                            width: 4,
+                            color: '#4b565b'
+                        }
+                    },
+                    edgeLabel: {
+                        normal: {
+                            show: true,
+                            
+                            formatter: function (x) {
+                                return x.data.name;
+                            }
+                        }
+                    },
+                    label: {
+                        normal: {
+                            show: true,
+                            textStyle: {
+                                fontSize: 14,
+                                fontWeight: 'bolder'
+                            }
+                        }
+                    },
+                    data: nodes,
+                    links: lines,
+                    categories:categories,
+                }
+            ]
+        };
+        myChart.on('click',function(params){
+            console.log(params);
+            if(params.dataType == "node") {
+                //if(params.data.category == 'method' || params.data.category == 'property') return;
+                if(bread_list.length != 0 && params.data.id == bread_list[bread_list.length - 1]['id']) {
+                    return;
+                }
+                $.ajax({
+                    url: '/nodes/',
+                    type: 'get',
+                    data: { 'id': params.data.id},
+                    success: function (res) {
+                        lastText = $('ol.breadcrumb > li.breadcrumb-item.active').text();
+                        last_id = 0
+                        if(bread_list.length != 0) last_id = bread_list[bread_list.length - 1]['id'];
+                        $('ol.breadcrumb > li.breadcrumb-item.active').empty().append('<a href="#" id="'+ last_id + '">'+lastText+'</a>');
+                        bread_list.push({'name':params.data.name,'id':params.data.id});
+                        console.log('bread_list:',bread_list);
+                        $('ol.breadcrumb > li.breadcrumb-item.active > a').click(function(e){
+                            console.log(e.currentTarget.id);
+                            //发送ajax请求,获取节点的所有关系
+                            //console.log(bread_list.slice(0,$(this).attr('id')));
+                            let this_id = $(this).attr('id');
+                            let this_text = $(this).text();
+                            $.ajax({
+                                url: '/nodes/',
+                                type: 'get',
+                                data:{ 'id': this_id},
+                                success:  (res) => {
+                                    $(this).parent().nextAll().remove();
+                                    $(this).parent().remove();
+                                    $('ol.breadcrumb').append('<li class="breadcrumb-item active" aria-current="page">'+ this_text +'</li>');
+                                    bread_list = bread_list.slice(0,bread_list.findIndex((element)=>element['id'] === $(this).attr('id')));
+                                    var res_str = JSON.parse(res);
+                                    nodes = res_str['nodes'];
+                                    lines = res_str['lines'];
+                                    //option.series[0].data = nodes;
+                                    //option.series[0].links = lines;
+                                    //myChart.setOption(option);
+                                    limitNodes();
+                                }
+                            })
+                        });
+                        $('ol.breadcrumb > li.breadcrumb-item.active').removeClass('active');
+                        $('ol.breadcrumb').append('<li class="breadcrumb-item active" aria-current="page">'+ params.data.name +'</li>');
+                        var res_str = JSON.parse(res);
+                        //console.log(res_str)
+                        //console.log(res_str['nodes']);
+                        //获得新的节点，修改图表配置
+                        nodes = res_str['nodes'];
+                        lines = res_str['lines'];
+                        //option.series[0].data = res_str['nodes'];
+                        //option.series[0].links = res_str['lines'];
+                        //myChart.setOption(option);
+                        limitNodes();
+                    }
+                })
+            }
+        });
+        myChart.setOption(option);
+
+        //查询节点
+        function searchNode(){
+            let searchName = $('#search').val();
+            //console.log(searchName);
+            let nodeId = option.series[0].data.findIndex((element)=>element.name.includes(searchName));
+            if(nodeId == -1) {
+                alert('查无此项！');
+                return;
+            }
+            else {
+                new_nodes = option.series[0].data.filter((val,index)=>{
+                    return (index === option.series[0].data.length - 1) || (val.name.includes(searchName));
+                })
+                new_links = []
+                let this_cat = new_nodes[new_nodes.length - 1]['category'];
+                //console.log('this_cat',this_cat)
+                for (i = 0; i < new_nodes.length - 1; i++) {
+                    let relation_name = '';
+                    
+                    if(this_cat == 'method' || this_cat == 'property') {
+                        relation_name = 'return_class';
+                    }
+                    else {
+                        relation_name = 'has_' + option.series[0].data[nodeId]['category'];
+                    }
+                    temp = {
+                        source:new_nodes.length - 1,
+                        target:i,
+                        name:relation_name,
+                    }
+                    new_links.push(temp);
+                }
+                nodes = new_nodes;
+                lines = new_links;
+                //option.series[0].data = new_nodes;
+                //option.series[0].links = new_links;
+                //myChart.setOption(option);
+                limitNodes();
+            }
+        }
+        $('#start').blur(()=>limitNodes());
+        $('#end').blur(()=>limitNodes());
+        //限制查询个数
+        function limitNodes() {
+            start = $('#start').val();
+            end = $('#end').val();
+            if(end > nodes.length || start > end || end == -1) end = nodes.length;
+            if(start < 0 || start > nodes.length - 1) start = 0;
+            option.series[0].data = nodes.filter((v,i)=>(i >= start && i < end) || i == nodes.length - 1);
+            option.series[0].links = lines.filter((v,i)=>(v['target'] >= start && v['target'] < end));
+            for(i = 0; i < option.series[0].links.length; i++) {
+                option.series[0].links[i]['source'] = option.series[0].data.length - 1;
+                option.series[0].links[i]['target'] -= start;
+            }
+            myChart.setOption(option);
+        }
+    </script>
+</body>
+</html>
