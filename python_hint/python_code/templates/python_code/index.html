@@ -128,8 +128,9 @@
                                 var functionDetail = localFunction[firstVar]
                                 firstVarType = functionDetail['ret'];
                                 if (firstVarType == 'unknown') {
+                                    if (varValue.replace(/.+?\./, '') == '') return;
                                     guessType(firstVar, varValue.replace(/.+?\./, ''),'func');
-                                    return;
+                                    firstVarType = localFunction[firstVar]['ret'] + '.';
                                 }
                                 else if (firstVarType == 'none') {
                                     return;
@@ -141,6 +142,7 @@
                             else {
                                 //console.log('varValue',varValue)
                                 localVariable[firstVar] = 'unknown';
+                                if (varValue.replace(/.+?\./, '') == '') return;
                                 guessType(firstVar, varValue.replace(/.+?\./, ''),'var');
                                 return;
                             }
@@ -192,6 +194,7 @@
                         var match = str.match(/\s*=\s*/);
                         var localVar = str.slice(0, match.index);
                         var varValue = str.slice(match.index + match[0].length);
+                        console.log(localVar,varValue);
                         if (/^\[.*\]$/.test(varValue)) {
                             localVariable[localVar] = 'List';
                         }
@@ -211,28 +214,32 @@
                             localVariable[localVar] = 'Float';
                         }
                         else {
-                            var varValue = varValue.replace(/\(.+?\)/g, "()");
+                            var varValue = varValue.replace(/\(.+?\)/g, "");
                             var firstVar = varValue.split('.',1)[0];
-                            //console.log('firstVar: ',firstVar);
+                            console.log('firstVar: ',firstVar);
+                            console.log('localFunction[firstVar]',localFunction[firstVar]);
                             var firstVarType;
                             //对第一个变量进行处理，如果是本地定义的变量或函数，修改其类型
+                            let real_method = varValue.replace(/.+?\./, '');
                             if(localVariable[firstVar] != null) {
+                                if(real_method == '') return;
                                 if(localVariable[firstVar] == 'unknown') {
-                                    guessType(firstVar,varValue.replace(/.+?\./, ''),'var');
+                                    guessType(firstVar,real_method,'var');
                                 }
                                 firstVarType = localVariable[firstVar] + '.';
                             }
                             else if (localFunction[firstVar] != null) {
+                                if(real_method == '') return;
                                 var functionDetail = localFunction[firstVar]
                                 firstVarType = functionDetail['ret'];
                                 if(firstVarType == 'unknown') {
-                                    guessType(firstVar,varValue.replace(/.+?\./, ''),'func');
+                                    guessType(firstVar,real_method,'func');
+                                    firstVarType = localFunction[firstVar]['ret'] + '.';
                                 }
                                 else if(firstVarType == 'none') {
                                     return;
                                 }
                                 else {
-                                    
                                     firstVarType = firstVarType + '.';
                                 }
                             }
