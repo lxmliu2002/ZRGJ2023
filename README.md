@@ -4,13 +4,13 @@
 
 * 队伍名：代码写的都队
 * 队伍成员
-  * 朱子轩——前端开发
+  * [nkufree](https://github.com/nkufree)——前端开发
     * 搭建代码编辑器，接收外部输入代码，将所有的代码分块，每次将改变的代码块以Post请求方式发送给后端；根据后端返回分析变量类型，给出提示。
-  * 刘修铭——后端开发
+  * [lxmliu2002](https://github.com/lxmliu2002)——后端开发
     * 调用Python的AST库，对代码块进行语法分析，分析代码中的变量，调用的类和方法；查询Neo4j数据库分析部分变量类型，返回部分变量类型、类和方法。
-  * 陈佳卉——Neo4j数据库构建和Web可视化
+  * [twinklelittlestars](https://github.com/twinklelittlestars)——Neo4j数据库构建和Web可视化
     * 按照已有的数据库架构完成数据库构建，并结合Django和Echarts完成Web界面的可视化设计。
-  * 梁晓储——数据爬取及预处理和数据库设计
+  * [WangshuXC](https://github.com/WangshuXC)——数据爬取及预处理和数据库设计
     * 爬取Python官方说明文档以及Numpy和Pandas等第三方库官方说明文档，得到方法名称、参数、返回值等数据并完成数据的预处理，为项目提供数据支持；设计数据库架构。
 
 ## 二、项目概述
